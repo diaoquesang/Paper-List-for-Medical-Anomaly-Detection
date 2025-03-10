@@ -10,6 +10,8 @@
   
 </div>
 
+🦉 Contributors: [Yifei Sun](https://diaoquesang.github.io/), [Junhao Jia](https://github.com/BeistMedAI)
+
 ## 1. Solving "Identical Shortcut"
 
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking autoencoders for medical anomaly detection from a theoretical perspective**
