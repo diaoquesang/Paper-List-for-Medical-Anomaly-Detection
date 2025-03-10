@@ -25,3 +25,9 @@
 - [[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection**
 
   *You, Zhiyuan and Cui, Lei and Shen, Yujun and Yang, Kai and Lu, Xin and Zheng, Yu and Le, Xinyi*
+
+## 2. Precise Anomaly Distinction
+
+- [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Cascaded_Generative_and_Discriminative_Learning_for_Microcalcification_Detection_in_Breast_CVPR_2019_paper.pdf) **Cascaded Generative and Discriminative Learning for Microcalcification Detection in Breast Mammograms**
+
+  *Zhang, Fandong and Luo, Ling and Sun, Xinwei and Zhou, Zhen and Li, Xiuli and Yu, Yizhou and Wang, Yizhou*
