@@ -12,14 +12,14 @@
 
 ## 1. Solving "Identical Shortcut"
 
-- [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) Rethinking autoencoders for medical anomaly detection from a theoretical perspective
+- [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking autoencoders for medical anomaly detection from a theoretical perspective**
 
   *Cai, Yu and Chen, Hao and Cheng, Kwang-Ting*
 
-- [[MIA 2025]](https://arxiv.org/pdf/2404.04518) MedIAnomaly: A comparative study of anomaly detection in medical images
+- [[MIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A comparative study of anomaly detection in medical images**
 
   *Cai, Yu and Zhang, Weiwen and Chen, Hao and Cheng, Kwang-Ting*
 
-- [[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) A Unified Model for Multi-class Anomaly Detection
+- [[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection**
 
   *You, Zhiyuan and Cui, Lei and Shen, Yujun and Yang, Kai and Lu, Xin and Zheng, Yu and Le, Xinyi*
