@@ -1,4 +1,4 @@
-# Paper-List-for-Medical-Anomaly-Detection - [Yifei Sun](https://diaoquesang.github.io/)
+# Paper List for Medical Anomaly Detection - [Yifei Sun](https://diaoquesang.github.io/)
 
 <div align="center">
   
