@@ -10,7 +10,7 @@
   
 </div>
 
-🦉 Contributors: [Yifei Sun](https://diaoquesang.github.io/), [Junhao Jia](https://github.com/BeistMedAI)
+**🦉 Contributors: [Yifei Sun (22' HDU Undergraduate)](https://diaoquesang.github.io/), [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Hao Zheng (22' HDU Undergraduate)](https://github.com/267588)**
 
 ## 1. Solving "Identical Shortcut"
 
