@@ -12,6 +12,11 @@
 
 **🦉 Contributors: [Yifei Sun (22' HDU Undergraduate)](https://diaoquesang.github.io/), [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Hao Zheng (22' HDU Undergraduate)](https://github.com/267588)**
 
+
+<div align="center">
+<img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/HDU.png" width="50%">
+</div>
+
 ## 1. Solving "Identical Shortcut"
 
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking autoencoders for medical anomaly detection from a theoretical perspective**
