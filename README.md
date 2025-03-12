@@ -19,6 +19,8 @@
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/CUHK-SZ.png" height="50px">
 </div>
 
+*: *Papers for Non-Medical Anomaly Detection*
+
 ## 1. Solving "Identical Shortcut"
 
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking autoencoders for medical anomaly detection from a theoretical perspective**
@@ -29,7 +31,7 @@
 
   *Cai, Yu and Zhang, Weiwen and Chen, Hao and Cheng, Kwang-Ting*
 
-- [[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection**
+- *[[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection**
 
   *You, Zhiyuan and Cui, Lei and Shen, Yujun and Yang, Kai and Lu, Xin and Zheng, Yu and Le, Xinyi*
 
