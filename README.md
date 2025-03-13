@@ -23,11 +23,11 @@
 
 ## 1. Solving "Identical Shortcut"
 
-- [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking autoencoders for medical anomaly detection from a theoretical perspective**
+- [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective**
 
   *Cai, Yu and Chen, Hao and Cheng, Kwang-Ting*
 
-- [[MIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A comparative study of anomaly detection in medical images**
+- [[MIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images**
 
   *Cai, Yu and Zhang, Weiwen and Chen, Hao and Cheng, Kwang-Ting*
 
@@ -42,6 +42,10 @@
   *Zhang, Fandong and Luo, Ling and Sun, Xinwei and Zhou, Zhen and Li, Xiuli and Yu, Yizhou and Wang, Yizhou*
 
 ## 3. Diffusion-Based Approaches
+
+- [[MICCAI 2024]](https://arxiv.org/pdf/2403.08464) **Diffusion Models with Implicit Guidance for Medical Anomaly Detection**
+
+  *Bercea, Cosmin I and Wiestler, Benedikt and Rueckert, Daniel and Schnabel, Julia A*
 
 - [[WACV 2024]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet**
 
