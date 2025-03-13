@@ -35,7 +35,7 @@
 
   *You, Zhiyuan and Cui, Lei and Shen, Yujun and Yang, Kai and Lu, Xin and Zheng, Yu and Le, Xinyi*
 
-## 2. Precise Anomaly Discrimination
+## 2. Discriminative Learning
 
 - [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Cascaded_Generative_and_Discriminative_Learning_for_Microcalcification_Detection_in_Breast_CVPR_2019_paper.pdf) **Cascaded Generative and Discriminative Learning for Microcalcification Detection in Breast Mammograms**
 
