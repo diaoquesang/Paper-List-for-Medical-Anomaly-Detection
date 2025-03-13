@@ -54,3 +54,7 @@
 - [[CVPR 2022]](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Wyatt_AnoDDPM_Anomaly_Detection_With_Denoising_Diffusion_Probabilistic_Models_Using_Simplex_CVPRW_2022_paper.pdf) **AnoDDPM: Anomaly Detection with Denoising Diffusion Probabilistic Models using Simplex Noise**
 
   *Wyatt, Julian and Leach, Adam and Schmon, Sebastian M and Willcocks, Chris G*
+
+- [[MICCAI 2022]](https://arxiv.org/pdf/2203.04306) **Diffusion Models for Medical Anomaly Detection**
+
+  *Wolleb, Julia and Bieder, Florentin and Sandk{\"u}hler, Robin and Cattin, Philippe C*
