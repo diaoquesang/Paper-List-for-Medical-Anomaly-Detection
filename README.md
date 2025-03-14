@@ -23,13 +23,13 @@
 
 ## 1. Solving "Identical Shortcut"
 
-- [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective**
-
-  *Cai, Yu and Chen, Hao and Cheng, Kwang-Ting*
-
 - [[MIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images**
 
   *Cai, Yu and Zhang, Weiwen and Chen, Hao and Cheng, Kwang-Ting*
+
+- [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective**
+
+  *Cai, Yu and Chen, Hao and Cheng, Kwang-Ting*
 
 - *[[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection**
 
@@ -42,6 +42,10 @@
   *Zhang, Fandong and Luo, Ling and Sun, Xinwei and Zhou, Zhen and Li, Xiuli and Yu, Yizhou and Wang, Yizhou*
 
 ## 3. Diffusion-Based Approaches
+
+- [[TMI 2024]](https://arxiv.org/pdf/2308.02062) **Diffusion Models for Counterfactual Generation and Anomaly Detection in Brain lmages**
+
+  *Fontanella, Alessandro and Mair, Grant and Wardlaw, Joanna and Trucco, Emanuele and Storkey, Amos*
 
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.08464) **Diffusion Models with Implicit Guidance for Medical Anomaly Detection**
 
