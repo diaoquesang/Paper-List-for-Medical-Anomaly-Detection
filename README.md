@@ -61,4 +61,4 @@
 
 - [[MICCAI 2022]](https://arxiv.org/pdf/2203.04306) **Diffusion Models for Medical Anomaly Detection**
 
-  *Wolleb, Julia and Bieder, Florentin and Sandk{\"u}hler, Robin and Cattin, Philippe C*
+  *Wolleb, Julia and Bieder, Florentin and Sandkühler, Robin and Cattin, Philippe C*
