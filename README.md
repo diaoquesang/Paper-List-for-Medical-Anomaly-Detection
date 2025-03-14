@@ -41,7 +41,13 @@
 
   *Zhang, Fandong and Luo, Ling and Sun, Xinwei and Zhou, Zhen and Li, Xiuli and Yu, Yizhou and Wang, Yizhou*
 
-## 3. Diffusion-Based Approaches
+## 3. AE-Based Approaches
+
+- [[ICLR 2023]](https://openreview.net/pdf?id=9OmCr1q54Z) **AE-FLOW: Autoencoders with Normalizing Flows for Medical Images Anomaly Detection**
+
+  *Zhao, Yuzhong and Ding, Qiaoqiao and Zhang, Xiaoqun*
+  
+## 4. Diffusion-Based Approaches
 
 - [[TMI 2024]](https://arxiv.org/pdf/2308.02062) **Diffusion Models for Counterfactual Generation and Anomaly Detection in Brain lmages**
 
