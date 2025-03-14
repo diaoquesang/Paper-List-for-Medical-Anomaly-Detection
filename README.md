@@ -1,4 +1,4 @@
-# Paper List for Medical Anomaly Detection - [Yifei Sun](https://diaoquesang.github.io/)
+# 🌟 Paper List for Medical Anomaly Detection - [Yifei Sun](https://diaoquesang.github.io/)
 
 <div align="center">
   
@@ -21,7 +21,7 @@
 
 *: *Papers for Non-Medical Anomaly Detection*
 
-## 1. Solving "Identical Shortcut"
+## 🕐 1. Solving "Identical Shortcut"
 
 - [[MIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images**
 
@@ -35,19 +35,19 @@
 
   *You, Zhiyuan and Cui, Lei and Shen, Yujun and Yang, Kai and Lu, Xin and Zheng, Yu and Le, Xinyi*
 
-## 2. Discriminative Learning
+## 🕑 2. Discriminative Learning
 
 - [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Cascaded_Generative_and_Discriminative_Learning_for_Microcalcification_Detection_in_Breast_CVPR_2019_paper.pdf) **Cascaded Generative and Discriminative Learning for Microcalcification Detection in Breast Mammograms**
 
   *Zhang, Fandong and Luo, Ling and Sun, Xinwei and Zhou, Zhen and Li, Xiuli and Yu, Yizhou and Wang, Yizhou*
 
-## 3. AE-Based Approaches
+## 🕒 3. AE-Based Approaches
 
 - [[ICLR 2023]](https://openreview.net/pdf?id=9OmCr1q54Z) **AE-FLOW: Autoencoders with Normalizing Flows for Medical Images Anomaly Detection**
 
   *Zhao, Yuzhong and Ding, Qiaoqiao and Zhang, Xiaoqun*
   
-## 4. Diffusion-Based Approaches
+## 🕓 4. Diffusion-Based Approaches
 
 - [[TMI 2024]](https://arxiv.org/pdf/2308.02062) **Diffusion Models for Counterfactual Generation and Anomaly Detection in Brain lmages**
 
