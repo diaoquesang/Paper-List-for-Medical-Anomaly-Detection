@@ -47,7 +47,13 @@
 
   *Zhao, Yuzhong and Ding, Qiaoqiao and Zhang, Xiaoqun*
   
-## 🕓 4. Diffusion-Based Approaches
+## 🕓 4. GAN-Based Approaches
+
+- [[PR 2024]](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3178214/2229397_Article_.pdf?sequence=1) **Anomaly Detection via Gating Highway Connection for Retinal Fundus Images**
+
+  *Zhang, Wentian and Liu, Haozhe and Xie, Jinheng and Huang, Yawen and Zhang, Yu and Li, Yuexiang and Ramachandra, Raghavendra and Zheng, Yefeng*
+  
+## 🕔 5. Diffusion-Based Approaches
 
 - [[TMI 2024]](https://arxiv.org/pdf/2308.02062) **Diffusion Models for Counterfactual Generation and Anomaly Detection in Brain lmages**
 
