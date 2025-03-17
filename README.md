@@ -10,7 +10,7 @@
   
 </div>
 
-**🦉 Contributors: [Yifei Sun (22' HDU Undergraduate)](https://diaoquesang.github.io/), [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Hao Zheng (22' HDU Undergraduate)](https://github.com/267588)**
+**🦉 Contributors: [Yifei Sun (22' HDU Undergraduate)](https://diaoquesang.github.io/), [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Hao Zheng (22' HDU Undergraduate)](https://github.com/267588), [Zhanghao Chen (26' SEU Master)](https://benny0323.github.io/bio/)**
 
 
 <div>
