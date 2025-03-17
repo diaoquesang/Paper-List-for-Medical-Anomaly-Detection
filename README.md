@@ -33,6 +33,14 @@
 
   *Cai, Yu and Chen, Hao and Cheng, Kwang-Ting*
 
+- [[MICCAI 2024]](https://arxiv.org/pdf/2405.11315) **Mediclip: Adapting CLIP for Few-shot Medical Image Anomaly Detection**
+
+  *Zhang, Ximiao and Xu, Min and Qiu, Dehui and Yan, Ruixin and Lang, Ning and Zhou, Xiuzhuang*
+  
+- *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection**
+
+  *Liu, Xinyue and Wang, Jianyuan and Leng, Biao and Zhang, Shuo*
+
 - *[[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection**
 
   *You, Zhiyuan and Cui, Lei and Shen, Yujun and Yang, Kai and Lu, Xin and Zheng, Yu and Le, Xinyi*
@@ -76,3 +84,9 @@
 - [[MICCAI 2022]](https://arxiv.org/pdf/2203.04306) **Diffusion Models for Medical Anomaly Detection**
 
   *Wolleb, Julia and Bieder, Florentin and Sandkühler, Robin and Cattin, Philippe C*
+
+## 🕕 6. Multi-Modal Fusion
+
+- *[[AAAI 2025]](https://arxiv.org/pdf/2412.17297) **Revisiting Multimodal Fusion for 3D Anomaly Detection from an Architectural Perspective**
+
+  *Long, Kaifang and Xie, Guoyang and Ma, Lianbo and Liu, Jiaqi and Lu, Zhichao*
