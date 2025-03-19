@@ -33,10 +33,6 @@
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective**
 
   *Cai, Yu and Chen, Hao and Cheng, Kwang-Ting*
-  
-- *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection**
-
-  *Liu, Xinyue and Wang, Jianyuan and Leng, Biao and Zhang, Shuo*
 
 - *[[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection**
 
@@ -88,7 +84,7 @@
 
   *Long, Kaifang and Xie, Guoyang and Ma, Lianbo and Liu, Jiaqi and Lu, Zhichao*
 
-## 🕖 7. VLM-Based Approaches
+## 🕖 7. Vision Language Models
 
 - [[CVPR 2024]](https://arxiv.org/abs/2403.12570) **MAdapting Visual-Language Models for Generalizable Anomaly Detection in Medical Images**
 
@@ -97,3 +93,9 @@
 - [[MICCAI 2024]](https://arxiv.org/pdf/2405.11315) **Mediclip: Adapting CLIP for Few-shot Medical Image Anomaly Detection**
 
   *Zhang, Ximiao and Xu, Min and Qiu, Dehui and Yan, Ruixin and Lang, Ning and Zhou, Xiuzhuang*
+
+## 🕖 8. Knowledge Distillation
+  
+- *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection**
+
+  *Liu, Xinyue and Wang, Jianyuan and Leng, Biao and Zhang, Shuo*
