@@ -88,7 +88,7 @@
 
   *Long, Kaifang and Xie, Guoyang and Ma, Lianbo and Liu, Jiaqi and Lu, Zhichao*
 
-## 🕐 7. VLM-Based Approaches
+## 🕖 7. VLM-Based Approaches
 
 - [[CVPR 2024]](https://arxiv.org/abs/2403.12570) **MAdapting Visual-Language Models for Generalizable Anomaly Detection in Medical Images**
 
