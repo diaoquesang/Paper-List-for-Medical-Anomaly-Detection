@@ -94,7 +94,7 @@
 
   *Zhang, Ximiao and Xu, Min and Qiu, Dehui and Yan, Ruixin and Lang, Ning and Zhou, Xiuzhuang*
 
-## 🕖 8. Knowledge Distillation
+## 🕗 8. Knowledge Distillation
   
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection**
 
