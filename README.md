@@ -33,10 +33,6 @@
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective**
 
   *Cai, Yu and Chen, Hao and Cheng, Kwang-Ting*
-
-- [[MICCAI 2024]](https://arxiv.org/pdf/2405.11315) **Mediclip: Adapting CLIP for Few-shot Medical Image Anomaly Detection**
-
-  *Zhang, Ximiao and Xu, Min and Qiu, Dehui and Yan, Ruixin and Lang, Ning and Zhou, Xiuzhuang*
   
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection**
 
@@ -91,3 +87,13 @@
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.17297) **Revisiting Multimodal Fusion for 3D Anomaly Detection from an Architectural Perspective**
 
   *Long, Kaifang and Xie, Guoyang and Ma, Lianbo and Liu, Jiaqi and Lu, Zhichao*
+
+## 🕐 7. VLM-Based Approaches
+
+- [[CVPR 2024]](https://arxiv.org/abs/2403.12570) **MAdapting Visual-Language Models for Generalizable Anomaly Detection in Medical Images**
+
+  *Huang, Chaoqin and Jiang, Aofan and Feng, Jinghao and Zhang, Ya and Wang, Xinchao and Wang, Yanfeng*
+
+- [[MICCAI 2024]](https://arxiv.org/pdf/2405.11315) **Mediclip: Adapting CLIP for Few-shot Medical Image Anomaly Detection**
+
+  *Zhang, Ximiao and Xu, Min and Qiu, Dehui and Yan, Ruixin and Lang, Ning and Zhou, Xiuzhuang*
