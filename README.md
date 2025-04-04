@@ -10,7 +10,7 @@
   
 </div>
 
-**🦉 Contributors: [Yifei Sun (22' HDU-ITMO Undergraduate)](https://diaoquesang.github.io/), [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Hao Zheng (22' HDU-ITMO Undergraduate)](https://github.com/267588), [Zhanghao Chen (21' HDU-ITMO Undergraduate/26' SEU Master)](https://benny0323.github.io/bio/)**
+**🦉 Contributors: [Yifei Sun (22' HDU-ITMO Undergraduate)](https://diaoquesang.github.io/), [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Hao Zheng (22' HDU-ITMO Undergraduate)](https://github.com/267588), [Zhanghao Chen (21' HDU-ITMO Undergraduate/26' SEU Master)](https://benny0323.github.io/bio/), [Yuzhi He (23' XDU Undergraduate)](https://github.com/Black0226)**
 
 ### Welcome to join us by contacting: szhsxhsyf@hdu.edu.cn.
 
