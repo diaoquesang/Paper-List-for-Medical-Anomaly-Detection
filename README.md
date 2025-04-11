@@ -50,6 +50,10 @@
 - [[ICLR 2023]](https://openreview.net/pdf?id=9OmCr1q54Z) **AE-FLOW: Autoencoders with Normalizing Flows for Medical Images Anomaly Detection**
 
   *Zhao, Yuzhong and Ding, Qiaoqiao and Zhang, Xiaoqun*
+
+- [[MedIA 2023]](https://arxiv.org/pdf/2301.08330) **The Role of Noise in Denoising Models for Anomaly Detection in Medical Images**
+
+  *Kascenas, Antanas and Sanchez, Pedro and Schrempf, Patrick and Wang, Chaoyang and Clackett, William and Mikhael, Shadia S and Voisey, Jeremy P and Goatman, Keith and Weir, Alexander and Pugeault, Nicolas and others*
   
 ## 🕓 4. GAN-Based Approaches
 
