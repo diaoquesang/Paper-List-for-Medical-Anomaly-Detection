@@ -27,7 +27,7 @@
 
 ## 🕐 1. Solving "Identical Shortcut"
 
-- [[MIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images**
+- [[MedIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images**
 
   *Cai, Yu and Zhang, Weiwen and Chen, Hao and Cheng, Kwang-Ting*
 
