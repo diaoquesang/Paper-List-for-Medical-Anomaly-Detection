@@ -89,7 +89,7 @@
 
   *Long, Kaifang and Xie, Guoyang and Ma, Lianbo and Liu, Jiaqi and Lu, Zhichao*
   
-- *[[IF 2025]](https://www.sciencedirect.com/science/article/pii/S1566253524004093) **Adapting the Segment Anything Model for Multi-Modal Retinal Anomaly Detection and Localization**
+- [[IF 2025]](https://www.sciencedirect.com/science/article/pii/S1566253524004093) **Adapting the Segment Anything Model for Multi-Modal Retinal Anomaly Detection and Localization**
 
   *Li, Jingtao and Chen, Ting and Wang, Xinyu and Zhong, Yanfei and Xiao, Xuan*
   
