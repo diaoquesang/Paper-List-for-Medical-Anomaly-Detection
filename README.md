@@ -27,14 +27,6 @@
 
 ## 🕐 1. Solving "Identical Shortcut"
 
-- [[MedIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images**
-
-  *Cai, Yu and Zhang, Weiwen and Chen, Hao and Cheng, Kwang-Ting*
-
-- [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective**
-
-  *Cai, Yu and Chen, Hao and Cheng, Kwang-Ting*
-
 - *[[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection**
 
   *You, Zhiyuan and Cui, Lei and Shen, Yujun and Yang, Kai and Lu, Xin and Zheng, Yu and Le, Xinyi*
@@ -46,6 +38,14 @@
   *Zhang, Fandong and Luo, Ling and Sun, Xinwei and Zhou, Zhen and Li, Xiuli and Yu, Yizhou and Wang, Yizhou*
 
 ## 🕒 3. AE-Based Approaches
+
+- [[MedIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images**
+
+  *Cai, Yu and Zhang, Weiwen and Chen, Hao and Cheng, Kwang-Ting*
+  
+- [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective**
+
+  *Cai, Yu and Chen, Hao and Cheng, Kwang-Ting*
 
 - [[ICLR 2023]](https://openreview.net/pdf?id=9OmCr1q54Z) **AE-FLOW: Autoencoders with Normalizing Flows for Medical Images Anomaly Detection**
 
@@ -60,13 +60,16 @@
 - [[PR 2024]](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3178214/2229397_Article_.pdf?sequence=1) **Anomaly Detection via Gating Highway Connection for Retinal Fundus Images**
 
   *Zhang, Wentian and Liu, Haozhe and Xie, Jinheng and Huang, Yawen and Zhang, Yu and Li, Yuexiang and Ramachandra, Raghavendra and Zheng, Yefeng*
-
   
 - [[CVPR 2023]](http://openaccess.thecvf.com/content/CVPR2023/papers/Xiang_SQUID_Deep_Feature_In-Painting_for_Unsupervised_Anomaly_Detection_CVPR_2023_paper.pdf) **SQUID: Deep Feature In-Painting for Unsupervised Anomaly Detection**
 
   *Xiang, Tiange and Zhang, Yixiao and Lu, Yongyi and Yuille, Alan L and Zhang, Chaoyi and Cai, Weidong and Zhou, Zongwei*
   
 ## 🕔 5. Diffusion-Based Approaches
+
+- [[WACV 2025]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet**
+
+  *Kumar, Komal and Chakraborty, Snehashis and Mahapatra, Dwarikanath and Bozorgtabar, Behzad and Roy, Sudipta*
 
 - [[TMI 2024]](https://arxiv.org/pdf/2308.02062) **Diffusion Models for Counterfactual Generation and Anomaly Detection in Brain lmages**
 
@@ -76,10 +79,11 @@
 
   *Bercea, Cosmin I and Wiestler, Benedikt and Rueckert, Daniel and Schnabel, Julia A*
 
-- [[WACV 2025]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet**
 
-  *Kumar, Komal and Chakraborty, Snehashis and Mahapatra, Dwarikanath and Bozorgtabar, Behzad and Roy, Sudipta*
+- [[MIDL 2024]](https://proceedings.mlr.press/v227/behrendt24a/behrendt24a.pdf) **Patched Diffusion Models for Unsupervised Anomaly Detection in Brain MRI**
 
+  *Behrendt, Finn and Bhattacharya, Debayan and Krüger, Julia and Opfer, Roland and Schlaefer, Alexander*
+  
 - [[CVPR 2022]](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Wyatt_AnoDDPM_Anomaly_Detection_With_Denoising_Diffusion_Probabilistic_Models_Using_Simplex_CVPRW_2022_paper.pdf) **AnoDDPM: Anomaly Detection with Denoising Diffusion Probabilistic Models using Simplex Noise**
 
   *Wyatt, Julian and Leach, Adam and Schmon, Sebastian M and Willcocks, Chris G*
