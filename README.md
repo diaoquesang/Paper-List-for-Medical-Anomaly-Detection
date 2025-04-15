@@ -108,3 +108,7 @@
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection**
 
   *Liu, Xinyue and Wang, Jianyuan and Leng, Biao and Zhang, Shuo*
+
+## 🥰 Star History
+
+[![Star History](https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Timeline)](https://star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline)
