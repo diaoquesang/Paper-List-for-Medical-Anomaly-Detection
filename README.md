@@ -104,7 +104,11 @@
   
 ## 🕖 7. Vision Language Models
 
-- [[CVPR 2024]](https://arxiv.org/abs/2403.12570) **MAdapting Visual-Language Models for Generalizable Anomaly Detection in Medical Images**
+- [[CVPR 2024]](http://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Toward_Generalist_Anomaly_Detection_via_In-context_Residual_Learning_with_Few-shot_CVPR_2024_paper.pdf) **Toward Generalist Anomaly Detection via In-context Residual Learning with Few-shot Sample Prompts**
+
+  *Zhu, Jiawen and Pang, Guansong*
+  
+- [[CVPR 2024]](https://arxiv.org/abs/2403.12570) **Adapting Visual-Language Models for Generalizable Anomaly Detection in Medical Images**
 
   *Huang, Chaoqin and Jiang, Aofan and Feng, Jinghao and Zhang, Ya and Wang, Xinchao and Wang, Yanfeng*
 
