@@ -103,7 +103,7 @@
   *Li, Jingtao and Chen, Ting and Wang, Xinyu and Zhong, Yanfei and Xiao, Xuan*
   
 ## 🕖 7. Vision Language Models
-- - [[CVPR 2025]](https://arxiv.org/pdf/2503.06661) **AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP**
+- [[CVPR 2025]](https://arxiv.org/pdf/2503.06661) **AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP**
 
   *Ma, Wenxin and Zhang, Xu and Yao, Qingsong and Tang, Fenghe and Wu, Chenxu and Li, Yingtai and Yan, Rui and Jiang, Zihang and Zhou, S Kevin*
 
