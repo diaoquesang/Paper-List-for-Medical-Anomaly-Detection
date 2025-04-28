@@ -130,13 +130,15 @@
 
   *Liu, Xinyue and Wang, Jianyuan and Leng, Biao and Zhang, Shuo*
 
+  <img src="https://github.com/user-attachments/assets/38ced3db-a3d3-4dbb-8691-308739ac5a03" width="50%">
+
 ## 🕘 9. Evaluation Metrics
 
-- *[[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging**
+- [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging**
 
   *Bercea, Cosmin I and Wiestler, Benedikt and Rueckert, Daniel and Schnabel, Julia A*
 
-  ![image](https://github.com/user-attachments/assets/03824efc-a4f8-4045-8114-8ed610015778)
+  <img src="https://github.com/user-attachments/assets/03824efc-a4f8-4045-8114-8ed610015778" width="50%">
 
 
 ## 🥰 Star History
