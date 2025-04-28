@@ -59,7 +59,7 @@
 
 - [[Neurocomputing 2025]](https://www.sciencedirect.com/science/article/pii/S0925231224015339) **Industrial and Medical Anomaly Detection Through Cycle-Consistent Adversarial Networks**
 
-  *Bougaham, Arnaud and Delchevalerie, Valentin and El Adoui, Mohammed and Frénay, Benoît}*
+  *Bougaham, Arnaud and Delchevalerie, Valentin and El Adoui, Mohammed and Frénay, Benoît*
 
 - [[PR 2024]](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3178214/2229397_Article_.pdf?sequence=1) **Anomaly Detection via Gating Highway Connection for Retinal Fundus Images**
 
