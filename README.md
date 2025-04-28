@@ -73,14 +73,20 @@
 
   *Bougaham, Arnaud and Delchevalerie, Valentin and El Adoui, Mohammed and Frénay, Benoît*
 
+  <img src="https://github.com/user-attachments/assets/f05671aa-c0d5-45a8-a4a7-9afec22e84a5" width="50%">
+
 - [[PR 2024]](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3178214/2229397_Article_.pdf?sequence=1) **Anomaly Detection via Gating Highway Connection for Retinal Fundus Images**
 
   *Zhang, Wentian and Liu, Haozhe and Xie, Jinheng and Huang, Yawen and Zhang, Yu and Li, Yuexiang and Ramachandra, Raghavendra and Zheng, Yefeng*
-  
+
+  <img src="https://github.com/user-attachments/assets/b017215e-0998-4e63-97f9-7a5271756c68" width="50%">
+
 - [[CVPR 2023]](http://openaccess.thecvf.com/content/CVPR2023/papers/Xiang_SQUID_Deep_Feature_In-Painting_for_Unsupervised_Anomaly_Detection_CVPR_2023_paper.pdf) **SQUID: Deep Feature In-Painting for Unsupervised Anomaly Detection**
 
   *Xiang, Tiange and Zhang, Yixiao and Lu, Yongyi and Yuille, Alan L and Zhang, Chaoyi and Cai, Weidong and Zhou, Zongwei*
-  
+
+  <img src="https://github.com/user-attachments/assets/8ed73cd7-6b22-4e7e-be06-4d5c97e7ab80" width="50%">
+
 ## 🕔 5. Diffusion-Based Approaches
 
 - [[WACV 2025]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet**
