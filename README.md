@@ -31,30 +31,42 @@
 
   *You, Zhiyuan and Cui, Lei and Shen, Yujun and Yang, Kai and Lu, Xin and Zheng, Yu and Le, Xinyi*
 
+  <img src="https://github.com/user-attachments/assets/ab761cad-56ed-4b6d-8d6d-c333762b992c" width="50%">
+
 ## 🕑 2. Discriminative Learning
 
 - [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Cascaded_Generative_and_Discriminative_Learning_for_Microcalcification_Detection_in_Breast_CVPR_2019_paper.pdf) **Cascaded Generative and Discriminative Learning for Microcalcification Detection in Breast Mammograms**
 
   *Zhang, Fandong and Luo, Ling and Sun, Xinwei and Zhou, Zhen and Li, Xiuli and Yu, Yizhou and Wang, Yizhou*
 
+  <img src="https://github.com/user-attachments/assets/41569c42-7921-4602-9a35-cad58b06147e" width="50%">
+
 ## 🕒 3. AE-Based Approaches
 
 - [[MedIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images**
 
   *Cai, Yu and Zhang, Weiwen and Chen, Hao and Cheng, Kwang-Ting*
-  
+
+  <img src="https://github.com/user-attachments/assets/59e43d96-2bfc-4bce-ab5a-282cf2c06c3c" width="50%">
+
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective**
 
   *Cai, Yu and Chen, Hao and Cheng, Kwang-Ting*
+
+  <img src="https://github.com/user-attachments/assets/25d5c2b4-d2d9-4d1a-a90e-c8651dc01f9d" width="50%">
 
 - [[ICLR 2023]](https://openreview.net/pdf?id=9OmCr1q54Z) **AE-FLOW: Autoencoders with Normalizing Flows for Medical Images Anomaly Detection**
 
   *Zhao, Yuzhong and Ding, Qiaoqiao and Zhang, Xiaoqun*
 
+  <img src="https://github.com/user-attachments/assets/cb07b128-80eb-4c1b-b606-664e2a866675" width="50%">
+
 - [[MedIA 2023]](https://arxiv.org/pdf/2301.08330) **The Role of Noise in Denoising Models for Anomaly Detection in Medical Images**
 
   *Kascenas, Antanas and Sanchez, Pedro and Schrempf, Patrick and Wang, Chaoyang and Clackett, William and Mikhael, Shadia S and Voisey, Jeremy P and Goatman, Keith and Weir, Alexander and Pugeault, Nicolas and others*
   
+  <img src="https://github.com/user-attachments/assets/eb0d29f9-1697-423a-83c3-a111a3097182" width="50%">
+
 ## 🕓 4. GAN-Based Approaches
 
 - [[Neurocomputing 2025]](https://www.sciencedirect.com/science/article/pii/S0925231224015339) **Industrial and Medical Anomaly Detection Through Cycle-Consistent Adversarial Networks**
