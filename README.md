@@ -145,17 +145,25 @@
 
   *Ma, Wenxin and Zhang, Xu and Yao, Qingsong and Tang, Fenghe and Wu, Chenxu and Li, Yingtai and Yan, Rui and Jiang, Zihang and Zhou, S Kevin*
 
+  <img src="https://github.com/user-attachments/assets/86849a66-3de5-4fec-9120-57b5b98aec11" width="50%">
+
 - [[CVPR 2024]](http://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Toward_Generalist_Anomaly_Detection_via_In-context_Residual_Learning_with_Few-shot_CVPR_2024_paper.pdf) **Toward Generalist Anomaly Detection via In-context Residual Learning with Few-shot Sample Prompts**
 
   *Zhu, Jiawen and Pang, Guansong*
-  
+
+  <img src="https://github.com/user-attachments/assets/98f8cda7-31e2-4205-a374-f57074a36e00" width="50%">
+
 - [[CVPR 2024]](https://arxiv.org/abs/2403.12570) **Adapting Visual-Language Models for Generalizable Anomaly Detection in Medical Images**
 
   *Huang, Chaoqin and Jiang, Aofan and Feng, Jinghao and Zhang, Ya and Wang, Xinchao and Wang, Yanfeng*
+  
+  <img src="https://github.com/user-attachments/assets/f5ed3f7b-d2cd-4291-8280-5a3c7934040f" width="50%">
 
 - [[MICCAI 2024]](https://arxiv.org/pdf/2405.11315) **Mediclip: Adapting CLIP for Few-shot Medical Image Anomaly Detection**
 
   *Zhang, Ximiao and Xu, Min and Qiu, Dehui and Yan, Ruixin and Lang, Ning and Zhou, Xiuzhuang*
+
+  <img src="https://github.com/user-attachments/assets/9c1c39d0-b284-4ae2-b7f9-a5a62315b16c" width="50%">
 
 ## 🕗 8. Knowledge Distillation
   
