@@ -132,4 +132,5 @@
 
 ## 🥰 Star History
 
-[![Star History](https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Timeline)](https://star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Timeline)](https://www.star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline)
+
