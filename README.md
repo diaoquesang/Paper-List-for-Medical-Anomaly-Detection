@@ -93,36 +93,51 @@
 
   *Kumar, Komal and Chakraborty, Snehashis and Mahapatra, Dwarikanath and Bozorgtabar, Behzad and Roy, Sudipta*
 
+  <img src="https://github.com/user-attachments/assets/9e601d52-d982-437e-9b69-b1ade659d54b" width="50%">
+
 - [[TMI 2024]](https://arxiv.org/pdf/2308.02062) **Diffusion Models for Counterfactual Generation and Anomaly Detection in Brain lmages**
 
   *Fontanella, Alessandro and Mair, Grant and Wardlaw, Joanna and Trucco, Emanuele and Storkey, Amos*
 
+  <img src="https://github.com/user-attachments/assets/48f34db0-8ffb-494d-830f-8ce4b79bd00e" width="50%">
+
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.08464) **Diffusion Models with Implicit Guidance for Medical Anomaly Detection**
 
   *Bercea, Cosmin I and Wiestler, Benedikt and Rueckert, Daniel and Schnabel, Julia A*
-
+  
+  <img src="https://github.com/user-attachments/assets/b5860d4f-eaaf-44bf-a0ea-1279f7d35446" width="50%">
 
 - [[MIDL 2024]](https://proceedings.mlr.press/v227/behrendt24a/behrendt24a.pdf) **Patched Diffusion Models for Unsupervised Anomaly Detection in Brain MRI**
 
   *Behrendt, Finn and Bhattacharya, Debayan and Krüger, Julia and Opfer, Roland and Schlaefer, Alexander*
-  
+
+  <img src="https://github.com/user-attachments/assets/e5a30138-71c4-4a12-a78b-5ae3c48a3c59" width="50%">
+
 - [[CVPR 2022]](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Wyatt_AnoDDPM_Anomaly_Detection_With_Denoising_Diffusion_Probabilistic_Models_Using_Simplex_CVPRW_2022_paper.pdf) **AnoDDPM: Anomaly Detection with Denoising Diffusion Probabilistic Models using Simplex Noise**
 
   *Wyatt, Julian and Leach, Adam and Schmon, Sebastian M and Willcocks, Chris G*
 
+  <img src="https://github.com/user-attachments/assets/5e738dcc-ba84-4446-b996-9cc493f37bb9" width="50%">
+
 - [[MICCAI 2022]](https://arxiv.org/pdf/2203.04306) **Diffusion Models for Medical Anomaly Detection**
 
   *Wolleb, Julia and Bieder, Florentin and Sandkühler, Robin and Cattin, Philippe C*
+
+  <img src="https://github.com/user-attachments/assets/d26c0351-cf7d-4e8c-84d4-66f081f370ad" width="50%">
 
 ## 🕕 6. Multi-Modal Fusion
   
 - [[IF 2025]](https://www.sciencedirect.com/science/article/pii/S1566253524004093) **Adapting the Segment Anything Model for Multi-Modal Retinal Anomaly Detection and Localization**
 
   *Li, Jingtao and Chen, Ting and Wang, Xinyu and Zhong, Yanfei and Xiao, Xuan*
-  
+
+  <img src="https://github.com/user-attachments/assets/73accda9-cf6e-4e65-a358-15977e521198" width="50%">
+
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.17297) **Revisiting Multimodal Fusion for 3D Anomaly Detection from an Architectural Perspective**
 
   *Long, Kaifang and Xie, Guoyang and Ma, Lianbo and Liu, Jiaqi and Lu, Zhichao*
+
+  <img src="https://github.com/user-attachments/assets/2dd4d4f9-dbb5-4dee-b271-3deaa56ea093" width="50%">
 
   
 ## 🕖 7. Vision Language Models
