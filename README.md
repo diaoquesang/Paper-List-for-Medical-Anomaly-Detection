@@ -26,7 +26,7 @@
 </div>
 
 
-## 🥰 Overview of Medical Imaging Anomaly Detection
+## 📚 Overview of Medical Imaging Anomaly Detection
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/1abc4d53-5138-4a0f-857a-1e9528b9bfcd" width="100%">
