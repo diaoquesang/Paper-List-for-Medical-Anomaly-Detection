@@ -25,9 +25,13 @@
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/CUHK-SZ.png" height="45px" href="https://www.cuhk.edu.cn/zh-hans">
 </div>
 
+
+## 🥰 Overview of Medical Imaging Anomaly Detection
+
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/54586f2f-8a5e-49b9-8d78-9a2ab5adf1f3" width="50%">
+  <img src="https://github.com/user-attachments/assets/1abc4d53-5138-4a0f-857a-1e9528b9bfcd" width="100%">
 </div>
+
 
 *: *Papers for Non-Medical Anomaly Detection*
   
