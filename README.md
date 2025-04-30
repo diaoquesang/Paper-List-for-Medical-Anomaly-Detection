@@ -25,11 +25,11 @@
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/CUHK-SZ.png" height="45px" href="https://www.cuhk.edu.cn/zh-hans">
 </div>
 
-*: *Papers for Non-Medical Anomaly Detection*
-
 <div align="center">
   <img src="https://github.com/user-attachments/assets/54586f2f-8a5e-49b9-8d78-9a2ab5adf1f3" width="50%">
 </div>
+
+*: *Papers for Non-Medical Anomaly Detection*
   
 ## 🕐 1. Solving "Identical Shortcut"
 
