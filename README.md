@@ -25,6 +25,8 @@
 
 *: *Papers for Non-Medical Anomaly Detection*
 
+  <img src="https://github.com/user-attachments/assets/54586f2f-8a5e-49b9-8d78-9a2ab5adf1f3" width="50%">
+
 ## 🕐 1. Solving "Identical Shortcut"
 
 - *[[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection**
