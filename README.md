@@ -38,8 +38,8 @@
 - 🕔 5. Diffusion-Based Approaches
 - 🕕 6. Multi-Modal Fusion
 - 🕖 7. Vision Language Models
-- 🕘 9. Evaluation Metrics
 - 🕗 8. Knowledge Distillation
+- 🕘 9. Evaluation Metrics
 - 🥰 Star History
 
 ## 📚 Overview of Medical Imaging Anomaly Detection
