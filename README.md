@@ -28,18 +28,35 @@
 </div>
 
 
+## 📇 Contents
+- 📚 Overview of Medical Imaging Anomaly Detection
+- ✏️ Legends
+- 🕐 1. Solving "Identical Shortcut"
+- 🕑 2. Discriminative Learning
+- 🕒 3. AE-Based Approaches
+- 🕓 4. GAN-Based Approaches
+- 🕔 5. Diffusion-Based Approaches
+- 🕕 6. Multi-Modal Fusion
+- 🕖 7. Vision Language Models
+- 🕘 9. Evaluation Metrics
+- 🕗 8. Knowledge Distillation
+- 🥰 Star History
+
 ## 📚 Overview of Medical Imaging Anomaly Detection
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/1abc4d53-5138-4a0f-857a-1e9528b9bfcd" width="100%">
 </div>
 
+## ✏️ Legends
 
-*: *Papers for Non-Medical Anomaly Detection*
-  
+- *: Papers for Non-Medical Anomaly Detection
+
+- :octocat:: Code
+
 ## 🕐 1. Solving "Identical Shortcut"
 
-- *[[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection**
+- *[[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection** [:octocat:](https://github.com/zhiyuanyou/uniad)
 
   *You, Zhiyuan and Cui, Lei and Shen, Yujun and Yang, Kai and Lu, Xin and Zheng, Yu and Le, Xinyi*
 
