@@ -30,7 +30,7 @@
 
 ## 📇 Contents
 - 📚 Overview of Medical Imaging Anomaly Detection
-- ✏️ Legends
+- ✏️ Tips
 - 🕐 1. Solving "Identical Shortcut"
 - 🕑 2. Discriminative Learning
 - 🕒 3. AE-Based Approaches
@@ -48,7 +48,7 @@
   <img src="https://github.com/user-attachments/assets/1abc4d53-5138-4a0f-857a-1e9528b9bfcd" width="100%">
 </div>
 
-## ✏️ Legends
+## ✏️ Tips
 
 - *: Papers for Non-Medical Anomaly Detection
 
