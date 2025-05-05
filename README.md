@@ -30,17 +30,17 @@
 
 ## 📇 Contents
 - [📚 Overview of Medical Imaging Anomaly Detection](#s1)
-- ✏️ Tips
-- 🕐 1. Solving "Identical Shortcut"
-- 🕑 2. Discriminative Learning
-- 🕒 3. AE-Based Approaches
-- 🕓 4. GAN-Based Approaches
-- 🕔 5. Diffusion-Based Approaches
-- 🕕 6. Multi-Modal Fusion
-- 🕖 7. Vision Language Models
-- 🕗 8. Knowledge Distillation
-- 🕘 9. Evaluation Metrics
-- 🥰 Star History
+- [✏️ Tips](#s2)
+- [🕐 1. Solving "Identical Shortcut"](#s3)
+- [🕑 2. Discriminative Learning](#s4)
+- [🕒 3. AE-Based Approaches](#s5)
+- [🕓 4. GAN-Based Approaches](#s6)
+- [🕔 5. Diffusion-Based Approaches](#s7)
+- [🕕 6. Multi-Modal Fusion](#s8)
+- [🕖 7. Vision Language Models](#s9)
+- [🕗 8. Knowledge Distillation](#s10)
+- [🕘 9. Evaluation Metrics](#s11)
+- [🥰 Star History](#s12)
 
 ## 📚 Overview of Medical Imaging Anomaly Detection
 <div id = "s1"></div>
@@ -50,12 +50,14 @@
 </div>
 
 ## ✏️ Tips
+<div id = "s2"></div>
 
 - *: Papers for Non-Medical Anomaly Detection
 
 - :octocat:: Code
 
 ## 🕐 1. Solving "Identical Shortcut"
+<div id = "s3"></div>
 
 - *[[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection** [:octocat:](https://github.com/zhiyuanyou/uniad)
 
@@ -66,6 +68,7 @@
 </div>
 
 ## 🕑 2. Discriminative Learning
+<div id = "s4"></div>
 
 - [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Cascaded_Generative_and_Discriminative_Learning_for_Microcalcification_Detection_in_Breast_CVPR_2019_paper.pdf) **Cascaded Generative and Discriminative Learning for Microcalcification Detection in Breast Mammograms**
 
@@ -76,6 +79,7 @@
 </div>
 
 ## 🕒 3. AE-Based Approaches
+<div id = "s5"></div>
 
 - [[MedIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images**
 
@@ -110,6 +114,7 @@
 </div>
   
 ## 🕓 4. GAN-Based Approaches
+<div id = "s6"></div>
 
 - [[Neurocomputing 2025]](https://www.sciencedirect.com/science/article/pii/S0925231224015339) **Industrial and Medical Anomaly Detection Through Cycle-Consistent Adversarial Networks**
 
@@ -136,6 +141,7 @@
 </div>
   
 ## 🕔 5. Diffusion-Based Approaches
+<div id = "s7"></div>
 
 - [[WACV 2025]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet**
 
@@ -186,7 +192,8 @@
 </div>
   
 ## 🕕 6. Multi-Modal Fusion
-  
+<div id = "s8"></div>
+
 - [[IF 2025]](https://www.sciencedirect.com/science/article/pii/S1566253524004093) **Adapting the Segment Anything Model for Multi-Modal Retinal Anomaly Detection and Localization**
 
   *Li, Jingtao and Chen, Ting and Wang, Xinyu and Zhong, Yanfei and Xiao, Xuan*
@@ -205,6 +212,8 @@
   
   
 ## 🕖 7. Vision Language Models
+<div id = "s9"></div>
+
 - [[CVPR 2025]](https://arxiv.org/pdf/2503.06661) **AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP**
 
   *Ma, Wenxin and Zhang, Xu and Yao, Qingsong and Tang, Fenghe and Wu, Chenxu and Li, Yingtai and Yan, Rui and Jiang, Zihang and Zhou, S Kevin*
@@ -238,7 +247,8 @@
 </div>
   
 ## 🕗 8. Knowledge Distillation
-  
+<div id = "s10"></div>
+
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection**
 
   *Liu, Xinyue and Wang, Jianyuan and Leng, Biao and Zhang, Shuo*
@@ -248,6 +258,7 @@
 </div>
   
 ## 🕘 9. Evaluation Metrics
+<div id = "s11"></div>
 
 - [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging**
 
@@ -258,6 +269,7 @@
 </div>
 
 ## 🥰 Star History
+<div id = "s12"></div>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Timeline)](https://www.star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline)
 
