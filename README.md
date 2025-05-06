@@ -223,7 +223,15 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/86849a66-3de5-4fec-9120-57b5b98aec11" width="50%">
 </div>
-  
+
+- [[NeurIPS 2024]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8f4477b086a9c97e30d1a0621ea6b2f5-Abstract-Conference.html) **One-to-Normal: Anomaly Personalization for Few-shot Anomaly Detection**
+
+  *Li, Yiyue and Zhang, Shaoting and Li, Kang and Lao, Qicheng*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ed1c9537-0238-4bb1-b7d9-df0b7148e3d7" width="50%">
+</div>
+
 - [[CVPR 2024]](http://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Toward_Generalist_Anomaly_Detection_via_In-context_Residual_Learning_with_Few-shot_CVPR_2024_paper.pdf) **Toward Generalist Anomaly Detection via In-context Residual Learning with Few-shot Sample Prompts** [:octocat:](https://github.com/mala-lab/inctrl)
 
   *Zhu, Jiawen and Pang, Guansong*
