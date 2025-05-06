@@ -82,15 +82,15 @@
 ## 🕒 3. AE-Based Approaches
 <div id = "s5"></div>
 
-- [[MedIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images**
+- [[MedIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images** [:octocat:](https://github.com/caiyu6666/medianomaly)
 
   *Cai, Yu and Zhang, Weiwen and Chen, Hao and Cheng, Kwang-Ting*
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/59e43d96-2bfc-4bce-ab5a-282cf2c06c3c" width="50%">
 </div>
-  
-- [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective**
+
+- [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective** [:octocat:](https://github.com/caiyu6666/ae4ad)
 
   *Cai, Yu and Chen, Hao and Cheng, Kwang-Ting*
 
@@ -106,7 +106,7 @@
   <img src="https://github.com/user-attachments/assets/cb07b128-80eb-4c1b-b606-664e2a866675" width="50%">
 </div>
   
-- [[MedIA 2023]](https://arxiv.org/pdf/2301.08330) **The Role of Noise in Denoising Models for Anomaly Detection in Medical Images**
+- [[MedIA 2023]](https://arxiv.org/pdf/2301.08330) **The Role of Noise in Denoising Models for Anomaly Detection in Medical Images** [:octocat:](https://github.com/antanaskascenas/denoisingae)
 
   *Kascenas, Antanas and Sanchez, Pedro and Schrempf, Patrick and Wang, Chaoyang and Clackett, William and Mikhael, Shadia S and Voisey, Jeremy P and Goatman, Keith and Weir, Alexander and Pugeault, Nicolas and others*
 
