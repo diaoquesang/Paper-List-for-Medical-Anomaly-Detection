@@ -145,7 +145,7 @@
 ## 🕔 5. Diffusion-Based Approaches
 <div id = "s7"></div>
 
-- [[WACV 2025]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet**
+- [[WACV 2025]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet** [:octocat:](https://github.com/MAXNORM8650/Annotsim)
 
   *Kumar, Komal and Chakraborty, Snehashis and Mahapatra, Dwarikanath and Bozorgtabar, Behzad and Roy, Sudipta*
 
@@ -153,7 +153,7 @@
   <img src="https://github.com/user-attachments/assets/9e601d52-d982-437e-9b69-b1ade659d54b" width="50%">
 </div>
   
-- [[TMI 2024]](https://arxiv.org/pdf/2308.02062) **Diffusion Models for Counterfactual Generation and Anomaly Detection in Brain lmages**
+- [[TMI 2024]](https://arxiv.org/pdf/2308.02062) **Diffusion Models for Counterfactual Generation and Anomaly Detection in Brain lmages** [:octocat:](https://github.com/alessandro-f/dif-fuse)
 
   *Fontanella, Alessandro and Mair, Grant and Wardlaw, Joanna and Trucco, Emanuele and Storkey, Amos*
 
@@ -161,7 +161,7 @@
   <img src="https://github.com/user-attachments/assets/48f34db0-8ffb-494d-830f-8ce4b79bd00e" width="50%">
 </div>
   
-- [[MICCAI 2024]](https://arxiv.org/pdf/2403.08464) **Diffusion Models with Implicit Guidance for Medical Anomaly Detection**
+- [[MICCAI 2024]](https://arxiv.org/pdf/2403.08464) **Diffusion Models with Implicit Guidance for Medical Anomaly Detection** [:octocat:](https://github.com/ci-ber/thor_ddpm)
 
   *Bercea, Cosmin I and Wiestler, Benedikt and Rueckert, Daniel and Schnabel, Julia A*
 
@@ -169,7 +169,7 @@
   <img src="https://github.com/user-attachments/assets/b5860d4f-eaaf-44bf-a0ea-1279f7d35446" width="50%">
 </div>
   
-- [[MIDL 2024]](https://proceedings.mlr.press/v227/behrendt24a/behrendt24a.pdf) **Patched Diffusion Models for Unsupervised Anomaly Detection in Brain MRI**
+- [[MIDL 2024]](https://proceedings.mlr.press/v227/behrendt24a/behrendt24a.pdf) **Patched Diffusion Models for Unsupervised Anomaly Detection in Brain MRI** [:octocat:](https://github.com/finnbehrendt/patched-diffusion-models-uad)
 
   *Behrendt, Finn and Bhattacharya, Debayan and Krüger, Julia and Opfer, Roland and Schlaefer, Alexander*
 
@@ -177,7 +177,7 @@
   <img src="https://github.com/user-attachments/assets/e5a30138-71c4-4a12-a78b-5ae3c48a3c59" width="50%">
 </div>
   
-- [[CVPR 2022]](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Wyatt_AnoDDPM_Anomaly_Detection_With_Denoising_Diffusion_Probabilistic_Models_Using_Simplex_CVPRW_2022_paper.pdf) **AnoDDPM: Anomaly Detection with Denoising Diffusion Probabilistic Models using Simplex Noise**
+- [[CVPR 2022]](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Wyatt_AnoDDPM_Anomaly_Detection_With_Denoising_Diffusion_Probabilistic_Models_Using_Simplex_CVPRW_2022_paper.pdf) **AnoDDPM: Anomaly Detection with Denoising Diffusion Probabilistic Models using Simplex Noise** [:octocat:](https://github.com/julian-wyatt/anoddpm)
 
   *Wyatt, Julian and Leach, Adam and Schmon, Sebastian M and Willcocks, Chris G*
 
@@ -185,7 +185,7 @@
   <img src="https://github.com/user-attachments/assets/5e738dcc-ba84-4446-b996-9cc493f37bb9" width="50%">
 </div>
   
-- [[MICCAI 2022]](https://arxiv.org/pdf/2203.04306) **Diffusion Models for Medical Anomaly Detection**
+- [[MICCAI 2022]](https://arxiv.org/pdf/2203.04306) **Diffusion Models for Medical Anomaly Detection** [:octocat:](https://github.com/JuliaWolleb/diffusion-anomaly)
 
   *Wolleb, Julia and Bieder, Florentin and Sandkühler, Robin and Cattin, Philippe C*
 
