@@ -283,4 +283,4 @@
 ## 🥰 Star History
 <div id = "s12"></div>
 
-[![Star History Chart](https://www.star-history.com/embed?secret=Z2hwX2RvcXBFT1pYYTVkTE9ZOW13ZlNDRWttNlE3Q0JHMTBGUGxybA==#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline)](https://www.star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Timeline)](https://www.star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline)
