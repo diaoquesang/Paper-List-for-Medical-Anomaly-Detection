@@ -283,4 +283,4 @@
 ## 🥰 Star History
 <div id = "s12"></div>
 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://www.star-history.com/embed?secret=Z2hwX2RvcXBFT1pYYTVkTE9ZOW13ZlNDRWttNlE3Q0JHMTBGUGxybA==#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline" frameBorder="0"></iframe>
+[![Star History Chart](https://www.star-history.com/embed?secret=Z2hwX2RvcXBFT1pYYTVkTE9ZOW13ZlNDRWttNlE3Q0JHMTBGUGxybA==#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline)](https://www.star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline)
