@@ -283,5 +283,10 @@
 ## 🥰 Star History
 <div id = "s12"></div>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Timeline)](https://www.star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline)
-
+<a href="https://www.star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Timeline" />
+ </picture>
+</a>
