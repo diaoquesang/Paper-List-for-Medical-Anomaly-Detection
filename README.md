@@ -14,7 +14,7 @@
 
 **🎓 DeepWiki: [Generating GitHub Knowledge Base Documentation in One Click ](https://deepwiki.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection).**
 
-**📦 Other resources: [1] [Bone Suppression in Chest X-Rays: A Deep Survey](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays), [2] [A Paper List for Prototypical Learning](https://github.com/BeistMedAI/Paper-List-for-Prototypical-Learning).**
+**📦 Other resources: [1] [Bone Suppression in Chest X-Rays: A Deep Survey](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays), [2] [A Paper List for Prototypical Learning](https://github.com/BeistMedAI/Paper-List-for-Prototypical-Learning), [3] [A Paper List for Cell Detection](https://github.com/li00000011/Paper-List-for-Cell-Detection).**
 
 ### Welcome to join us by contacting: szhsxhsyf@hdu.edu.cn.
 
