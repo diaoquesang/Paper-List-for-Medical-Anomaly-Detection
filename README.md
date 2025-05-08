@@ -284,5 +284,5 @@
   <img src="https://github.com/user-attachments/assets/03824efc-a4f8-4045-8114-8ed610015778" width="50%">
 </div>
 
-[![](https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=Back%20to%20Top&section=footer&fontSize=30&fontAlignY=70)
+[![](https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=Back%20to%20Top&section=footer&fontSize=30&fontAlignY=65)
 ](#top)
