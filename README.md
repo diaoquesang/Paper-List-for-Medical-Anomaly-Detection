@@ -48,7 +48,8 @@
 - [🕗 8. Knowledge Distillation](#s10)
 - [🕘 9. Evaluation Metrics](#s11)
 
-## 📚 Overview of Medical Imaging Anomaly Detection <div id = "s1"></div>
+## 📚 Overview of Medical Imaging Anomaly Detection
+<div id = "s1"></div>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/1abc4d53-5138-4a0f-857a-1e9528b9bfcd" width="100%">
@@ -60,7 +61,8 @@
 
 - :octocat:: Code
 
-## 🕐 1. Solving "Identical Shortcut" <div id = "s3"></div>
+## 🕐 1. Solving "Identical Shortcut"
+<div id = "s3"></div>
 
 
 - *[[NeurIPS 2022]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1d774c112926348c3e25ea47d87c835b-Paper-Conference.pdf) **A Unified Model for Multi-class Anomaly Detection** [:octocat:](https://github.com/zhiyuanyou/uniad)
@@ -71,7 +73,8 @@
   <img src="https://github.com/user-attachments/assets/ab761cad-56ed-4b6d-8d6d-c333762b992c" width="50%">
 </div>
 
-## 🕑 2. Discriminative Learning <div id = "s4"></div>
+## 🕑 2. Discriminative Learning
+<div id = "s4"></div>
 
 - [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Cascaded_Generative_and_Discriminative_Learning_for_Microcalcification_Detection_in_Breast_CVPR_2019_paper.pdf) **Cascaded Generative and Discriminative Learning for Microcalcification Detection in Breast Mammograms**
 
@@ -81,7 +84,8 @@
   <img src="https://github.com/user-attachments/assets/41569c42-7921-4602-9a35-cad58b06147e" width="50%">
 </div>
 
-## 🕒 3. AE-Based Approaches <div id = "s5"></div>
+## 🕒 3. AE-Based Approaches
+<div id = "s5"></div>
 
 - [[MedIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images** [:octocat:](https://github.com/caiyu6666/medianomaly)
 
@@ -115,7 +119,8 @@
   <img src="https://github.com/user-attachments/assets/eb0d29f9-1697-423a-83c3-a111a3097182" width="50%">
 </div>
   
-## 🕓 4. GAN-Based Approaches <div id = "s6"></div>
+## 🕓 4. GAN-Based Approaches
+<div id = "s6"></div>
 
 - [[Neurocomputing 2025]](https://www.sciencedirect.com/science/article/pii/S0925231224015339) **Industrial and Medical Anomaly Detection Through Cycle-Consistent Adversarial Networks** [:octocat:](https://github.com/valdelch/cyclegans-anomalydetection)
 
@@ -142,7 +147,8 @@
   <img src="https://github.com/user-attachments/assets/8ed73cd7-6b22-4e7e-be06-4d5c97e7ab80" width="50%">
 </div>
   
-## 🕔 5. Diffusion-Based Approaches <div id = "s7"></div>
+## 🕔 5. Diffusion-Based Approaches
+<div id = "s7"></div>
 
 - [[WACV 2025]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet** [:octocat:](https://github.com/MAXNORM8650/Annotsim)
 
@@ -192,7 +198,8 @@
   <img src="https://github.com/user-attachments/assets/d26c0351-cf7d-4e8c-84d4-66f081f370ad" width="50%">
 </div>
   
-## 🕕 6. Multi-Modal Fusion <div id = "s8"></div>
+## 🕕 6. Multi-Modal Fusion
+<div id = "s8"></div>
 
 - [[IF 2025]](https://www.sciencedirect.com/science/article/pii/S1566253524004093) **Adapting the Segment Anything Model for Multi-Modal Retinal Anomaly Detection and Localization** [:octocat:](https://github.com/Jingtao-Li-CVer/MMRAD)
 
@@ -211,7 +218,8 @@
 </div>
   
   
-## 🕖 7. Vision Language Models <div id = "s9"></div>
+## 🕖 7. Vision Language Models
+<div id = "s9"></div>
 
 - [[CVPR 2025]](https://arxiv.org/pdf/2503.06661) **AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP** [:octocat:](https://github.com/mwxinnn/aa-clip)
 
@@ -253,7 +261,8 @@
   <img src="https://github.com/user-attachments/assets/9c1c39d0-b284-4ae2-b7f9-a5a62315b16c" width="50%">
 </div>
   
-## 🕗 8. Knowledge Distillation <div id = "s10"></div>
+## 🕗 8. Knowledge Distillation
+<div id = "s10"></div>
 
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection** [:octocat:](https://github.com/hito2448/urd)
 
@@ -264,8 +273,8 @@
   <img src="https://github.com/user-attachments/assets/38ced3db-a3d3-4dbb-8691-308739ac5a03" width="50%">
 </div>
   
-## 🕘 9. Evaluation Metrics <div id = "s11"></div>
-
+## 🕘 9. Evaluation Metrics
+<div id = "s11"></div>
 
 - [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging**
 
