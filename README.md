@@ -1,3 +1,6 @@
+<div id = "top"></div>
+
+
 [![](https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=🌟%20Paper%20List%20for%20Medical%20Anomaly%20Detection&fontSize=30&fontAlignY=40)
 ](https://diaoquesang.github.io/)
 
@@ -281,3 +284,5 @@
   <img src="https://github.com/user-attachments/assets/03824efc-a4f8-4045-8114-8ed610015778" width="50%">
 </div>
 
+[![](https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=Back%20to%20Top&section=footer&fontSize=30&fontAlignY=70)
+](#top)
