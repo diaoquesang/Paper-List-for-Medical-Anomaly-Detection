@@ -2,7 +2,7 @@
 
 
 [![](https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=🌟%20Paper%20List%20for%20Medical%20Anomaly%20Detection&fontSize=30&fontAlignY=40)
-](https://diaoquesang.github.io/)
+](#top)
 
 <div align="center">
   
