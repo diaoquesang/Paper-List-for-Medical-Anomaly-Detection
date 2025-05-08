@@ -7,7 +7,7 @@
 [![](https://img.shields.io/github/forks/diaoquesang/Paper-List-for-Medical-Anomaly-Detection)](https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection)
 [![](https://img.shields.io/github/issues/diaoquesang/Paper-List-for-Medical-Anomaly-Detection)](https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/issues)
 [![](https://img.shields.io/github/license/diaoquesang/Paper-List-for-Medical-Anomaly-Detection)](https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/LICENSE) 
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdiaoquesang%2FPaper-List-for-Medical-Anomaly-Detection&countColor=%2337d67a&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdiaoquesang%2FPaper-List-for-Medical-Anomaly-Detection)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdiaoquesang%2FPaper-List-for-Medical-Anomaly-Detection&label=visitors&countColor=%2337d67a&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdiaoquesang%2FPaper-List-for-Medical-Anomaly-Detection)
 
 </div>
 
