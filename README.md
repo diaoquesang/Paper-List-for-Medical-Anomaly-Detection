@@ -44,7 +44,6 @@
 - [🕖 7. Vision Language Models](#s9)
 - [🕗 8. Knowledge Distillation](#s10)
 - [🕘 9. Evaluation Metrics](#s11)
-- [🥰 Star History](#s12)
 
 ## 📚 Overview of Medical Imaging Anomaly Detection
 <div id = "s1"></div>
@@ -282,7 +281,3 @@
   <img src="https://github.com/user-attachments/assets/03824efc-a4f8-4045-8114-8ed610015778" width="50%">
 </div>
 
-## 🥰 Star History
-<div id = "s12"></div>
-
-[![Star History Chart](https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Timeline)](https://www.star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Timeline)
