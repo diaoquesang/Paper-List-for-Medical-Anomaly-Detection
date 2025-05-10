@@ -275,6 +275,14 @@
   <img src="https://github.com/user-attachments/assets/59e43d96-2bfc-4bce-ab5a-282cf2c06c3c" width="50%">
 </div>
 
+- [[CVPR 2024]](https://openaccess.thecvf.com/content/CVPR2024W/VAND/html/Bao_BMAD_Benchmarks_for_Medical_Anomaly_Detection_CVPRW_2024_paper.html) **BMAD: Benchmarks for Medical Anomaly Detection** [:octocat:](https://github.com/dorisbao/bmad)
+
+  *Bao, Jinan and Sun, Hanshi and Deng, Hanqiu and He, Yinsheng and Zhang, Zhaoxiang and Li, Xingyu*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8c64c38c-2485-4c9c-ab85-9aeb3386fb9d" width="50%">
+</div>
+
 ## 🥰 Star History <div id = "s12"></div>
 [![Star History Chart](https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Date)](https://star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Date)
 
