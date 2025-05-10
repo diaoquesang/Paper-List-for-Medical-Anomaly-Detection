@@ -46,7 +46,7 @@
 - [🕕 6. Multi-Modal Fusion](#s8)
 - [🕖 7. Vision Language Models](#s9)
 - [🕗 8. Knowledge Distillation](#s10)
-- [🕘 9. Evaluation Metrics](#s11)
+- [🕘 9. Benchmarks](#s11)
 - [🥰 Star History](#s12)
 
 ## 📚 Overview of Medical Imaging Anomaly Detection <div id = "s1"></div>
@@ -83,14 +83,6 @@
 </div>
 
 ## 🕒 3. AE-Based Approaches <div id = "s5"></div>
-
-- [[MedIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images** [:octocat:](https://github.com/caiyu6666/medianomaly)
-
-  *Cai, Yu and Zhang, Weiwen and Chen, Hao and Cheng, Kwang-Ting*
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/59e43d96-2bfc-4bce-ab5a-282cf2c06c3c" width="50%">
-</div>
 
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective** [:octocat:](https://github.com/caiyu6666/ae4ad)
 
@@ -265,7 +257,7 @@
   <img src="https://github.com/user-attachments/assets/38ced3db-a3d3-4dbb-8691-308739ac5a03" width="50%">
 </div>
   
-## 🕘 9. Evaluation Metrics <div id = "s11"></div>
+## 🕘 9. Benchmarks <div id = "s11"></div>
 
 - [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging**
 
@@ -273,6 +265,14 @@
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/03824efc-a4f8-4045-8114-8ed610015778" width="50%">
+</div>
+
+- [[MedIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images** [:octocat:](https://github.com/caiyu6666/medianomaly)
+
+  *Cai, Yu and Zhang, Weiwen and Chen, Hao and Cheng, Kwang-Ting*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/59e43d96-2bfc-4bce-ab5a-282cf2c06c3c" width="50%">
 </div>
 
 ## 🥰 Star History <div id = "s12"></div>
