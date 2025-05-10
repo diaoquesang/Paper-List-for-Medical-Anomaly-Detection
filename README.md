@@ -36,18 +36,18 @@
 
 
 ## 📇 Contents
-- [📚 Overview of Medical Imaging Anomaly Detection](#s1)
-- [✏️ Tips](#s2)
-- [🕐 1. Solving "Identical Shortcut"](#s3)
-- [🕑 2. Discriminative Learning](#s4)
-- [🕒 3. AE-Based Approaches](#s5)
-- [🕓 4. GAN-Based Approaches](#s6)
-- [🕔 5. Diffusion-Based Approaches](#s7)
-- [🕕 6. Multi-Modal Fusion](#s8)
-- [🕖 7. Vision Language Models](#s9)
-- [🕗 8. Knowledge Distillation](#s10)
-- [🕘 9. Benchmarks](#s11)
-- [🥰 Star History](#s12)
+- [**📚 Overview of Medical Imaging Anomaly Detection**](#s1)
+- [**✏️ Tips**](#s2)
+- [**🕐 1. Solving "Identical Shortcut"**](#s3)
+- [**🕑 2. Discriminative Learning**](#s4)
+- [**🕒 3. AE-Based Approaches**](#s5)
+- [**🕓 4. GAN-Based Approaches**](#s6)
+- [**🕔 5. Diffusion-Based Approaches**](#s7)
+- [**🕕 6. Multi-Modal Fusion**](#s8)
+- [**🕖 7. Vision Language Models**](#s9)
+- [**🕗 8. Knowledge Distillation**](#s10)
+- [**🕘 9. Benchmarks**](#s11)
+- [**🥰 Star History**](#s12)
 
 ## 📚 Overview of Medical Imaging Anomaly Detection <div id = "s1"></div>
 
