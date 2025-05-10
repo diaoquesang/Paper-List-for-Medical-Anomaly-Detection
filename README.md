@@ -237,6 +237,14 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/f5ed3f7b-d2cd-4291-8280-5a3c7934040f" width="50%">
 </div>
+
+- [[ICLR 2024]](https://openreview.net/forum?id=buC4E91xZE) **AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection** [:octocat:](https://github.com/zqhang/anomalyclip)
+
+  *Zhou, Qihang and Pang, Guansong and Tian, Yu and He, Shibo and Chen, Jiming*
+  
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2e56974f-5ac6-489e-b2b1-75cfa910e4cf" width="50%">
+</div>
   
 - [[MICCAI 2024]](https://arxiv.org/pdf/2405.11315) **Mediclip: Adapting CLIP for Few-shot Medical Image Anomaly Detection** [:octocat:](https://github.com/cnulab/mediclip)
 
