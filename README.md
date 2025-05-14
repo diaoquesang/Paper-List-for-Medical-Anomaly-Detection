@@ -1,8 +1,11 @@
 <div id = "top"></div>
 
+<div align="center">
 
 [![](https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=🌟%20Paper%20List%20for%20Medical%20Anomaly%20Detection&fontSize=30&fontAlignY=40)
 ](#top)
+
+</div>
 
 <div align="center">
   
