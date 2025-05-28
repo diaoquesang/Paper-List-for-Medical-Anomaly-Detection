@@ -140,6 +140,10 @@
   
 ## 🕔 5. Diffusion-Based Approaches <div id = "s7"></div>
 
+- [[CVPR 2025]](https://arxiv.org/abs/2406.01078) **Anomaly Anything: Promptable Unseen Visual Anomaly Generation** [:octocat:](https://github.com/EPFL-IMOS/AnomalyAny)
+
+  *Sun, Han and Cao, Yunkang and Dong, Hao and Fink, Olga*
+
 - [[WACV 2025]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet** [:octocat:](https://github.com/MAXNORM8650/Annotsim)
 
   *Kumar, Komal and Chakraborty, Snehashis and Mahapatra, Dwarikanath and Bozorgtabar, Behzad and Roy, Sudipta*
