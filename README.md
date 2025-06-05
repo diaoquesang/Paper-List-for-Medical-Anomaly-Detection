@@ -75,6 +75,11 @@
   <img src="https://github.com/user-attachments/assets/ab761cad-56ed-4b6d-8d6d-c333762b992c" width="50%">
 </div>
 
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
+
 ## 🕑 2. Discriminative Learning <div id = "s4"></div>
 
 - [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Cascaded_Generative_and_Discriminative_Learning_for_Microcalcification_Detection_in_Breast_CVPR_2019_paper.pdf) **Cascaded Generative and Discriminative Learning for Microcalcification Detection in Breast Mammograms**
@@ -94,6 +99,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/25d5c2b4-d2d9-4d1a-a90e-c8651dc01f9d" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 - [[ICLR 2023]](https://openreview.net/pdf?id=9OmCr1q54Z) **AE-FLOW: Autoencoders with Normalizing Flows for Medical Images Anomaly Detection**
 
@@ -102,6 +112,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/cb07b128-80eb-4c1b-b606-664e2a866675" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 - [[MedIA 2023]](https://arxiv.org/pdf/2301.08330) **The Role of Noise in Denoising Models for Anomaly Detection in Medical Images** [:octocat:](https://github.com/antanaskascenas/denoisingae)
 
@@ -110,6 +125,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/eb0d29f9-1697-423a-83c3-a111a3097182" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 ## 🕓 4. GAN-Based Approaches <div id = "s6"></div>
 
@@ -120,6 +140,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/f05671aa-c0d5-45a8-a4a7-9afec22e84a5" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 - [[PR 2024]](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3178214/2229397_Article_.pdf?sequence=1) **Anomaly Detection via Gating Highway Connection for Retinal Fundus Images** [:octocat:](https://github.com/WentianZhang-ML/GatingAno)
 
@@ -128,6 +153,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/b017215e-0998-4e63-97f9-7a5271756c68" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 - [[CVPR 2023]](http://openaccess.thecvf.com/content/CVPR2023/papers/Xiang_SQUID_Deep_Feature_In-Painting_for_Unsupervised_Anomaly_Detection_CVPR_2023_paper.pdf) **SQUID: Deep Feature In-Painting for Unsupervised Anomaly Detection** [:octocat:](https://github.com/tiangexiang/squid)
 
@@ -137,6 +167,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/8ed73cd7-6b22-4e7e-be06-4d5c97e7ab80" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 ## 🕔 5. Diffusion-Based Approaches <div id = "s7"></div>
 
@@ -148,6 +183,11 @@
   <img src="https://github.com/user-attachments/assets/dfc56b79-f820-49dd-9d38-683836852289" width="50%">
 </div>
 
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
+
 - [[WACV 2025]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet** [:octocat:](https://github.com/MAXNORM8650/Annotsim)
 
   *Kumar, Komal and Chakraborty, Snehashis and Mahapatra, Dwarikanath and Bozorgtabar, Behzad and Roy, Sudipta*
@@ -155,6 +195,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9e601d52-d982-437e-9b69-b1ade659d54b" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 - [[TMI 2024]](https://arxiv.org/pdf/2308.02062) **Diffusion Models for Counterfactual Generation and Anomaly Detection in Brain lmages** [:octocat:](https://github.com/alessandro-f/dif-fuse)
 
@@ -163,6 +208,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/48f34db0-8ffb-494d-830f-8ce4b79bd00e" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.08464) **Diffusion Models with Implicit Guidance for Medical Anomaly Detection** [:octocat:](https://github.com/ci-ber/thor_ddpm)
 
@@ -171,6 +221,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/b5860d4f-eaaf-44bf-a0ea-1279f7d35446" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 - [[MIDL 2024]](https://proceedings.mlr.press/v227/behrendt24a/behrendt24a.pdf) **Patched Diffusion Models for Unsupervised Anomaly Detection in Brain MRI** [:octocat:](https://github.com/finnbehrendt/patched-diffusion-models-uad)
 
@@ -180,6 +235,11 @@
   <img src="https://github.com/user-attachments/assets/e5a30138-71c4-4a12-a78b-5ae3c48a3c59" width="50%">
 </div>
 
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
+
 - [[UNSURE 2024]](https://link.springer.com/chapter/10.1007/978-3-031-73158-7_11) **Image-Conditioned Diffusion Models for Medical Anomaly Detection**
 
   *Baugh, Matthew and Reynaud, Hadrien and Marimont, Sergio Naval and Cechnicka, Sarah and M{\"u}ller, Johanna P and Tarroni, Giacomo and Kainz, Bernhard*
@@ -188,6 +248,11 @@
   <img src="https://github.com/user-attachments/assets/e4bd523f-f71e-45ed-825c-9024144a6fdc" width="50%">
 </div>
 
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
+
 - [[CVPR 2022]](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Wyatt_AnoDDPM_Anomaly_Detection_With_Denoising_Diffusion_Probabilistic_Models_Using_Simplex_CVPRW_2022_paper.pdf) **AnoDDPM: Anomaly Detection with Denoising Diffusion Probabilistic Models using Simplex Noise** [:octocat:](https://github.com/julian-wyatt/anoddpm)
 
   *Wyatt, Julian and Leach, Adam and Schmon, Sebastian M and Willcocks, Chris G*
@@ -195,6 +260,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/5e738dcc-ba84-4446-b996-9cc493f37bb9" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 - [[MICCAI 2022]](https://arxiv.org/pdf/2203.04306) **Diffusion Models for Medical Anomaly Detection** [:octocat:](https://github.com/JuliaWolleb/diffusion-anomaly)
 
@@ -203,6 +273,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/d26c0351-cf7d-4e8c-84d4-66f081f370ad" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 ## 🕕 6. Multi-Modal Fusion <div id = "s8"></div>
 
@@ -213,6 +288,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/73accda9-cf6e-4e65-a358-15977e521198" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.17297) **Revisiting Multimodal Fusion for 3D Anomaly Detection from an Architectural Perspective**
 
@@ -221,6 +301,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/2dd4d4f9-dbb5-4dee-b271-3deaa56ea093" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
   
 ## 🕖 7. Vision Language Models <div id = "s9"></div>
@@ -233,6 +318,11 @@
   <img src="https://github.com/user-attachments/assets/86849a66-3de5-4fec-9120-57b5b98aec11" width="50%">
 </div>
 
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
+
 - [[NeurIPS 2024]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8f4477b086a9c97e30d1a0621ea6b2f5-Abstract-Conference.html) **One-to-Normal: Anomaly Personalization for Few-shot Anomaly Detection**
 
   *Li, Yiyue and Zhang, Shaoting and Li, Kang and Lao, Qicheng*
@@ -241,6 +331,11 @@
   <img src="https://github.com/user-attachments/assets/ed1c9537-0238-4bb1-b7d9-df0b7148e3d7" width="50%">
 </div>
 
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
+
 - [[CVPR 2024]](http://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Toward_Generalist_Anomaly_Detection_via_In-context_Residual_Learning_with_Few-shot_CVPR_2024_paper.pdf) **Toward Generalist Anomaly Detection via In-context Residual Learning with Few-shot Sample Prompts** [:octocat:](https://github.com/mala-lab/inctrl)
 
   *Zhu, Jiawen and Pang, Guansong*
@@ -248,6 +343,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/98f8cda7-31e2-4205-a374-f57074a36e00" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 - [[CVPR 2024]](https://arxiv.org/abs/2403.12570) **Adapting Visual-Language Models for Generalizable Anomaly Detection in Medical Images** [:octocat:](https://github.com/mediabrain-sjtu/mvfa-ad)
 
@@ -257,6 +357,11 @@
   <img src="https://github.com/user-attachments/assets/f5ed3f7b-d2cd-4291-8280-5a3c7934040f" width="50%">
 </div>
 
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
+
 - [[ICLR 2024]](https://openreview.net/forum?id=buC4E91xZE) **AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection** [:octocat:](https://github.com/zqhang/anomalyclip)
 
   *Zhou, Qihang and Pang, Guansong and Tian, Yu and He, Shibo and Chen, Jiming*
@@ -264,6 +369,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/2e56974f-5ac6-489e-b2b1-75cfa910e4cf" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 - [[MICCAI 2024]](https://arxiv.org/pdf/2405.11315) **Mediclip: Adapting CLIP for Few-shot Medical Image Anomaly Detection** [:octocat:](https://github.com/cnulab/mediclip)
 
@@ -272,6 +382,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9c1c39d0-b284-4ae2-b7f9-a5a62315b16c" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 ## 🕗 8. Knowledge Distillation <div id = "s10"></div>
 
@@ -283,6 +398,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/38ced3db-a3d3-4dbb-8691-308739ac5a03" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
   
 ## 🕘 9. Benchmarks <div id = "s11"></div>
 
@@ -294,6 +414,11 @@
   <img src="https://github.com/user-attachments/assets/03824efc-a4f8-4045-8114-8ed610015778" width="50%">
 </div>
 
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
+
 - [[MedIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images** [:octocat:](https://github.com/caiyu6666/medianomaly)
 
   *Cai, Yu and Zhang, Weiwen and Chen, Hao and Cheng, Kwang-Ting*
@@ -302,6 +427,11 @@
   <img src="https://github.com/user-attachments/assets/59e43d96-2bfc-4bce-ab5a-282cf2c06c3c" width="50%">
 </div>
 
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
+
 - [[CVPR 2024]](https://openaccess.thecvf.com/content/CVPR2024W/VAND/html/Bao_BMAD_Benchmarks_for_Medical_Anomaly_Detection_CVPRW_2024_paper.html) **BMAD: Benchmarks for Medical Anomaly Detection** [:octocat:](https://github.com/dorisbao/bmad)
 
   *Bao, Jinan and Sun, Hanshi and Deng, Hanqiu and He, Yinsheng and Zhang, Zhaoxiang and Li, Xingyu*
@@ -309,6 +439,11 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/8c64c38c-2485-4c9c-ab85-9aeb3386fb9d" width="50%">
 </div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
 
 ## 🥰 Star History <div id = "s12"></div>
 [![Star History Chart](https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Date)](https://star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Date)
