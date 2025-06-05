@@ -179,7 +179,15 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/e5a30138-71c4-4a12-a78b-5ae3c48a3c59" width="50%">
 </div>
-  
+
+- [[UNSURE 2024]](https://link.springer.com/chapter/10.1007/978-3-031-73158-7_11) **Image-Conditioned Diffusion Models for Medical Anomaly Detection**
+
+  *Baugh, Matthew and Reynaud, Hadrien and Marimont, Sergio Naval and Cechnicka, Sarah and M{\"u}ller, Johanna P and Tarroni, Giacomo and Kainz, Bernhard*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e4bd523f-f71e-45ed-825c-9024144a6fdc" width="50%">
+</div>
+
 - [[CVPR 2022]](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Wyatt_AnoDDPM_Anomaly_Detection_With_Denoising_Diffusion_Probabilistic_Models_Using_Simplex_CVPRW_2022_paper.pdf) **AnoDDPM: Anomaly Detection with Denoising Diffusion Probabilistic Models using Simplex Noise** [:octocat:](https://github.com/julian-wyatt/anoddpm)
 
   *Wyatt, Julian and Leach, Adam and Schmon, Sebastian M and Willcocks, Chris G*
