@@ -90,6 +90,11 @@
   <img src="https://github.com/user-attachments/assets/41569c42-7921-4602-9a35-cad58b06147e" width="50%">
 </div>
 
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+
+</details>
+
 ## 🕒 3. AE-Based Approaches <div id = "s5"></div>
 
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective** [:octocat:](https://github.com/caiyu6666/ae4ad)
