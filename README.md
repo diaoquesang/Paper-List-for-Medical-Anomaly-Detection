@@ -77,7 +77,7 @@
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Despite the rapid advance of unsupervised anomaly detection, existing methods require to train separate models for different objects. In this work, we present UniAD that accomplishes anomaly detection for multiple classes with a unified framework. Under such a challenging setting, popular reconstruction networks may fall into an" identical shortcut", where both normal and anomalous samples can be well recovered, and hence fail to spot outliers. To tackle this obstacle, we make three improvements. First, we revisit the formulations of fully-connected layer, convolutional layer, as well as attention layer, and confirm the important role of query embedding (ie, within attention layer) in preventing the network from learning the shortcut. We therefore come up with a layer-wise query decoder to help model the multi-class distribution. Second, we employ a neighbor masked attention module to further avoid the information leak from the input feature to the reconstructed output feature. Third, we propose a feature jittering strategy that urges the model to recover the correct message even with noisy inputs. We evaluate our algorithm on MVTec-AD and CIFAR-10 datasets, where we surpass the state-of-the-art alternatives by a sufficiently large margin. For example, when learning a unified model for 15 categories in MVTec-AD, we surpass the second competitor on the tasks of both anomaly detection (from 88.1% to 96.5%) and anomaly localization (from 89.5% to 96.8%). Code is available at https://github.com/zhiyuanyou/UniAD.
 </details>
 
 ## 🕑 2. Discriminative Learning <div id = "s4"></div>
@@ -92,7 +92,7 @@
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Accurate microcalcification (mC) detection is of great importance due to its high proportion in early breast cancers. Most of the previous mC detection methods belong to discriminative models, where classifiers are exploited to distinguish mCs from other backgrounds. However, it is still challenging for these methods to tell the mCs from amounts of normal tissues because they are too tiny (at most 14 pixels). Generative methods can precisely model the normal tissues and regard the abnormal ones as outliers, while they fail to further distinguish the mCs from other anomalies, ie vessel calcifications. In this paper, we propose a hybrid approach by taking advantages of both generative and discriminative models. Firstly, a generative model named Anomaly Separation Network (ASN) is used to generate candidate mCs. ASN contains two major components. A deep convolutional encoder-decoder network is built to learn the image reconstruction mapping and a t-test loss function is designed to separate the distributions of the reconstruction residuals of mCs from normal tissues. Secondly, a discriminative model is cascaded to tell the mCs from the false positives. Finally, to verify the effectiveness of our method, we conduct experiments on both public and in-house datasets, which demonstrates that our approach outperforms previous state-of-the-art methods.
 </details>
 
 ## 🕒 3. AE-Based Approaches <div id = "s5"></div>
@@ -107,7 +107,7 @@
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Medical anomaly detection aims to identify abnormal findings using only normal training data, playing a crucial role in health screening and recognizing rare diseases. Reconstruction-based methods, particularly those utilizing autoencoders (AEs), are dominant in this field. They work under the assumption that AEs trained on only normal data cannot reconstruct unseen abnormal regions well, thereby enabling the anomaly detection based on reconstruction errors. However, this assumption does not always hold due to the mismatch between the reconstruction training objective and the anomaly detection task objective, rendering these methods theoretically unsound. This study focuses on providing a theoretical foundation for AE-based reconstruction methods in anomaly detection. By leveraging information theory, we elucidate the principles of these methods and reveal that the key to improving AE in anomaly detection lies in minimizing the information entropy of latent vectors. Experiments on four datasets with two image modalities validate the effectiveness of our theory. To the best of our knowledge, this is the first effort to theoretically clarify the principles and design philosophy of AE for anomaly detection. The code is available at https://github.com/caiyu6666/AE4AD.
 </details>
   
 - [[ICLR 2023]](https://openreview.net/pdf?id=9OmCr1q54Z) **AE-FLOW: Autoencoders with Normalizing Flows for Medical Images Anomaly Detection**
@@ -120,7 +120,7 @@
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Anomaly detection from medical images is an important task for clinical screening and diagnosis. In general, a large dataset of normal images are available while only few abnormal images can be collected in clinical practice. By mimicking the diagnosis process of radiologists, we attempt to tackle this problem by learning a tractable distribution of normal images and identify anomalies by differentiating the original image and the reconstructed normal image. More specifically, we propose a normalizing flow-based autoencoder for an efficient and tractable representation of normal medical images. The anomaly score consists of the likelihood originated from the normalizing flow and the reconstruction error of the autoencoder, which allows to identify the abnormality and provide an interpretability at both image and pixel levels. Experimental evaluation on two medical images datasets showed that the proposed model outperformed the other approaches by a large margin, which validated the effectiveness and robustness of the proposed method.
 </details>
   
 - [[MedIA 2023]](https://arxiv.org/pdf/2301.08330) **The Role of Noise in Denoising Models for Anomaly Detection in Medical Images** [:octocat:](https://github.com/antanaskascenas/denoisingae)
@@ -133,7 +133,7 @@
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Pathological brain lesions exhibit diverse appearance in brain images, in terms of intensity, texture, shape, size, and location. Comprehensive sets of data and annotations are difficult to acquire. Therefore, unsupervised anomaly detection approaches have been proposed using only normal data for training, with the aim of detecting outlier anomalous voxels at test time. Denoising methods, for instance classical denoising autoencoders (DAEs) and more recently emerging diffusion models, are a promising approach, however naive application of pixelwise noise leads to poor anomaly detection performance. We show that optimization of the spatial resolution and magnitude of the noise improves the performance of different model training regimes, with similar noise parameter adjustments giving good performance for both DAEs and diffusion models. Visual inspection of the reconstructions suggests that the training noise influences the trade-off between the extent of the detail that is reconstructed and the extent of erasure of anomalies, both of which contribute to better anomaly detection performance. We validate our findings on two real-world datasets (tumor detection in brain MRI and hemorrhage/ischemia/tumor detection in brain CT), showing good detection on diverse anomaly appearances. Overall, we find that a DAE trained with coarse noise is a fast and simple method that gives state-of-the-art accuracy. Diffusion models applied to anomaly detection are as yet in their infancy and provide a promising avenue for further research. Code for our DAE model and coarse noise is provided at: https://github.com/AntanasKascenas/DenoisingAE.
 </details>
   
 ## 🕓 4. GAN-Based Approaches <div id = "s6"></div>
