@@ -148,7 +148,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+In this study, a new Anomaly Detection (AD) approach for industrial and medical images is proposed. This method leverages the theoretical strengths of unsupervised learning and the data availability of both normal and abnormal classes. Indeed, the AD is often formulated as an unsupervised task, implying only normal images during training. These normal images are devoted to be reconstructed through an autoencoder architecture, for instance. However, the information contained in abnormal data, when available, is also valuable for this reconstruction. The model would be able to identify its weaknesses by also learning how to transform an abnormal image into a normal one. This abnormal-to-normal reconstruction helps the entire model to learn better than a single normal-to-normal reconstruction. To be able to exploit abnormal images, the proposed method uses Cycle-Generative Adversarial Networks (Cycle-GAN) for (ab)normal-to-normal translation. After an input image has been reconstructed by the normal generator, an anomaly score quantifies the differences between the input and its reconstruction. Based on a threshold set to satisfy a business quality constraint, the input image is then flagged as normal or not. The proposed method is evaluated on industrial and medical datasets. The results demonstrate accurate performance with a zero false negative constraint compared to state-of-the-art methods. Quantitatively, our method reaches an accuracy under a zero false negative constraint of 79.89%, representing an improvement of about 17% compared to competitors. The code is available at https://github.com/ValDelch/CycleGANS-AnomalyDetection.
 </details>
   
 - [[PR 2024]](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3178214/2229397_Article_.pdf?sequence=1) **Anomaly Detection via Gating Highway Connection for Retinal Fundus Images** [:octocat:](https://github.com/WentianZhang-ML/GatingAno)
@@ -161,7 +161,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Since the labels for medical images are challenging to collect in real scenarios, especially for rare diseases, fully supervised methods cannot achieve robust performance for clinical anomaly detection. Recent research tried to tackle this problem by training the anomaly detection framework using only normal data. Reconstruction-based methods, e.g., auto-encoder, achieved impressive performances in the anomaly detection task. However, most existing methods adopted the straightforward backbone architecture (i.e., encoder-and-decoder) for image reconstruction. The design of a skip connection, which can directly transfer information between the encoder and decoder, is rarely used. Since the existing U-Net has demonstrated the effectiveness of skip connections for image reconstruction tasks, in this paper, we first use the dynamic gating strategy to achieve the usage of skip connections in existing reconstruction-based anomaly detection methods and then propose a novel gating highway connection module to adaptively integrate skip connections into the framework and boost its anomaly detection performance, namely GatingAno. Furthermore, we formulate an auxiliary task, namely histograms of oriented gradients (HOG) prediction, to encourage the framework to exploit contextual information from fundus images in a self-driven manner, which increases the robustness of feature representation extracted from the healthy samples. Last but not least, to improve the model generalization for anomalous data, we introduce an adversarial strategy for the training of our multi-task framework. Experimental results on the publicly available datasets, i.e., IDRiD and ADAM, validate the superiority of our method for detecting abnormalities in retinal fundus images. The source code is available at https://github.com/WentianZhang-ML/GatingAno.
 </details>
   
 - [[CVPR 2023]](http://openaccess.thecvf.com/content/CVPR2023/papers/Xiang_SQUID_Deep_Feature_In-Painting_for_Unsupervised_Anomaly_Detection_CVPR_2023_paper.pdf) **SQUID: Deep Feature In-Painting for Unsupervised Anomaly Detection** [:octocat:](https://github.com/tiangexiang/squid)
@@ -175,7 +175,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Radiography imaging protocols focus on particular body regions, therefore producing images of great similarity and yielding recurrent anatomical structures across patients. To exploit this structured information, we propose the use of Space-aware Memory Queues for In-painting and Detecting anomalies from radiography images (abbreviated as SQUID). We show that SQUID can taxonomize the ingrained anatomical structures into recurrent patterns; and in the inference, it can identify anomalies (unseen/modified patterns) in the image. SQUID surpasses 13 state-of-the-art methods in unsupervised anomaly detection by at least 5 points on two chest X-ray benchmark datasets measured by the Area Under the Curve (AUC). Additionally, we have created a new dataset (DigitAnatomy), which synthesizes the spatial correlation and consistent shape in chest anatomy. We hope DigitAnatomy can prompt the development, evaluation, and interpretability of anomaly detection methods.
 </details>
   
 ## 🕔 5. Diffusion-Based Approaches <div id = "s7"></div>
@@ -190,7 +190,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Visual anomaly detection (AD) presents significant challenges due to the scarcity of anomalous data samples. While numerous works have been proposed to synthesize anomalous samples, these synthetic anomalies often lack authenticity or require extensive training data, limiting their applicability in real-world scenarios. In this work, we propose Anomaly Anything (AnomalyAny), a novel framework that leverages Stable Diffusion (SD)’s image generation capabilities to generate diverse and realistic unseen anomalies. By conditioning on a single normal sample during test time, AnomalyAny is able to generate unseen anomalies for arbitrary object types with text descriptions. Within AnomalyAny, we propose attention-guided anomaly optimization to direct SD’s attention on generating hard anomaly concepts. Additionally, we introduce prompt-guided anomaly refinement, incorporating detailed descriptions to further improve the generation quality. Extensive experiments on MVTec AD and VisA datasets demonstrate AnomalyAny’s ability in generating high-quality unseen anomalies and its effectiveness in enhancing downstream AD performance. Our demo and code are available at https://hansunhayden.github.io/AnomalyAny.github.io/.
 </details>
 
 - [[WACV 2025]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet** [:octocat:](https://github.com/MAXNORM8650/Annotsim)
@@ -203,7 +203,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+A robust anomaly detection mechanism should possess the capability to effectively remediate anomalies, restoring them to a healthy state, while preserving essential healthy information. Despite the efficacy of existing generative models in learning the underlying distribution of healthy reference data, they face primary challenges when it comes to efficiently repair larger anomalies or anomalies situated near high pixel-density regions. In this paper, we introduce a self-supervised anomaly detection method based on a diffusion model that samples from multi-frequency, four-dimensional simplex noise and makes predictions using our proposed Dynamic Transformer UNet (DTUNet). This simplex-based noise function helps address primary problems to some extent and is scalable for three-dimensional and colored images. In the evolution of ViT, our developed architecture serving as the backbone for the diffusion model, is tailored to treat time and noise image patches as tokens. We incorporate long skip connections bridging the shallow and deep layers, along with smaller skip connections within these layers. Furthermore, we integrate a partial diffusion Markov process, which reduces sampling time, thus enhancing scalability. Our method surpasses existing generative-based anomaly detection methods across three diverse datasets, which include BrainMRI, Brats2021, and the MVtec dataset. It achieves an average improvement of +10.1% in Dice coefficient, +10.4% in IOU, and +9.6% in AUC. Our source code is made publicly available on Github.
 </details>
   
 - [[TMI 2024]](https://arxiv.org/pdf/2308.02062) **Diffusion Models for Counterfactual Generation and Anomaly Detection in Brain lmages** [:octocat:](https://github.com/alessandro-f/dif-fuse)
@@ -216,7 +216,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Segmentation masks of pathological areas are useful in many medical applications, such as brain tumour and stroke management. Moreover, healthy counterfactuals of diseased images can be used to enhance radiologists’ training files and to improve the interpretability of segmentation models. In this work, we present a weakly supervised method to generate a healthy version of a diseased image and then use it to obtain a pixel-wise anomaly map. To do so, we start by considering a saliency map that approximately covers the pathological areas, obtained with ACAT. Then, we propose a technique that allows to perform targeted modifications to these regions, while preserving the rest of the image. In particular, we employ a diffusion model trained on healthy samples and combine Denoising Diffusion Probabilistic Model (DDPM) and Denoising Diffusion Implicit Model (DDIM) at each step of the sampling process. DDPM is used to modify the areas affected by a lesion within the saliency map, while DDIM guarantees reconstruction of the normal anatomy outside of it. The two parts are also fused at each timestep, to guarantee the generation of a sample with a coherent appearance and a seamless transition between edited and unedited parts. We verify that when our method is applied to healthy samples, the input images are reconstructed without significant modifications. We compare our approach with alternative weakly supervised methods on the task of brain lesion segmentation, achieving the highest mean Dice and IoU scores among the models considered.
 </details>
   
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.08464) **Diffusion Models with Implicit Guidance for Medical Anomaly Detection** [:octocat:](https://github.com/ci-ber/thor_ddpm)
@@ -229,7 +229,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Diffusion models have advanced unsupervised anomaly detection by improving the transformation of pathological images into pseudo-healthy equivalents. Nonetheless, standard approaches may compromise critical information during pathology removal, leading to restorations that do not align with unaffected regions in the original scans. Such discrepancies can inadvertently increase false positive rates and reduce specificity, complicating radiological evaluations. This paper introduces Temporal Harmonization for Optimal Restoration (THOR), which refines the reverse diffusion process by integrating implicit guidance through intermediate masks. THOR aims to preserve the integrity of healthy tissue details in reconstructed images, ensuring fidelity to the original scan in areas unaffected by pathology. Comparative evaluations reveal that THOR surpasses existing diffusion-based methods in retaining detail and precision in image restoration and detecting and segmenting anomalies in brain MRIs and wrist X-rays. Code: https://github.com/compai-lab/2024-miccai-bercea-thor.git.
 </details>
   
 - [[MIDL 2024]](https://proceedings.mlr.press/v227/behrendt24a/behrendt24a.pdf) **Patched Diffusion Models for Unsupervised Anomaly Detection in Brain MRI** [:octocat:](https://github.com/finnbehrendt/patched-diffusion-models-uad)
@@ -242,7 +242,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+The use of supervised deep learning techniques to detect pathologies in brain MRI scans can be challenging due to the diversity of brain anatomy and the need for annotated data sets. An alternative approach is to use unsupervised anomaly detection, which only requires sample-level labels of healthy brains to create a reference representation. This reference representation can then be compared to unhealthy brain anatomy in a pixel-wise manner to identify abnormalities. To accomplish this, generative models are needed to create anatomically consistent MRI scans of healthy brains. While recent diffusion models have shown promise in this task, accurately generating the complex structure of the human brain remains a challenge. In this paper, we propose a method that reformulates the generation task of diffusion models as a patch-based estimation of healthy brain anatomy, using spatial context to guide and improve reconstruction. We evaluate our approach on data of tumors and multiple sclerosis lesions and demonstrate a relative improvement of 25.1% compared to existing baselines.
 </details>
 
 - [[UNSURE 2024]](https://link.springer.com/chapter/10.1007/978-3-031-73158-7_11) **Image-Conditioned Diffusion Models for Medical Anomaly Detection**
@@ -255,7 +255,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Generating pseudo-healthy reconstructions of images is an effective way to detect anomalies, as identifying the differences between the reconstruction and the original can localise arbitrary anomalies whilst also providing interpretability for an observer by displaying what the image ‘should’ look like. All existing reconstruction-based methods have a common shortcoming; they assume that models trained on purely normal data are incapable of reproducing pathologies yet also able to fully maintain healthy tissue. These implicit assumptions often fail, with models either not recovering normal regions or reproducing both the normal and abnormal features. We rectify this issue using image-conditioned diffusion models. Our model takes the input image as conditioning and is explicitly trained to correct synthetic anomalies introduced into healthy images, ensuring that it removes anomalies at test time. This conditioning allows the model to attend to the entire image without any loss of information, enabling it to replicate healthy regions with high fidelity. We evaluate our method across four datasets and define a new state-of-the-art performance for residual-based anomaly detection. Code is available at https://github.com/matt-baugh/img-cond-diffusion-model-ad.
 </details>
 
 - [[CVPR 2022]](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Wyatt_AnoDDPM_Anomaly_Detection_With_Denoising_Diffusion_Probabilistic_Models_Using_Simplex_CVPRW_2022_paper.pdf) **AnoDDPM: Anomaly Detection with Denoising Diffusion Probabilistic Models using Simplex Noise** [:octocat:](https://github.com/julian-wyatt/anoddpm)
@@ -268,7 +268,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Generative models have been shown to provide a powerful mechanism for anomaly detection by learning to model healthy or normal reference data which can subsequently be used as a baseline for scoring anomalies. In this work we consider denoising diffusion probabilistic models (DDPMs) for unsupervised anomaly detection. DDPMs have superior mode coverage over generative adversarial networks (GANs) and higher sample quality than variational autoencoders (VAEs). However, this comes at the expense of poor scalability and increased sampling times due to the long Markov chain sequences required. We observe that within reconstruction-based anomaly detection a full-length Markov chain diffusion is not required. This leads us to develop a novel partial diffusion anomaly detection strategy that scales to high-resolution imagery, named AnoDDPM. A secondary problem is that Gaussian diffusion fails to capture larger anomalies; therefore we develop a multi-scale simplex noise diffusion process that gives control over the target anomaly size. AnoDDPM with simplex noise is shown to significantly outperform both f-AnoGAN and Gaussian diffusion for the tumorous dataset of 22 T1-weighted MRI scans (CCBS Edinburgh) qualitatively and quantitatively (improvement of+ 25.5% Sorensen-Dice coefficient,+ 17.6% IoU and+ 7.4% AUC).
 </details>
   
 - [[MICCAI 2022]](https://arxiv.org/pdf/2203.04306) **Diffusion Models for Medical Anomaly Detection** [:octocat:](https://github.com/JuliaWolleb/diffusion-anomaly)
@@ -281,7 +281,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+In medical applications, weakly supervised anomaly detection methods are of great interest, as only image-level annotations are required for training. Current anomaly detection methods mainly rely on generative adversarial networks or autoencoder models. Those models are often complicated to train or have difficulties to preserve fine details in the image. We present a novel weakly supervised anomaly detection method based on denoising diffusion implicit models. We combine the deterministic iterative noising and denoising scheme with classifier guidance for image-to-image translation between diseased and healthy subjects. Our method generates very detailed anomaly maps without the need for a complex training procedure. We evaluate our method on the BRATS2020 dataset for brain tumor detection and the CheXpert dataset for detecting pleural effusions.
 </details>
   
 ## 🕕 6. Multi-Modal Fusion <div id = "s8"></div>
@@ -296,7 +296,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+The fusion of optical coherence tomography (OCT) and fundus modality information can provide a comprehensive diagnosis for retinal artery occlusion (RAO) disease, where OCT provides the cross-sectional examination of the fundus image. Given multi-modal retinal images, an anomaly diagnosis model can discriminate RAO without the need for real diseased samples. Despite this, previous studies have only focused on single-modal diagnosis, because of: 1) the lack of paired modality samples; and 2) the significant imaging differences, which make the fusion difficult with small-scale medical data. In this paper, we describe how we first built a multi-modal RAO dataset including both OCT and fundus modalities, which supports both the anomaly detection and localization tasks with pixel-level annotation. Motivated by the powerful generalization ability of the recent visual foundation model known as the Segment Anything Model (SAM), we adapted it for our task considering the small-scale property of retinal samples. Specifically, a modality-shared decoder with task-specific tokens is introduced to make SAM support the multi-modal image setting, which includes a mask token for the anomaly localization task at the pixel level and a fusion token for the anomaly detection task at the case level. Since SAM has little medical knowledge and lacks the learning of the “normal” concept, it is infeasible to localize RAO anomalies in the zero-shot manner. To integrate expert retinal knowledge while keeping the general segmentation knowledge, general anomaly simulation for both modalities and a low-level prompt-tuning strategy are introduced. The experiments conducted in this study show that the adapted model can surpass the state-of-the-art model by a large margin. This study sets the first benchmark for the multi-modal anomaly detection and localization tasks in the medical community. The code is available at https://github.com/Jingtao-Li-CVer/MMRAD.
 </details>
   
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.17297) **Revisiting Multimodal Fusion for 3D Anomaly Detection from an Architectural Perspective**
@@ -309,7 +309,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Existing efforts to boost multimodal fusion of 3D anomaly detection (3D-AD) primarily concentrate on devising more effective multimodal fusion strategies. However, little attention was devoted to analyzing the role of multimodal fusion architecture (topology) design in contributing to 3D-AD. In this paper, we aim to bridge this gap and present a systematic study on the impact of multimodal fusion architecture design on 3D-AD. This work considers the multimodal fusion architecture design at the intra-module fusion level, ie, independent modality-specific modules, involving early, middle or late multimodal features with specific fusion operations, and also at the inter-module fusion level, ie, the strategies to fuse those modules. In both cases, we first derive insights through theoretically and experimentally exploring how architectural designs influence 3D-AD. Then, we extend SOTA neural architecture search (NAS) paradigm and propose 3D-ADNAS to simultaneously search across multimodal fusion strategies and modality-specific modules for the first time. Extensive experiments show that 3D-ADNAS obtains consistent improvements in 3D-AD across various model capacities in terms of accuracy, frame rate, and memory usage, and it exhibits great potential in dealing with few-shot 3D-AD tasks.
 </details>
   
   
@@ -325,7 +325,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Anomaly detection (AD) identifies outliers for applications like defect and lesion detection. While CLIP shows promise for zero-shot AD tasks due to its strong generalization capabilities, its inherent Anomaly-Unawareness leads to limited discrimination between normal and abnormal features. To address this problem, we propose Anomaly-Aware CLIP (AA-CLIP), which enhances CLIP's anomaly discrimination ability in both text and visual spaces while preserving its generalization capability. AA-CLIP is achieved through a straightforward yet effective two-stage approach: it first creates anomaly-aware text anchors to differentiate normal and abnormal semantics clearly, then aligns patch-level visual features with these anchors for precise anomaly localization. This two-stage strategy, with the help of residual adapters, gradually adapts CLIP in a controlled manner, achieving effective AD while maintaining CLIP's class knowledge. Extensive experiments validate AA-CLIP as a resource-efficient solution for zero-shot AD tasks, achieving state-of-the-art results in industrial and medical applications. The code is available at https://github. com/Mwxinnn/AA-CLIP.
 </details>
 
 - [[NeurIPS 2024]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8f4477b086a9c97e30d1a0621ea6b2f5-Abstract-Conference.html) **One-to-Normal: Anomaly Personalization for Few-shot Anomaly Detection**
@@ -338,7 +338,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Traditional Anomaly Detection (AD) methods have predominantly relied on unsupervised learning from extensive normal data. Recent AD methods have evolved with the advent of large pre-trained vision-language models, enhancing few-shot anomaly detection capabilities. However, these latest AD methods still exhibit limitations in accuracy improvement. One contributing factor is their direct comparison of a query image's features with those of few-shot normal images. This direct comparison often leads to a loss of precision and complicates the extension of these techniques to more complex domains—an area that remains underexplored in a more refined and comprehensive manner. To address these limitations, we introduce the anomaly personalization method, which performs a personalized one-to-normal transformation of query images using an anomaly-free customized generation model, ensuring close alignment with the normal manifold. Moreover, to further enhance the stability and robustness of prediction results, we propose a triplet contrastive anomaly inference strategy, which incorporates a comprehensive comparison between the query and generated anomaly-free data pool and prompt information. Extensive evaluations across eleven datasets in three domains demonstrate our model's effectiveness compared to the latest AD methods. Additionally, our method has been proven to transfer flexibly to other AD methods, with the generated image data effectively improving the performance of other AD methods.
 </details>
 
 - [[CVPR 2024]](http://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Toward_Generalist_Anomaly_Detection_via_In-context_Residual_Learning_with_Few-shot_CVPR_2024_paper.pdf) **Toward Generalist Anomaly Detection via In-context Residual Learning with Few-shot Sample Prompts** [:octocat:](https://github.com/mala-lab/inctrl)
@@ -351,7 +351,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+This paper explores the problem of Generalist Anomaly Detection (GAD) aiming to train one single detection model that can generalize to detect anomalies in diverse datasets from different application domains without any further training on the target data. Some recent studies have shown that large pre-trained Visual-Language Models (VLMs) like CLIP have strong generalization capabilities on detecting industrial defects from various datasets but their methods rely heavily on handcrafted text prompts about defects making them difficult to generalize to anomalies in other applications eg medical image anomalies or semantic anomalies in natural images. In this work we propose to train a GAD model with few-shot normal images as sample prompts for AD on diverse datasets on the fly. To this end we introduce a novel approach that learns an in-context residual learning model for GAD termed InCTRL. It is trained on an auxiliary dataset to discriminate anomalies from normal samples based on a holistic evaluation of the residuals between query images and few-shot normal sample prompts. Regardless of the datasets per definition of anomaly larger residuals are expected for anomalies than normal samples thereby enabling InCTRL to generalize across different domains without further training. Comprehensive experiments on nine AD datasets are performed to establish a GAD benchmark that encapsulate the detection of industrial defect anomalies medical anomalies and semantic anomalies in both one-vs-all and multi-class setting on which InCTRL is the best performer and significantly outperforms state-of-the-art competing methods. Code is available at https://github. com/mala-lab/InCTRL.
 </details>
   
 - [[CVPR 2024]](https://arxiv.org/abs/2403.12570) **Adapting Visual-Language Models for Generalizable Anomaly Detection in Medical Images** [:octocat:](https://github.com/mediabrain-sjtu/mvfa-ad)
@@ -364,7 +364,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Recent advancements in large-scale visual-language pre-trained models have led to significant progress in zero-/few-shot anomaly detection within natural image domains. However the substantial domain divergence between natural and medical images limits the effectiveness of these methodologies in medical anomaly detection. This paper introduces a novel lightweight multi-level adaptation and comparison framework to repurpose the CLIP model for medical anomaly detection. Our approach integrates multiple residual adapters into the pre-trained visual encoder enabling a stepwise enhancement of visual features across different levels. This multi-level adaptation is guided by multi-level pixel-wise visual-language feature alignment loss functions which recalibrate the model's focus from object semantics in natural imagery to anomaly identification in medical images. The adapted features exhibit improved generalization across various medical data types even in zero-shot scenarios where the model encounters unseen medical modalities and anatomical regions during training. Our experiments on medical anomaly detection benchmarks demonstrate that our method significantly surpasses current state-of-the-art models with an average AUC improvement of 6.24% and 7.33% for anomaly classification 2.03% and 2.37% for anomaly segmentation under the zero-shot and few-shot settings respectively. Source code is available at: https://github.com/MediaBrain-SJTU/MVFA-AD.
 </details>
 
 - [[ICLR 2024]](https://openreview.net/forum?id=buC4E91xZE) **AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection** [:octocat:](https://github.com/zqhang/anomalyclip)
@@ -377,7 +377,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Zero-shot anomaly detection (ZSAD) requires detection models trained using auxiliary data to detect anomalies without any training sample in a target dataset. It is a crucial task when training data is not accessible due to various concerns, eg, data privacy, yet it is challenging since the models need to generalize to anomalies across different domains where the appearance of foreground objects, abnormal regions, and background features, such as defects/tumors on different products/organs, can vary significantly. Recently large pre-trained vision-language models (VLMs), such as CLIP, have demonstrated strong zero-shot recognition ability in various vision tasks, including anomaly detection. However, their ZSAD performance is weak since the VLMs focus more on modeling the class semantics of the foreground objects rather than the abnormality/normality in the images. In this paper we introduce a novel approach, namely AnomalyCLIP, to adapt CLIP for accurate ZSAD across different domains. The key insight of AnomalyCLIP is to learn object-agnostic text prompts that capture generic normality and abnormality in an image regardless of its foreground objects. This allows our model to focus on the abnormal image regions rather than the object semantics, enabling generalized normality and abnormality recognition on diverse types of objects. Large-scale experiments on 17 real-world anomaly detection datasets show that AnomalyCLIP achieves superior zero-shot performance of detecting and segmenting anomalies in datasets of highly diverse class semantics from various defect inspection and medical imaging domains. Code will be made available at https://github.com/zqhang/AnomalyCLIP.
 </details>
   
 - [[MICCAI 2024]](https://arxiv.org/pdf/2405.11315) **Mediclip: Adapting CLIP for Few-shot Medical Image Anomaly Detection** [:octocat:](https://github.com/cnulab/mediclip)
@@ -390,7 +390,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+In the field of medical decision-making, precise anomaly detection in medical imaging plays a pivotal role in aiding clinicians. However, previous work is reliant on large-scale datasets for training anomaly detection models, which increases the development cost. This paper first focuses on the task of medical image anomaly detection in the few-shot setting, which is critically significant for the medical field where data collection and annotation are both very expensive. We propose an innovative approach, MediCLIP, which adapts the CLIP model to few-shot medical image anomaly detection through self-supervised fine-tuning. Although CLIP, as a vision-language model, demonstrates outstanding zero-/few-shot performance on various downstream tasks, it still falls short in the anomaly detection of medical images. To address this, we design a series of medical image anomaly synthesis tasks to simulate common disease patterns in medical imaging, transferring the powerful generalization capabilities of CLIP to the task of medical image anomaly detection. When only few-shot normal medical images are provided, MediCLIP achieves state-of-the-art performance in anomaly detection and location compared to other methods. Extensive experiments on three distinct medical anomaly detection tasks have demonstrated the superiority of our approach. The code is available at https://github.com/cnulab/MediCLIP.
 </details>
   
 ## 🕗 8. Knowledge Distillation <div id = "s10"></div>
@@ -406,12 +406,13 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Knowledge Distillation (KD) is a promising approach for unsupervised Anomaly Detection (AD). However, the student network's over-generalization often diminishes the crucial representation differences between teacher and student in anomalous regions, leading to detection failures. To address this problem, the widely accepted Reverse Distillation (RD) paradigm designs the asymmetry teacher and student network, using an encoder as teacher and a decoder as student. Yet, the design of RD does not ensure that the teacher encoder effectively distinguishes between normal and abnormal features or that the student decoder generates anomaly-free features. Additionally, the absence of skip connections results in a loss of fine details during feature reconstruction. To address these issues, we propose RD with Expert, which introduces a novel Expert-Teacher-Student network for simultaneous distillation of both the teacher encoder and student decoder. The added expert network enhances the student's ability to generate normal features and optimizes the teacher's differentiation between normal and abnormal features, reducing missed detections. Additionally, Guided Information Injection is designed to filter and transfer features from teacher to student, improving detail reconstruction and minimizing false positives. Experiments on several benchmarks prove that our method outperforms existing unsupervised AD methods under RD paradigm, fully unlocking RD’s potential.
 </details>
   
 ## 🕘 9. Benchmarks <div id = "s11"></div>
 
-- [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging**
+- [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging** [:octocat:](https://github.com/compai-lab/2024-ncomms-bercea.git)
+
 
   *Bercea, Cosmin I and Wiestler, Benedikt and Rueckert, Daniel and Schnabel, Julia A*
 
@@ -421,7 +422,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Normative representation learning focuses on understanding the typical anatomical distributions from large datasets of medical scans from healthy individuals. Generative Artificial Intelligence (AI) leverages this attribute to synthesize images that accurately reflect these normative patterns. This capability enables the AI allowing them to effectively detect and correct anomalies in new, unseen pathological data without the need for expert labeling. Traditional anomaly detection methods often evaluate the anomaly detection performance, overlooking the crucial role of normative learning. In our analysis, we introduce novel metrics, specifically designed to evaluate this facet in AI models. We apply these metrics across various generative AI frameworks, including advanced diffusion models, and rigorously test them against complex and diverse brain pathologies. In addition, we conduct a large multi-reader study to compare these metrics to experts’ evaluations. Our analysis demonstrates that models proficient in normative learning exhibit exceptional versatility, adeptly detecting a wide range of unseen medical conditions. Our code is available at https://github.com/compai-lab/2024-ncomms-bercea.git.
 </details>
 
 - [[MedIA 2025]](https://arxiv.org/pdf/2404.04518) **MedIAnomaly: A Comparative Study of Anomaly Detection in Medical Images** [:octocat:](https://github.com/caiyu6666/medianomaly)
@@ -434,7 +435,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Anomaly detection (AD) aims at detecting abnormal samples that deviate from the expected normal patterns. Generally, it can be trained merely on normal data, without a requirement for abnormal samples, and thereby plays an important role in the recognition of rare diseases and health screening in the medical domain. Despite the emergence of numerous methods for medical AD, we observe a lack of a fair and comprehensive evaluation, which causes ambiguous conclusions and hinders the development of this field. To address this problem, this paper builds a benchmark with unified comparison. Seven medical datasets with five image modalities, including chest X-rays, brain MRIs, retinal fundus images, dermatoscopic images, and histopathology whole slide images, are curated for extensive evaluation. Thirty typical AD methods, including reconstruction and self-supervised learning-based methods, are involved in comparison of image-level anomaly classification and pixel-level anomaly segmentation. Furthermore, for the first time, we formally explore the effect of key components in existing methods, clearly revealing unresolved challenges and potential future directions. The datasets and code are available at https://github.com/caiyu6666/MedIAnomaly.
 </details>
 
 - [[CVPR 2024]](https://openaccess.thecvf.com/content/CVPR2024W/VAND/html/Bao_BMAD_Benchmarks_for_Medical_Anomaly_Detection_CVPRW_2024_paper.html) **BMAD: Benchmarks for Medical Anomaly Detection** [:octocat:](https://github.com/dorisbao/bmad)
@@ -447,7 +448,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-
+Anomaly detection (AD) is a fundamental research problem in machine learning and computer vision with practical applications in industrial inspection video surveillance and medical diagnosis. In the field of medical imaging AD plays a crucial role in identifying anomalies that may indicate rare diseases or conditions. However despite its importance there is currently a lack of a universal and fair benchmark for evaluating AD methods on medical images which hinders the development of more generalized and robust AD methods in this specific domain. To address this gap we present a comprehensive evaluation benchmark for assessing AD methods on medical images. This benchmark consists of six reorganized datasets from five medical domains (ie brain MRI liver CT retinal OCT chest X-ray and digital histopathology) and three key evaluation metrics and includes a total of fifteen state-of-the-art AD algorithms. This standardized and well-curated medical benchmark with the well-structured codebase enables researchers to easily compare and evaluate different AD methods and ultimately leads to the development of more effective and robust AD algorithms for medical imaging. More information on BMAD is available in our GitHub repository: https://github. com/DorisBao/BMAD.
 </details>
 
 ## 🥰 Star History <div id = "s12"></div>
