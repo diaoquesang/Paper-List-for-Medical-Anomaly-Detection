@@ -41,7 +41,7 @@
 ## 📇 Contents
 - [**📚 Overview of Medical Imaging Anomaly Detection**](#s1)
 - [**✏️ Tips**](#s2)
-- [**🕐 1. Solving "Identical Shortcut"**](#s3)
+- [**🕐 1. Solving "Identity Mapping"**](#s3)
 - [**🕑 2. Discriminative Learning**](#s4)
 - [**🕒 3. AE-Based Approaches**](#s5)
 - [**🕓 4. GAN-Based Approaches**](#s6)
