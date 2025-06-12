@@ -298,7 +298,7 @@ In medical applications, weakly supervised anomaly detection methods are of grea
   
 ## 🕕 6. Multi-Modal Fusion <div id = "s8"></div>
 
-- [[IF 2025]](https://www.sciencedirect.com/science/article/pii/S1566253524004093) **Adapting the Segment Anything Model for Multi-Modal Retinal Anomaly Detection and Localization** [:octocat:](https://github.com/Jingtao-Li-CVer/MMRAD)
+- [[Inf. Fusion 2025]](https://www.sciencedirect.com/science/article/pii/S1566253524004093) **Adapting the Segment Anything Model for Multi-Modal Retinal Anomaly Detection and Localization** [:octocat:](https://github.com/Jingtao-Li-CVer/MMRAD)
 
   *Li, Jingtao and Chen, Ting and Wang, Xinyu and Zhong, Yanfei and Xiao, Xuan*
 
