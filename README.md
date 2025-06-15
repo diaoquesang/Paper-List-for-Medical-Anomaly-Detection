@@ -39,33 +39,24 @@
 
 
 ## 📇 Contents
-- [**📚 Overview of Medical Imaging Anomaly Detection**](#s1)
-- [**✏️ Tips**](#s2)
-- [**1. Solving "Identity Mapping"**](#s3)
-- [**2. Supervised Learning**](#s4)
-- [**3. Self-Supervised Learning**](#s5)
-- [**4. AE-Based Approaches**](#s6)
-- [**5. GAN-Based Approaches**](#s7)
-- [**6. Diffusion-Based Approaches**](#s8)
-- [**7. Multi-Modal Fusion**](#s9)
-- [**8. Vision Language Models**](#s10)
-- [**9. Knowledge Distillation**](#s11)
-- [**10. Benchmarks**](#s12)
-- [**🥰 Star History**](#s13)
+- [**1. Solving "Identity Mapping"**](#s1)
+- [**2. Supervised Learning**](#s2)
+- [**3. Self-Supervised Learning**](#s3)
+- [**4. AE-Based Approaches**](#s)
+- [**5. GAN-Based Approaches**](#s5)
+- [**6. Diffusion-Based Approaches**](#s6)
+- [**7. Multi-Modal Fusion**](#s7)
+- [**8. Vision Language Models**](#s8)
+- [**9. Knowledge Distillation**](#s9)
+- [**10. Benchmarks**](#s10)
 
-## 📚 Overview of Medical Imaging Anomaly Detection <div id = "s1"></div>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/1abc4d53-5138-4a0f-857a-1e9528b9bfcd" width="100%">
-</div>
-
-## ✏️ Tips <div id = "s2"></div>
+## ✏️ Tips
 
 - *: Papers for Non-Medical Anomaly Detection
 
 - :octocat:: Code
 
-## 1. Solving "Identity Mapping" <div id = "s3"></div>
+## 1. Solving "Identity Mapping" <div id = "s1"></div>
 
 - [[CVPR 2025]](https://openaccess.thecvf.com/content/CVPR2025/html/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.html) **Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection** [:octocat:](https://github.com/guojiajeremy/dinomaly)
 
@@ -93,7 +84,7 @@ Recent studies highlighted a practical setting of unsupervised anomaly detection
 Despite the rapid advance of unsupervised anomaly detection, existing methods require to train separate models for different objects. In this work, we present UniAD that accomplishes anomaly detection for multiple classes with a unified framework. Under such a challenging setting, popular reconstruction networks may fall into an" identical shortcut", where both normal and anomalous samples can be well recovered, and hence fail to spot outliers. To tackle this obstacle, we make three improvements. First, we revisit the formulations of fully-connected layer, convolutional layer, as well as attention layer, and confirm the important role of query embedding (ie, within attention layer) in preventing the network from learning the shortcut. We therefore come up with a layer-wise query decoder to help model the multi-class distribution. Second, we employ a neighbor masked attention module to further avoid the information leak from the input feature to the reconstructed output feature. Third, we propose a feature jittering strategy that urges the model to recover the correct message even with noisy inputs. We evaluate our algorithm on MVTec-AD and CIFAR-10 datasets, where we surpass the state-of-the-art alternatives by a sufficiently large margin. For example, when learning a unified model for 15 categories in MVTec-AD, we surpass the second competitor on the tasks of both anomaly detection (from 88.1% to 96.5%) and anomaly localization (from 89.5% to 96.8%). Code is available at https://github.com/zhiyuanyou/UniAD.
 </details>
 
-## 2. Supervised Learning <div id = "s4"></div>
+## 2. Supervised Learning <div id = "s2"></div>
 
 - *[[CVPR 2024]](https://openaccess.thecvf.com/content/CVPR2024/html/Baitieva_Supervised_Anomaly_Detection_for_Complex_Industrial_Images_CVPR_2024_paper.html) **Supervised Anomaly Detection for Complex Industrial Images** [:octocat:](https://github.com/abc-125/segad)
 
@@ -121,7 +112,7 @@ Automating visual inspection in industrial production lines is essential for inc
 Accurate microcalcification (mC) detection is of great importance due to its high proportion in early breast cancers. Most of the previous mC detection methods belong to discriminative models, where classifiers are exploited to distinguish mCs from other backgrounds. However, it is still challenging for these methods to tell the mCs from amounts of normal tissues because they are too tiny (at most 14 pixels). Generative methods can precisely model the normal tissues and regard the abnormal ones as outliers, while they fail to further distinguish the mCs from other anomalies, ie vessel calcifications. In this paper, we propose a hybrid approach by taking advantages of both generative and discriminative models. Firstly, a generative model named Anomaly Separation Network (ASN) is used to generate candidate mCs. ASN contains two major components. A deep convolutional encoder-decoder network is built to learn the image reconstruction mapping and a t-test loss function is designed to separate the distributions of the reconstruction residuals of mCs from normal tissues. Secondly, a discriminative model is cascaded to tell the mCs from the false positives. Finally, to verify the effectiveness of our method, we conduct experiments on both public and in-house datasets, which demonstrates that our approach outperforms previous state-of-the-art methods.
 </details>
 
-## 3. Self-Supervised Learning <div id = "s5"></div>
+## 3. Self-Supervised Learning <div id = "s3"></div>
 
 - *[[TPAMI 2024]](https://ieeexplore.ieee.org/abstract/document/10553645/) **MOODv2: Masked Image Modeling for Out-of-Distribution Detection** [:octocat:](https://github.com/dvlab-research/MOOD)
 
@@ -162,7 +153,7 @@ Medical anomaly detection aims to identify abnormal findings using only normal t
 Pathological brain lesions exhibit diverse appearance in brain images, in terms of intensity, texture, shape, size, and location. Comprehensive sets of data and annotations are difficult to acquire. Therefore, unsupervised anomaly detection approaches have been proposed using only normal data for training, with the aim of detecting outlier anomalous voxels at test time. Denoising methods, for instance classical denoising autoencoders (DAEs) and more recently emerging diffusion models, are a promising approach, however naive application of pixelwise noise leads to poor anomaly detection performance. We show that optimization of the spatial resolution and magnitude of the noise improves the performance of different model training regimes, with similar noise parameter adjustments giving good performance for both DAEs and diffusion models. Visual inspection of the reconstructions suggests that the training noise influences the trade-off between the extent of the detail that is reconstructed and the extent of erasure of anomalies, both of which contribute to better anomaly detection performance. We validate our findings on two real-world datasets (tumor detection in brain MRI and hemorrhage/ischemia/tumor detection in brain CT), showing good detection on diverse anomaly appearances. Overall, we find that a DAE trained with coarse noise is a fast and simple method that gives state-of-the-art accuracy. Diffusion models applied to anomaly detection are as yet in their infancy and provide a promising avenue for further research. Code for our DAE model and coarse noise is provided at: https://github.com/AntanasKascenas/DenoisingAE.
 </details>
   
-## 4. AE-Based Approaches <div id = "s6"></div>
+## 4. AE-Based Approaches <div id = "s4"></div>
 
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective** [:octocat:](https://github.com/caiyu6666/ae4ad)
 
@@ -190,7 +181,7 @@ Medical anomaly detection aims to identify abnormal findings using only normal t
 Anomaly detection from medical images is an important task for clinical screening and diagnosis. In general, a large dataset of normal images are available while only few abnormal images can be collected in clinical practice. By mimicking the diagnosis process of radiologists, we attempt to tackle this problem by learning a tractable distribution of normal images and identify anomalies by differentiating the original image and the reconstructed normal image. More specifically, we propose a normalizing flow-based autoencoder for an efficient and tractable representation of normal medical images. The anomaly score consists of the likelihood originated from the normalizing flow and the reconstruction error of the autoencoder, which allows to identify the abnormality and provide an interpretability at both image and pixel levels. Experimental evaluation on two medical images datasets showed that the proposed model outperformed the other approaches by a large margin, which validated the effectiveness and robustness of the proposed method.
 </details>
   
-## 5. GAN-Based Approaches <div id = "s7"></div>
+## 5. GAN-Based Approaches <div id = "s5"></div>
 
 - [[Neurocomputing 2025]](https://www.sciencedirect.com/science/article/pii/S0925231224015339) **Industrial and Medical Anomaly Detection Through Cycle-Consistent Adversarial Networks** [:octocat:](https://github.com/valdelch/cyclegans-anomalydetection)
 
@@ -232,7 +223,7 @@ Since the labels for medical images are challenging to collect in real scenarios
 Radiography imaging protocols focus on particular body regions, therefore producing images of great similarity and yielding recurrent anatomical structures across patients. To exploit this structured information, we propose the use of Space-aware Memory Queues for In-painting and Detecting anomalies from radiography images (abbreviated as SQUID). We show that SQUID can taxonomize the ingrained anatomical structures into recurrent patterns; and in the inference, it can identify anomalies (unseen/modified patterns) in the image. SQUID surpasses 13 state-of-the-art methods in unsupervised anomaly detection by at least 5 points on two chest X-ray benchmark datasets measured by the Area Under the Curve (AUC). Additionally, we have created a new dataset (DigitAnatomy), which synthesizes the spatial correlation and consistent shape in chest anatomy. We hope DigitAnatomy can prompt the development, evaluation, and interpretability of anomaly detection methods.
 </details>
   
-## 6. Diffusion-Based Approaches <div id = "s8"></div>
+## 6. Diffusion-Based Approaches <div id = "s6"></div>
 
 - [[CVPR 2025]](https://arxiv.org/abs/2406.01078) **Anomaly Anything: Promptable Unseen Visual Anomaly Generation** [:octocat:](https://github.com/EPFL-IMOS/AnomalyAny)
 
@@ -338,7 +329,7 @@ Generative models have been shown to provide a powerful mechanism for anomaly de
 In medical applications, weakly supervised anomaly detection methods are of great interest, as only image-level annotations are required for training. Current anomaly detection methods mainly rely on generative adversarial networks or autoencoder models. Those models are often complicated to train or have difficulties to preserve fine details in the image. We present a novel weakly supervised anomaly detection method based on denoising diffusion implicit models. We combine the deterministic iterative noising and denoising scheme with classifier guidance for image-to-image translation between diseased and healthy subjects. Our method generates very detailed anomaly maps without the need for a complex training procedure. We evaluate our method on the BRATS2020 dataset for brain tumor detection and the CheXpert dataset for detecting pleural effusions.
 </details>
   
-## 7. Multi-Modal Fusion <div id = "s9"></div>
+## 7. Multi-Modal Fusion <div id = "s7"></div>
 
 - [[Inf. Fusion 2025]](https://www.sciencedirect.com/science/article/pii/S1566253524004093) **Adapting the Segment Anything Model for Multi-Modal Retinal Anomaly Detection and Localization** [:octocat:](https://github.com/Jingtao-Li-CVer/MMRAD)
 
@@ -367,7 +358,7 @@ Existing efforts to boost multimodal fusion of 3D anomaly detection (3D-AD) prim
 </details>
   
   
-## 8. Vision Language Models <div id = "s10"></div>
+## 8. Vision Language Models <div id = "s8"></div>
 
 - [[CVPR 2025]](https://arxiv.org/pdf/2503.06661) **AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP** [:octocat:](https://github.com/mwxinnn/aa-clip)
 
@@ -447,7 +438,7 @@ Zero-shot anomaly detection (ZSAD) requires detection models trained using auxil
 In the field of medical decision-making, precise anomaly detection in medical imaging plays a pivotal role in aiding clinicians. However, previous work is reliant on large-scale datasets for training anomaly detection models, which increases the development cost. This paper first focuses on the task of medical image anomaly detection in the few-shot setting, which is critically significant for the medical field where data collection and annotation are both very expensive. We propose an innovative approach, MediCLIP, which adapts the CLIP model to few-shot medical image anomaly detection through self-supervised fine-tuning. Although CLIP, as a vision-language model, demonstrates outstanding zero-/few-shot performance on various downstream tasks, it still falls short in the anomaly detection of medical images. To address this, we design a series of medical image anomaly synthesis tasks to simulate common disease patterns in medical imaging, transferring the powerful generalization capabilities of CLIP to the task of medical image anomaly detection. When only few-shot normal medical images are provided, MediCLIP achieves state-of-the-art performance in anomaly detection and location compared to other methods. Extensive experiments on three distinct medical anomaly detection tasks have demonstrated the superiority of our approach. The code is available at https://github.com/cnulab/MediCLIP.
 </details>
   
-## 9. Knowledge Distillation <div id = "s11"></div>
+## 9. Knowledge Distillation <div id = "s9"></div>
 
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection** [:octocat:](https://github.com/hito2448/urd)
 
@@ -463,7 +454,7 @@ In the field of medical decision-making, precise anomaly detection in medical im
 Knowledge Distillation (KD) is a promising approach for unsupervised Anomaly Detection (AD). However, the student network's over-generalization often diminishes the crucial representation differences between teacher and student in anomalous regions, leading to detection failures. To address this problem, the widely accepted Reverse Distillation (RD) paradigm designs the asymmetry teacher and student network, using an encoder as teacher and a decoder as student. Yet, the design of RD does not ensure that the teacher encoder effectively distinguishes between normal and abnormal features or that the student decoder generates anomaly-free features. Additionally, the absence of skip connections results in a loss of fine details during feature reconstruction. To address these issues, we propose RD with Expert, which introduces a novel Expert-Teacher-Student network for simultaneous distillation of both the teacher encoder and student decoder. The added expert network enhances the student's ability to generate normal features and optimizes the teacher's differentiation between normal and abnormal features, reducing missed detections. Additionally, Guided Information Injection is designed to filter and transfer features from teacher to student, improving detail reconstruction and minimizing false positives. Experiments on several benchmarks prove that our method outperforms existing unsupervised AD methods under RD paradigm, fully unlocking RD’s potential.
 </details>
   
-## 10. Benchmarks <div id = "s12"></div>
+## 10. Benchmarks <div id = "s10"></div>
 
 - [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging** [:octocat:](https://github.com/compai-lab/2024-ncomms-bercea.git)
 
@@ -518,7 +509,7 @@ Anomaly detection (AD) is a fundamental research problem in machine learning and
 Visual anomaly detection aims to identify anomalous regions in images through unsupervised learning paradigms, with increasing application demand and value in fields such as industrial inspection and medical lesion detection. Despite significant progress in recent years, there is a lack of comprehensive benchmarks to adequately evaluate the performance of various mainstream methods across different datasets under the practical multi-class setting. The absence of standardized experimental setups can lead to potential biases in training epochs, resolution, and metric results, resulting in erroneous conclusions. This paper addresses this issue by proposing a comprehensive visual anomaly detection benchmark, ADer, which is a modular framework that is highly extensible for new methods. The benchmark includes multiple datasets from industrial and medical domains, implementing fifteen state-of-the-art methods and nine comprehensive metrics. Additionally, we have open-sourced the GPU-assisted ADEval package to address the slow evaluation problem of metrics like time-consuming mAU-PRO on large-scale data, significantly reducing evaluation time by more than 1000-fold. Through extensive experimental results, we objectively reveal the strengths and weaknesses of different methods and provide insights into the challenges and future directions of multiclass visual anomaly detection. We hope that ADer will become a valuable resource for researchers and practitioners in the field, promoting the development of more robust and generalizable anomaly detection systems. Full codes have been attached in Appendix and open-sourced at https://github.com/zhangzjn/ader.
 </details>
 
-## 🥰 Star History <div id = "s13"></div>
+## 🥰 Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Date)](https://star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Date)
 
 [![](https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=Back%20to%20Top&section=footer&fontSize=30&fontAlignY=65)
