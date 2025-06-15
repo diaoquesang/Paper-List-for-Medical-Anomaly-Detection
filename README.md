@@ -94,7 +94,7 @@ Despite the rapid advance of unsupervised anomaly detection, existing methods re
 
 ## 🕑 2. Discriminative Learning <div id = "s4"></div>
 
-- *[[CVPR 2024]](https://openaccess.thecvf.com/content/CVPR2024/html/Baitieva_Supervised_Anomaly_Detection_for_Complex_Industrial_Images_CVPR_2024_paper.html) **Supervised Anomaly Detection for Complex Industrial Images** [:octocat:]([https://github.com/zhiyuanyou/uniad](https://github.com/abc-125/segad)
+- *[[CVPR 2024]](https://openaccess.thecvf.com/content/CVPR2024/html/Baitieva_Supervised_Anomaly_Detection_for_Complex_Industrial_Images_CVPR_2024_paper.html) **Supervised Anomaly Detection for Complex Industrial Images** [:octocat:](https://github.com/abc-125/segad)
 
   *Baitieva, Aimira and Hurych, David and Besnier, Victor and Bernard, Olivier*
 
