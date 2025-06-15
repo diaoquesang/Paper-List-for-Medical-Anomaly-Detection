@@ -123,7 +123,45 @@ Accurate microcalcification (mC) detection is of great importance due to its hig
 
 ## 3. Self-Supervised Learning <div id = "s5"></div>
 
+- *[[TPAMI 2024]](https://ieeexplore.ieee.org/abstract/document/10553645/) **MOODv2: Masked Image Modeling for Out-of-Distribution Detection** [:octocat:](https://github.com/dvlab-research/MOOD)
 
+  *Li, Jingyao and Chen, Pengguang and Yu, Shaozuo and Liu, Shu and Jia, Jiaya*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/92cb8811-28e9-4b49-b7d2-38789966f9ba" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+The crux of effective out-of-distribution (OOD) detection lies in acquiring a robust in-distribution (ID) representation, distinct from OOD samples. While previous methods predominantly leaned on recognition-based techniques for this purpose, they often resulted in shortcut learning, lacking comprehensive representations. In our study, we conducted a comprehensive analysis, exploring distinct pretraining tasks and employing various OOD score functions. The results highlight that the feature representations pre-trained through reconstruction yield a notable enhancement and narrow the performance gap among various score functions. This suggests that even simple score functions can rival complex ones when leveraging reconstruction-based pretext tasks. Reconstruction-based pretext tasks adapt well to various score functions. As such, it holds promising potential for further expansion. Our OOD detection framework, MOODv2, employs the masked image modeling pretext task. Without bells and whistles, MOODv2 impressively enhances 14.30% AUROC to 95.68% on ImageNet and achieves 99.98% on CIFAR-10.
+</details>
+
+- *[[CVPR 2023]](http://openaccess.thecvf.com/content/CVPR2023/html/Li_Rethinking_Out-of-Distribution_OOD_Detection_Masked_Image_Modeling_Is_All_You_CVPR_2023_paper.html) **Rethinking Out-of-Distribution (OOD) Detection: Masked Image Modeling Is All You Need** [:octocat:](https://github.com/dvlab-research/MOOD)
+
+  *Li, Jingyao and Chen, Pengguang and He, Zexin and Yu, Shaozuo and Liu, Shu and Jia, Jiaya*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8a299493-328b-46a0-96ee-93140ce9586e" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Medical anomaly detection aims to identify abnormal findings using only normal training data, playing a crucial role in health screening and recognizing rare diseases. Reconstruction-based methods, particularly those utilizing autoencoders (AEs), are dominant in this field. They work under the assumption that AEs trained on only normal data cannot reconstruct unseen abnormal regions well, thereby enabling the anomaly detection based on reconstruction errors. However, this assumption does not always hold due to the mismatch between the reconstruction training objective and the anomaly detection task objective, rendering these methods theoretically unsound. This study focuses on providing a theoretical foundation for AE-based reconstruction methods in anomaly detection. By leveraging information theory, we elucidate the principles of these methods and reveal that the key to improving AE in anomaly detection lies in minimizing the information entropy of latent vectors. Experiments on four datasets with two image modalities validate the effectiveness of our theory. To the best of our knowledge, this is the first effort to theoretically clarify the principles and design philosophy of AE for anomaly detection. The code is available at https://github.com/caiyu6666/AE4AD.
+</details>
+
+- [[MedIA 2023]](https://arxiv.org/pdf/2301.08330) **The Role of Noise in Denoising Models for Anomaly Detection in Medical Images** [:octocat:](https://github.com/antanaskascenas/denoisingae)
+
+  *Kascenas, Antanas and Sanchez, Pedro and Schrempf, Patrick and Wang, Chaoyang and Clackett, William and Mikhael, Shadia S and Voisey, Jeremy P and Goatman, Keith and Weir, Alexander and Pugeault, Nicolas and others*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/eb0d29f9-1697-423a-83c3-a111a3097182" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Pathological brain lesions exhibit diverse appearance in brain images, in terms of intensity, texture, shape, size, and location. Comprehensive sets of data and annotations are difficult to acquire. Therefore, unsupervised anomaly detection approaches have been proposed using only normal data for training, with the aim of detecting outlier anomalous voxels at test time. Denoising methods, for instance classical denoising autoencoders (DAEs) and more recently emerging diffusion models, are a promising approach, however naive application of pixelwise noise leads to poor anomaly detection performance. We show that optimization of the spatial resolution and magnitude of the noise improves the performance of different model training regimes, with similar noise parameter adjustments giving good performance for both DAEs and diffusion models. Visual inspection of the reconstructions suggests that the training noise influences the trade-off between the extent of the detail that is reconstructed and the extent of erasure of anomalies, both of which contribute to better anomaly detection performance. We validate our findings on two real-world datasets (tumor detection in brain MRI and hemorrhage/ischemia/tumor detection in brain CT), showing good detection on diverse anomaly appearances. Overall, we find that a DAE trained with coarse noise is a fast and simple method that gives state-of-the-art accuracy. Diffusion models applied to anomaly detection are as yet in their infancy and provide a promising avenue for further research. Code for our DAE model and coarse noise is provided at: https://github.com/AntanasKascenas/DenoisingAE.
+</details>
+  
 ## 4. AE-Based Approaches <div id = "s6"></div>
 
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective** [:octocat:](https://github.com/caiyu6666/ae4ad)
@@ -150,19 +188,6 @@ Medical anomaly detection aims to identify abnormal findings using only normal t
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 Anomaly detection from medical images is an important task for clinical screening and diagnosis. In general, a large dataset of normal images are available while only few abnormal images can be collected in clinical practice. By mimicking the diagnosis process of radiologists, we attempt to tackle this problem by learning a tractable distribution of normal images and identify anomalies by differentiating the original image and the reconstructed normal image. More specifically, we propose a normalizing flow-based autoencoder for an efficient and tractable representation of normal medical images. The anomaly score consists of the likelihood originated from the normalizing flow and the reconstruction error of the autoencoder, which allows to identify the abnormality and provide an interpretability at both image and pixel levels. Experimental evaluation on two medical images datasets showed that the proposed model outperformed the other approaches by a large margin, which validated the effectiveness and robustness of the proposed method.
-</details>
-  
-- [[MedIA 2023]](https://arxiv.org/pdf/2301.08330) **The Role of Noise in Denoising Models for Anomaly Detection in Medical Images** [:octocat:](https://github.com/antanaskascenas/denoisingae)
-
-  *Kascenas, Antanas and Sanchez, Pedro and Schrempf, Patrick and Wang, Chaoyang and Clackett, William and Mikhael, Shadia S and Voisey, Jeremy P and Goatman, Keith and Weir, Alexander and Pugeault, Nicolas and others*
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/eb0d29f9-1697-423a-83c3-a111a3097182" width="50%">
-</div>
-
-<details close>
-<summary><b>📋 Abstract (Click to Expand)</b></summary>
-Pathological brain lesions exhibit diverse appearance in brain images, in terms of intensity, texture, shape, size, and location. Comprehensive sets of data and annotations are difficult to acquire. Therefore, unsupervised anomaly detection approaches have been proposed using only normal data for training, with the aim of detecting outlier anomalous voxels at test time. Denoising methods, for instance classical denoising autoencoders (DAEs) and more recently emerging diffusion models, are a promising approach, however naive application of pixelwise noise leads to poor anomaly detection performance. We show that optimization of the spatial resolution and magnitude of the noise improves the performance of different model training regimes, with similar noise parameter adjustments giving good performance for both DAEs and diffusion models. Visual inspection of the reconstructions suggests that the training noise influences the trade-off between the extent of the detail that is reconstructed and the extent of erasure of anomalies, both of which contribute to better anomaly detection performance. We validate our findings on two real-world datasets (tumor detection in brain MRI and hemorrhage/ischemia/tumor detection in brain CT), showing good detection on diverse anomaly appearances. Overall, we find that a DAE trained with coarse noise is a fast and simple method that gives state-of-the-art accuracy. Diffusion models applied to anomaly detection are as yet in their infancy and provide a promising avenue for further research. Code for our DAE model and coarse noise is provided at: https://github.com/AntanasKascenas/DenoisingAE.
 </details>
   
 ## 5. GAN-Based Approaches <div id = "s7"></div>
