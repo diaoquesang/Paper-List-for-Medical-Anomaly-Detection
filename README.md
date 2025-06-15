@@ -66,7 +66,7 @@
 
 ## 🕐 1. Solving "Identity Mapping" <div id = "s3"></div>
 
-- [[CVPR 2025]](https://openaccess.thecvf.com/content/CVPR2025/html/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.html) **A Unified Model for Multi-class Anomaly Detection** [:octocat:](https://github.com/guojiajeremy/dinomaly)
+- [[CVPR 2025]](https://openaccess.thecvf.com/content/CVPR2025/html/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.html) **Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection** [:octocat:](https://github.com/guojiajeremy/dinomaly)
 
   *Guo, Jia and Lu, Shuai and Zhang, Weihang and Chen, Fang and Li, Huiqi and Liao, Hongen*
 
