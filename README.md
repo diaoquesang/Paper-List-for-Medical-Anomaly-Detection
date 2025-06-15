@@ -42,7 +42,7 @@
 - [**📚 Overview of Medical Imaging Anomaly Detection**](#s1)
 - [**✏️ Tips**](#s2)
 - [**🕐 1. Solving "Identity Mapping"**](#s3)
-- [**🕑 2. Discriminative Learning**](#s4)
+- [**🕑 2. Supervised Learning**](#s4)
 - [**🕒 3. AE-Based Approaches**](#s5)
 - [**🕓 4. GAN-Based Approaches**](#s6)
 - [**🕔 5. Diffusion-Based Approaches**](#s7)
@@ -92,7 +92,7 @@ Recent studies highlighted a practical setting of unsupervised anomaly detection
 Despite the rapid advance of unsupervised anomaly detection, existing methods require to train separate models for different objects. In this work, we present UniAD that accomplishes anomaly detection for multiple classes with a unified framework. Under such a challenging setting, popular reconstruction networks may fall into an" identical shortcut", where both normal and anomalous samples can be well recovered, and hence fail to spot outliers. To tackle this obstacle, we make three improvements. First, we revisit the formulations of fully-connected layer, convolutional layer, as well as attention layer, and confirm the important role of query embedding (ie, within attention layer) in preventing the network from learning the shortcut. We therefore come up with a layer-wise query decoder to help model the multi-class distribution. Second, we employ a neighbor masked attention module to further avoid the information leak from the input feature to the reconstructed output feature. Third, we propose a feature jittering strategy that urges the model to recover the correct message even with noisy inputs. We evaluate our algorithm on MVTec-AD and CIFAR-10 datasets, where we surpass the state-of-the-art alternatives by a sufficiently large margin. For example, when learning a unified model for 15 categories in MVTec-AD, we surpass the second competitor on the tasks of both anomaly detection (from 88.1% to 96.5%) and anomaly localization (from 89.5% to 96.8%). Code is available at https://github.com/zhiyuanyou/UniAD.
 </details>
 
-## 🕑 2. Discriminative Learning <div id = "s4"></div>
+## 🕑 2. Supervised Learning <div id = "s4"></div>
 
 - *[[CVPR 2024]](https://openaccess.thecvf.com/content/CVPR2024/html/Baitieva_Supervised_Anomaly_Detection_for_Complex_Industrial_Images_CVPR_2024_paper.html) **Supervised Anomaly Detection for Complex Industrial Images** [:octocat:](https://github.com/abc-125/segad)
 
