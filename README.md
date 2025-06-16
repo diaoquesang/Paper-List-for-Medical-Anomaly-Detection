@@ -424,7 +424,20 @@ Recent advancements in large-scale visual-language pre-trained models have led t
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 Zero-shot anomaly detection (ZSAD) requires detection models trained using auxiliary data to detect anomalies without any training sample in a target dataset. It is a crucial task when training data is not accessible due to various concerns, eg, data privacy, yet it is challenging since the models need to generalize to anomalies across different domains where the appearance of foreground objects, abnormal regions, and background features, such as defects/tumors on different products/organs, can vary significantly. Recently large pre-trained vision-language models (VLMs), such as CLIP, have demonstrated strong zero-shot recognition ability in various vision tasks, including anomaly detection. However, their ZSAD performance is weak since the VLMs focus more on modeling the class semantics of the foreground objects rather than the abnormality/normality in the images. In this paper we introduce a novel approach, namely AnomalyCLIP, to adapt CLIP for accurate ZSAD across different domains. The key insight of AnomalyCLIP is to learn object-agnostic text prompts that capture generic normality and abnormality in an image regardless of its foreground objects. This allows our model to focus on the abnormal image regions rather than the object semantics, enabling generalized normality and abnormality recognition on diverse types of objects. Large-scale experiments on 17 real-world anomaly detection datasets show that AnomalyCLIP achieves superior zero-shot performance of detecting and segmenting anomalies in datasets of highly diverse class semantics from various defect inspection and medical imaging domains. Code will be made available at https://github.com/zqhang/AnomalyCLIP.
 </details>
-  
+
+- *[[ACM MM 2024]](https://dl.acm.org/doi/abs/10.1145/3664647.3681376) **SimCLIP: Refining Image-Text Alignment with Simple Prompts for Zero-/Few-shot Anomaly Detection** [:octocat:](https://github.com/CH-ORGI/SimCLIP)
+
+  *Deng, Chenghao and Xu, Haote and Chen, Xiaolu and Xu, Haodi and Tu, Xiaotong and Ding, Xinghao and Huang, Yue*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1f642822-9d76-4363-b171-ddbc7512d8eb" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Recently, large pre-trained vision-language models, such as CLIP, have demonstrated significant potential in zero-/few-shot anomaly detection tasks. However, existing methods not only rely on expert knowledge to manually craft extensive text prompts but also suffer from a misalignment of high-level language features with fine-level vision features in anomaly segmentation tasks. In this paper, we propose a method, named SimCLIP, which focuses on refining the aforementioned misalignment problem through bidirectional adaptation of both Multi-Hierarchy Vision Adapter (MHVA) and Implicit Prompt Tuning (IPT). In this way, our approach requires only a simple binary prompt to efficiently accomplish anomaly classification and segmentation tasks in zero-shot scenarios. Furthermore, we introduce its few-shot extension, SimCLIP+, integrating the relational information among vision embeddings and skillfully merging the cross-modal synergy information between vision and language to address downstream anomaly detection tasks. Extensive experiments on two challenging datasets prove the more remarkable generalization capacity of our method compared to the current SOTA approaches. Our code is available at https://github.com/CH-ORGI/SimCLIP.
+</details>
+
 - [[MICCAI 2024]](https://arxiv.org/pdf/2405.11315) **Mediclip: Adapting CLIP for Few-shot Medical Image Anomaly Detection** [:octocat:](https://github.com/cnulab/mediclip)
 
   *Zhang, Ximiao and Xu, Min and Qiu, Dehui and Yan, Ruixin and Lang, Ning and Zhou, Xiuzhuang*
