@@ -47,7 +47,8 @@
 - [**7. Multi-Modal Fusion**](#s7)
 - [**8. Vision Language Models**](#s8)
 - [**9. Knowledge Distillation**](#s9)
-- [**10. Benchmarks**](#s10)
+- [**10. Correlation Learning**](#s10)
+- [**11. Benchmarks**](#s11)
 
 ## ✏️ Tips
 
@@ -480,7 +481,6 @@ Recognizing out-of-distribution (OOD) samples is critical for machine learning s
 
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection** [:octocat:](https://github.com/hito2448/urd)
 
-
   *Liu, Xinyue and Wang, Jianyuan and Leng, Biao and Zhang, Shuo*
 
 <div align="center">
@@ -491,11 +491,26 @@ Recognizing out-of-distribution (OOD) samples is critical for machine learning s
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 Knowledge Distillation (KD) is a promising approach for unsupervised Anomaly Detection (AD). However, the student network's over-generalization often diminishes the crucial representation differences between teacher and student in anomalous regions, leading to detection failures. To address this problem, the widely accepted Reverse Distillation (RD) paradigm designs the asymmetry teacher and student network, using an encoder as teacher and a decoder as student. Yet, the design of RD does not ensure that the teacher encoder effectively distinguishes between normal and abnormal features or that the student decoder generates anomaly-free features. Additionally, the absence of skip connections results in a loss of fine details during feature reconstruction. To address these issues, we propose RD with Expert, which introduces a novel Expert-Teacher-Student network for simultaneous distillation of both the teacher encoder and student decoder. The added expert network enhances the student's ability to generate normal features and optimizes the teacher's differentiation between normal and abnormal features, reducing missed detections. Additionally, Guided Information Injection is designed to filter and transfer features from teacher to student, improving detail reconstruction and minimizing false positives. Experiments on several benchmarks prove that our method outperforms existing unsupervised AD methods under RD paradigm, fully unlocking RD’s potential.
 </details>
-  
-## 10. Benchmarks <div id = "s10"></div>
+
+## 10. Correlation Learning <div id = "s10"></div>
+
+- [[TMI 2024]](https://ieeexplore.ieee.org/document/10680612) **Facing Differences of Similarity: Intra- and Inter-Correlation Unsupervised Learning for Chest X-Ray Anomaly Detection**
+
+  *Xu, Shicheng and Li, Wei and Li, Zuoyong and Zhao, Tiesong and Zhang, Bob*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3be25c8c-d497-4def-a11c-83df2379c124" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Anomaly detection can significantly aid doctors in interpreting chest X-rays. The commonly used strategy involves utilizing the pre-trained network to extract features from normal data to establish feature representations. However, when a pre-trained network is applied to more detailed X-rays, differences of similarity can limit the robustness of these feature representations. Therefore, we propose an intra- and inter-correlation learning framework for chest X-ray anomaly detection. Firstly, to better leverage the similar anatomical structure information in chest X-rays, we introduce the Anatomical-Feature Pyramid Fusion Module for feature fusion. This module aims to obtain fusion features with both local details and global contextual information. These fusion features are initialized by a trainable feature mapper and stored in a feature bank to serve as centers for learning. Furthermore, to Facing Differences of Similarity (FDS) introduced by the pre-trained network, we propose an intra- and inter-correlation learning strategy: 1) We use intra-correlation learning to establish intra-correlation between mapped features of individual images and semantic centers, thereby initially discovering lesions; 2) We employ inter-correlation learning to establish inter-correlation between mapped features of different images, further mitigating the differences of similarity introduced by the pre-trained network, and achieving effective detection results even in diverse chest disease environments. Finally, a comparison with 18 state-of-the-art methods on three datasets demonstrates the superiority and effectiveness of the proposed method across various scenarios.
+</details>
+
+
+## 11. Benchmarks <div id = "s11"></div>
 
 - [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging** [:octocat:](https://github.com/compai-lab/2024-ncomms-bercea.git)
-
 
   *Bercea, Cosmin I and Wiestler, Benedikt and Rueckert, Daniel and Schnabel, Julia A*
 
