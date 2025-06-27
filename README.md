@@ -212,7 +212,6 @@ Since the labels for medical images are challenging to collect in real scenarios
   
 - [[CVPR 2023]](http://openaccess.thecvf.com/content/CVPR2023/papers/Xiang_SQUID_Deep_Feature_In-Painting_for_Unsupervised_Anomaly_Detection_CVPR_2023_paper.pdf) **SQUID: Deep Feature In-Painting for Unsupervised Anomaly Detection** [:octocat:](https://github.com/tiangexiang/squid)
 
-
   *Xiang, Tiange and Zhang, Yixiao and Lu, Yongyi and Yuille, Alan L and Zhang, Chaoyi and Cai, Weidong and Zhou, Zongwei*
 
 <div align="center">
@@ -224,6 +223,32 @@ Since the labels for medical images are challenging to collect in real scenarios
 Radiography imaging protocols focus on particular body regions, therefore producing images of great similarity and yielding recurrent anatomical structures across patients. To exploit this structured information, we propose the use of Space-aware Memory Queues for In-painting and Detecting anomalies from radiography images (abbreviated as SQUID). We show that SQUID can taxonomize the ingrained anatomical structures into recurrent patterns; and in the inference, it can identify anomalies (unseen/modified patterns) in the image. SQUID surpasses 13 state-of-the-art methods in unsupervised anomaly detection by at least 5 points on two chest X-ray benchmark datasets measured by the Area Under the Curve (AUC). Additionally, we have created a new dataset (DigitAnatomy), which synthesizes the spatial correlation and consistent shape in chest anatomy. We hope DigitAnatomy can prompt the development, evaluation, and interpretability of anomaly detection methods.
 </details>
 
+- [[MedIA 2019]](https://www.sciencedirect.com/science/article/pii/S1361841518302640) **f-AnoGAN: Fast Unsupervised Anomaly Detection with Generative Adversarial Networks** [:octocat:](https://github.com/A03ki/f-AnoGAN)
+
+  *Schlegl, Thomas and Seeböck, Philipp and Waldstein, Sebastian M and Langs, Georg and Schmidt-Erfurth, Ursula*
+  
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1a78902d-3748-4018-b076-2373353f0034" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Obtaining expert labels in clinical imaging is difficult since exhaustive annotation is time-consuming. Furthermore, not all possibly relevant markers may be known and sufficiently well described a priori to even guide annotation. While supervised learning yields good results if expert labeled training data is available, the visual variability, and thus the vocabulary of findings, we can detect and exploit, is limited to the annotated lesions. Here, we present fast AnoGAN (f-AnoGAN), a generative adversarial network (GAN) based unsupervised learning approach capable of identifying anomalous images and image segments, that can serve as imaging biomarker candidates. We build a generative model of healthy training data, and propose and evaluate a fast mapping technique of new data to the GAN’s latent space. The mapping is based on a trained encoder, and anomalies are detected via a combined anomaly score based on the building blocks of the trained model – comprising a discriminator feature residual error and an image reconstruction error. In the experiments on optical coherence tomography data, we compare the proposed method with alternative approaches, and provide comprehensive empirical evidence that f-AnoGAN outperforms alternative approaches and yields high anomaly detection accuracy. In addition, a visual Turing test with two retina experts showed that the generated images are indistinguishable from real normal retinal OCT images. The f-AnoGAN code is available at https://github.com/tSchlegl/f-AnoGAN.
+</details>
+
+- [[IPMI 2017]](https://link.springer.com/chapter/10.1007/978-3-319-59050-9_12) **Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery** [:octocat:](https://github.com/seungjunlee96/AnoGAN-pytorch)
+
+
+  *Schlegl, Thomas and Seeböck, Philipp and Waldstein, Sebastian M and Schmidt-Erfurth, Ursula and Langs, Georg*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/690968ff-f446-400e-8348-68b2cc913680" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Obtaining models that capture imaging markers relevant for disease progression and treatment monitoring is challenging. Models are typically based on large amounts of data with annotated examples of known markers aiming at automating detection. High annotation effort and the limitation to a vocabulary of known markers limit the power of such approaches. Here, we perform unsupervised learning to identify anomalies in imaging data as candidates for markers. We propose AnoGAN, a deep convolutional generative adversarial network to learn a manifold of normal anatomical variability, accompanying a novel anomaly scoring scheme based on the mapping from image space to a latent space. Applied to new data, the model labels anomalies, and scores image patches indicating their fit into the learned distribution. Results on optical coherence tomography images of the retina demonstrate that the approach correctly identifies anomalous images, such as images containing retinal fluid or hyperreflective foci.
+</details>
 
 ## 6. Flow-Based Approaches <div id = "s6"></div>
 
