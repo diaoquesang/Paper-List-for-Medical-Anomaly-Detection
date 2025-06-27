@@ -43,12 +43,13 @@
 - [**3. Self-Supervised Learning**](#s3)
 - [**4. AE-Based Approaches**](#s)
 - [**5. GAN-Based Approaches**](#s5)
-- [**6. Diffusion-Based Approaches**](#s6)
-- [**7. Multi-Modal Fusion**](#s7)
-- [**8. Vision Language Models**](#s8)
-- [**9. Knowledge Distillation**](#s9)
-- [**10. Correlation Learning**](#s10)
-- [**11. Benchmarks**](#s11)
+- [**6. Flow-Based Approaches**](#s6)
+- [**7. Diffusion-Based Approaches**](#s7)
+- [**8. Multi-Modal Fusion**](#s8)
+- [**9. Vision Language Models**](#s9)
+- [**10. Knowledge Distillation**](#s10)
+- [**11. Correlation Learning**](#s11)
+- [**12. Benchmarks**](#s12)
 
 ## ✏️ Tips
 
@@ -222,8 +223,24 @@ Since the labels for medical images are challenging to collect in real scenarios
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 Radiography imaging protocols focus on particular body regions, therefore producing images of great similarity and yielding recurrent anatomical structures across patients. To exploit this structured information, we propose the use of Space-aware Memory Queues for In-painting and Detecting anomalies from radiography images (abbreviated as SQUID). We show that SQUID can taxonomize the ingrained anatomical structures into recurrent patterns; and in the inference, it can identify anomalies (unseen/modified patterns) in the image. SQUID surpasses 13 state-of-the-art methods in unsupervised anomaly detection by at least 5 points on two chest X-ray benchmark datasets measured by the Area Under the Curve (AUC). Additionally, we have created a new dataset (DigitAnatomy), which synthesizes the spatial correlation and consistent shape in chest anatomy. We hope DigitAnatomy can prompt the development, evaluation, and interpretability of anomaly detection methods.
 </details>
-  
-## 6. Diffusion-Based Approaches <div id = "s6"></div>
+
+
+## 6. Flow-Based Approaches <div id = "s6"></div>
+
+- *[[CVPR 2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.html?ref=https://githubhelp.com) **PyramidFlow: High-Resolution Defect Contrastive Localization using Pyramid Normalizing Flow** [:octocat:](https://github.com/gasharper/PyramidFlow)
+
+  *Lei, Jiarui and Hu, Xiaobo and Wang, Yue and Liu, Dong*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/758827c6-a845-4e1c-94b6-bbe7e3ebcdbf" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+During industrial processing, unforeseen defects may arise in products due to uncontrollable factors. Although unsupervised methods have been successful in defect localization, the usual use of pre-trained models results in low-resolution outputs, which damages visual performance. To address this issue, we propose PyramidFlow, the first fully normalizing flow method without pre-trained models that enables high-resolution defect localization. Specifically, we propose a latent template-based defect contrastive localization paradigm to reduce intra-class variance, as the pre-trained models do. In addition, PyramidFlow utilizes pyramid-like normalizing flows for multi-scale fusing and volume normalization to help generalization. Our comprehensive studies on MVTecAD demonstrate the proposed method outperforms the comparable algorithms that do not use external priors, even achieving state-of-the-art performance in more challenging BTAD scenarios.
+</details>
+
+## 7. Diffusion-Based Approaches <div id = "s7"></div>
 
 - [[CVPR 2025]](https://arxiv.org/abs/2406.01078) **Anomaly Anything: Promptable Unseen Visual Anomaly Generation** [:octocat:](https://github.com/EPFL-IMOS/AnomalyAny)
 
@@ -329,7 +346,7 @@ Generative models have been shown to provide a powerful mechanism for anomaly de
 In medical applications, weakly supervised anomaly detection methods are of great interest, as only image-level annotations are required for training. Current anomaly detection methods mainly rely on generative adversarial networks or autoencoder models. Those models are often complicated to train or have difficulties to preserve fine details in the image. We present a novel weakly supervised anomaly detection method based on denoising diffusion implicit models. We combine the deterministic iterative noising and denoising scheme with classifier guidance for image-to-image translation between diseased and healthy subjects. Our method generates very detailed anomaly maps without the need for a complex training procedure. We evaluate our method on the BRATS2020 dataset for brain tumor detection and the CheXpert dataset for detecting pleural effusions.
 </details>
   
-## 7. Multi-Modal Fusion <div id = "s7"></div>
+## 8. Multi-Modal Fusion <div id = "s8"></div>
 
 - [[Inf. Fusion 2025]](https://www.sciencedirect.com/science/article/pii/S1566253524004093) **Adapting the Segment Anything Model for Multi-Modal Retinal Anomaly Detection and Localization** [:octocat:](https://github.com/Jingtao-Li-CVer/MMRAD)
 
@@ -358,7 +375,7 @@ Existing efforts to boost multimodal fusion of 3D anomaly detection (3D-AD) prim
 </details>
   
   
-## 8. Vision Language Models <div id = "s8"></div>
+## 9. Vision Language Models <div id = "s9"></div>
 
 - [[CVPR 2025]](https://arxiv.org/pdf/2503.06661) **AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP** [:octocat:](https://github.com/mwxinnn/aa-clip)
 
@@ -477,7 +494,7 @@ In the field of medical decision-making, precise anomaly detection in medical im
 Recognizing out-of-distribution (OOD) samples is critical for machine learning systems deployed in the open world. The vast majority of OOD detection methods are driven by a single modality (eg, either vision or language), leaving the rich information in multi-modal representations untapped. Inspired by the recent success of vision-language pre-training, this paper enriches the landscape of OOD detection from a single-modal to a multi-modal regime. Particularly, we propose Maximum Concept Matching (MCM), a simple yet effective zero-shot OOD detection method based on aligning visual features with textual concepts. We contribute in-depth analysis and theoretical insights to understand the effectiveness of MCM. Extensive experiments demonstrate that MCM achieves superior performance on a wide variety of real-world tasks. MCM with vision-language features outperforms a common baseline with pure visual features on a hard OOD task with semantically similar classes by 13.1% (AUROC) Code is available at https://github.com/deeplearning-wisc/MCM.
 </details>
 
-## 9. Knowledge Distillation <div id = "s9"></div>
+## 10. Knowledge Distillation <div id = "s10"></div>
 
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection** [:octocat:](https://github.com/hito2448/urd)
 
@@ -492,7 +509,7 @@ Recognizing out-of-distribution (OOD) samples is critical for machine learning s
 Knowledge Distillation (KD) is a promising approach for unsupervised Anomaly Detection (AD). However, the student network's over-generalization often diminishes the crucial representation differences between teacher and student in anomalous regions, leading to detection failures. To address this problem, the widely accepted Reverse Distillation (RD) paradigm designs the asymmetry teacher and student network, using an encoder as teacher and a decoder as student. Yet, the design of RD does not ensure that the teacher encoder effectively distinguishes between normal and abnormal features or that the student decoder generates anomaly-free features. Additionally, the absence of skip connections results in a loss of fine details during feature reconstruction. To address these issues, we propose RD with Expert, which introduces a novel Expert-Teacher-Student network for simultaneous distillation of both the teacher encoder and student decoder. The added expert network enhances the student's ability to generate normal features and optimizes the teacher's differentiation between normal and abnormal features, reducing missed detections. Additionally, Guided Information Injection is designed to filter and transfer features from teacher to student, improving detail reconstruction and minimizing false positives. Experiments on several benchmarks prove that our method outperforms existing unsupervised AD methods under RD paradigm, fully unlocking RD’s potential.
 </details>
 
-## 10. Correlation Learning <div id = "s10"></div>
+## 11. Correlation Learning <div id = "s11"></div>
 
 - [[TMI 2024]](https://ieeexplore.ieee.org/document/10680612) **Facing Differences of Similarity: Intra- and Inter-Correlation Unsupervised Learning for Chest X-Ray Anomaly Detection**
 
@@ -508,7 +525,7 @@ Anomaly detection can significantly aid doctors in interpreting chest X-rays. Th
 </details>
 
 
-## 11. Benchmarks <div id = "s11"></div>
+## 12. Benchmarks <div id = "s12"></div>
 
 - [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging** [:octocat:](https://github.com/compai-lab/2024-ncomms-bercea.git)
 
