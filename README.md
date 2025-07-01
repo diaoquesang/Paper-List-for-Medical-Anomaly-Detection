@@ -552,7 +552,7 @@ Anomaly detection can significantly aid doctors in interpreting chest X-rays. Th
 
 ## 12. Anomaly Generation <div id = "s12"></div>
 
-- [[CVPR 2025]](https://openaccess.thecvf.com/content/CVPR2025/html/Jin_Dual-Interrelated_Diffusion_Model_for_Few-Shot_Anomaly_Image_Generation_CVPR_2025_paper.html) **Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation** [:octocat:](https://github.com/yinyjin/DualAnoDiff)
+- *[[CVPR 2025]](https://openaccess.thecvf.com/content/CVPR2025/html/Jin_Dual-Interrelated_Diffusion_Model_for_Few-Shot_Anomaly_Image_Generation_CVPR_2025_paper.html) **Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation** [:octocat:](https://github.com/yinyjin/DualAnoDiff)
 
   *Jin, Ying and Peng, Jinlong and He, Qingdong and Hu, Teng and Wu, Jiafu and Chen, Hao and Wang, Haoxuan and Zhu, Wenbing and Chi, Mingmin and Liu, Jun and others*
 
