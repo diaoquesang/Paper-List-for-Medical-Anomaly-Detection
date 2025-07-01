@@ -49,7 +49,8 @@
 - [**9. Vision Language Models**](#s9)
 - [**10. Knowledge Distillation**](#s10)
 - [**11. Correlation Learning**](#s11)
-- [**12. Benchmarks**](#s12)
+- [**12. Anomaly Generation**](#s12)
+- [**13. Benchmarks**](#s13)
 
 ## ✏️ Tips
 
@@ -549,8 +550,22 @@ Knowledge Distillation (KD) is a promising approach for unsupervised Anomaly Det
 Anomaly detection can significantly aid doctors in interpreting chest X-rays. The commonly used strategy involves utilizing the pre-trained network to extract features from normal data to establish feature representations. However, when a pre-trained network is applied to more detailed X-rays, differences of similarity can limit the robustness of these feature representations. Therefore, we propose an intra- and inter-correlation learning framework for chest X-ray anomaly detection. Firstly, to better leverage the similar anatomical structure information in chest X-rays, we introduce the Anatomical-Feature Pyramid Fusion Module for feature fusion. This module aims to obtain fusion features with both local details and global contextual information. These fusion features are initialized by a trainable feature mapper and stored in a feature bank to serve as centers for learning. Furthermore, to Facing Differences of Similarity (FDS) introduced by the pre-trained network, we propose an intra- and inter-correlation learning strategy: 1) We use intra-correlation learning to establish intra-correlation between mapped features of individual images and semantic centers, thereby initially discovering lesions; 2) We employ inter-correlation learning to establish inter-correlation between mapped features of different images, further mitigating the differences of similarity introduced by the pre-trained network, and achieving effective detection results even in diverse chest disease environments. Finally, a comparison with 18 state-of-the-art methods on three datasets demonstrates the superiority and effectiveness of the proposed method across various scenarios.
 </details>
 
+## 12. Anomaly Generation <div id = "s12"></div>
 
-## 12. Benchmarks <div id = "s12"></div>
+- [[CVPR 2025]](https://openaccess.thecvf.com/content/CVPR2025/html/Jin_Dual-Interrelated_Diffusion_Model_for_Few-Shot_Anomaly_Image_Generation_CVPR_2025_paper.html) **Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation** [:octocat:](https://github.com/yinyjin/DualAnoDiff)
+
+  *Jin, Ying and Peng, Jinlong and He, Qingdong and Hu, Teng and Wu, Jiafu and Chen, Hao and Wang, Haoxuan and Zhu, Wenbing and Chi, Mingmin and Liu, Jun and others*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1e58fa6b-99c8-4d24-9ddf-ab2215c7b4d0" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+The performance of anomaly inspection in industrial manufacturing is constrained by the scarcity of anomaly data. To overcome this challenge, researchers have started employing anomaly generation approaches to augment the anomaly dataset. However, existing anomaly generation methods suffer from limited diversity in the generated anomalies and struggle to achieve a seamless blending of this anomaly with the original image. Moreover, the generated mask is usually not aligned with the generated anomaly. In this paper, we overcome these challenges from a new perspective, simultaneously generating a pair of the overall image and the corresponding anomaly part. We propose DualAnoDiff, a novel diffusion-based few-shot anomaly image generation model, which can generate diverse and realistic anomaly images by using a dual-interrelated diffusion model, where one of them is employed to generate the whole image while the other one generates the anomaly part. Moreover, we extract background and shape information to mitigate the distortion and blurriness phenomenon in few-shot image generation. Extensive experiments demonstrate the superiority of our proposed model over state-of-the-art methods in terms of diversity, realism and the accuracy of mask. Overall, our approach significantly improves the performance of downstream anomaly inspection tasks, including anomaly detection, anomaly localization, and anomaly classification tasks. Code will be made available.
+</details>
+
+## 13. Benchmarks <div id = "s13"></div>
 
 - [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging** [:octocat:](https://github.com/compai-lab/2024-ncomms-bercea.git)
 
