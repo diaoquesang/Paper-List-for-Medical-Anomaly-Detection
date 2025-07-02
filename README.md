@@ -45,12 +45,13 @@
 - [**5. GAN-Based Approaches**](#s5)
 - [**6. Flow-Based Approaches**](#s6)
 - [**7. Diffusion-Based Approaches**](#s7)
-- [**8. Multi-Modal Fusion**](#s8)
-- [**9. Vision Language Models**](#s9)
-- [**10. Knowledge Distillation**](#s10)
-- [**11. Correlation Learning**](#s11)
-- [**12. Anomaly Generation**](#s12)
-- [**13. Benchmarks**](#s13)
+- [**8. Patch-Based Approaches**](#s8)
+- [**9. Multi-Modal Fusion**](#s9)
+- [**10. Vision Language Models**](#s10)
+- [**11. Knowledge Distillation**](#s11)
+- [**12. Correlation Learning**](#s12)
+- [**13. Anomaly Generation**](#s13)
+- [**14. Benchmarks**](#s14)
 
 ## ✏️ Tips
 
@@ -319,19 +320,6 @@ Segmentation masks of pathological areas are useful in many medical applications
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 Diffusion models have advanced unsupervised anomaly detection by improving the transformation of pathological images into pseudo-healthy equivalents. Nonetheless, standard approaches may compromise critical information during pathology removal, leading to restorations that do not align with unaffected regions in the original scans. Such discrepancies can inadvertently increase false positive rates and reduce specificity, complicating radiological evaluations. This paper introduces Temporal Harmonization for Optimal Restoration (THOR), which refines the reverse diffusion process by integrating implicit guidance through intermediate masks. THOR aims to preserve the integrity of healthy tissue details in reconstructed images, ensuring fidelity to the original scan in areas unaffected by pathology. Comparative evaluations reveal that THOR surpasses existing diffusion-based methods in retaining detail and precision in image restoration and detecting and segmenting anomalies in brain MRIs and wrist X-rays. Code: https://github.com/compai-lab/2024-miccai-bercea-thor.git.
 </details>
-  
-- [[MIDL 2024]](https://proceedings.mlr.press/v227/behrendt24a/behrendt24a.pdf) **Patched Diffusion Models for Unsupervised Anomaly Detection in Brain MRI** [:octocat:](https://github.com/finnbehrendt/patched-diffusion-models-uad)
-
-  *Behrendt, Finn and Bhattacharya, Debayan and Krüger, Julia and Opfer, Roland and Schlaefer, Alexander*
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/e5a30138-71c4-4a12-a78b-5ae3c48a3c59" width="50%">
-</div>
-
-<details close>
-<summary><b>📋 Abstract (Click to Expand)</b></summary>
-The use of supervised deep learning techniques to detect pathologies in brain MRI scans can be challenging due to the diversity of brain anatomy and the need for annotated data sets. An alternative approach is to use unsupervised anomaly detection, which only requires sample-level labels of healthy brains to create a reference representation. This reference representation can then be compared to unhealthy brain anatomy in a pixel-wise manner to identify abnormalities. To accomplish this, generative models are needed to create anatomically consistent MRI scans of healthy brains. While recent diffusion models have shown promise in this task, accurately generating the complex structure of the human brain remains a challenge. In this paper, we propose a method that reformulates the generation task of diffusion models as a patch-based estimation of healthy brain anatomy, using spatial context to guide and improve reconstruction. We evaluate our approach on data of tumors and multiple sclerosis lesions and demonstrate a relative improvement of 25.1% compared to existing baselines.
-</details>
 
 - [[UNSURE 2024]](https://link.springer.com/chapter/10.1007/978-3-031-73158-7_11) **Image-Conditioned Diffusion Models for Medical Anomaly Detection**
 
@@ -371,8 +359,36 @@ Generative models have been shown to provide a powerful mechanism for anomaly de
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 In medical applications, weakly supervised anomaly detection methods are of great interest, as only image-level annotations are required for training. Current anomaly detection methods mainly rely on generative adversarial networks or autoencoder models. Those models are often complicated to train or have difficulties to preserve fine details in the image. We present a novel weakly supervised anomaly detection method based on denoising diffusion implicit models. We combine the deterministic iterative noising and denoising scheme with classifier guidance for image-to-image translation between diseased and healthy subjects. Our method generates very detailed anomaly maps without the need for a complex training procedure. We evaluate our method on the BRATS2020 dataset for brain tumor detection and the CheXpert dataset for detecting pleural effusions.
 </details>
-  
-## 8. Multi-Modal Fusion <div id = "s8"></div>
+
+## 8. Patch-Based Approaches <div id = "s8"></div>
+
+- [[MIDL 2024]](https://proceedings.mlr.press/v227/behrendt24a/behrendt24a.pdf) **Patched Diffusion Models for Unsupervised Anomaly Detection in Brain MRI** [:octocat:](https://github.com/finnbehrendt/patched-diffusion-models-uad)
+
+  *Behrendt, Finn and Bhattacharya, Debayan and Krüger, Julia and Opfer, Roland and Schlaefer, Alexander*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e5a30138-71c4-4a12-a78b-5ae3c48a3c59" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+The use of supervised deep learning techniques to detect pathologies in brain MRI scans can be challenging due to the diversity of brain anatomy and the need for annotated data sets. An alternative approach is to use unsupervised anomaly detection, which only requires sample-level labels of healthy brains to create a reference representation. This reference representation can then be compared to unhealthy brain anatomy in a pixel-wise manner to identify abnormalities. To accomplish this, generative models are needed to create anatomically consistent MRI scans of healthy brains. While recent diffusion models have shown promise in this task, accurately generating the complex structure of the human brain remains a challenge. In this paper, we propose a method that reformulates the generation task of diffusion models as a patch-based estimation of healthy brain anatomy, using spatial context to guide and improve reconstruction. We evaluate our approach on data of tumors and multiple sclerosis lesions and demonstrate a relative improvement of 25.1% compared to existing baselines.
+</details>
+
+- *[[CVPR 2021]](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Glancing_at_the_Patch_Anomaly_Localization_With_Global_and_Local_CVPR_2021_paper.html?ref=https://githubhelp.com) **Glancing at the Patch: Anomaly Localization with Global and Local Feature Comparison**
+
+  *Wang, Shenzhi and Wu, Liwei and Cui, Lei and Shen, Yujun*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/eeb0aba8-750e-41c5-8b91-31241f274a71" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Anomaly localization, with the purpose to segment the anomalous regions within images, is challenging due to the large variety of anomaly types. Existing methods typically train deep models by treating the entire image as a whole yet put little effort into learning the local distribution, which is vital for this pixel-precise task. In this work, we propose an unsupervised patch-based approach that gives due consideration to both the global and local information. More concretely, we employ a Local-Net and Global-Net to extract features from any individual patch and its surrounding respectively. Global-Net is trained with the purpose to mimic the local feature such that we can easily detect an abnormal patch when its feature mismatches that from the context. We further introduce an Inconsistency Anomaly Detection (IAD) head and a Distortion Anomaly Detection (DAD) head to sufficiently spot the discrepancy between global and local features. A scoring function derived from the multi-head design facilitates high-precision anomaly localization. Extensive experiments on a couple of real-world datasets suggest that our approach outperforms state-of-the-art competitors by a sufficiently large margin.
+</details>
+
+## 9. Multi-Modal Fusion <div id = "s9"></div>
 
 - [[Inf. Fusion 2025]](https://www.sciencedirect.com/science/article/pii/S1566253524004093) **Adapting the Segment Anything Model for Multi-Modal Retinal Anomaly Detection and Localization** [:octocat:](https://github.com/Jingtao-Li-CVer/MMRAD)
 
@@ -401,7 +417,7 @@ Existing efforts to boost multimodal fusion of 3D anomaly detection (3D-AD) prim
 </details>
   
   
-## 9. Vision Language Models <div id = "s9"></div>
+## 10. Vision Language Models <div id = "s10"></div>
 
 - [[CVPR 2025]](https://arxiv.org/pdf/2503.06661) **AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP** [:octocat:](https://github.com/mwxinnn/aa-clip)
 
@@ -520,7 +536,7 @@ In the field of medical decision-making, precise anomaly detection in medical im
 Recognizing out-of-distribution (OOD) samples is critical for machine learning systems deployed in the open world. The vast majority of OOD detection methods are driven by a single modality (eg, either vision or language), leaving the rich information in multi-modal representations untapped. Inspired by the recent success of vision-language pre-training, this paper enriches the landscape of OOD detection from a single-modal to a multi-modal regime. Particularly, we propose Maximum Concept Matching (MCM), a simple yet effective zero-shot OOD detection method based on aligning visual features with textual concepts. We contribute in-depth analysis and theoretical insights to understand the effectiveness of MCM. Extensive experiments demonstrate that MCM achieves superior performance on a wide variety of real-world tasks. MCM with vision-language features outperforms a common baseline with pure visual features on a hard OOD task with semantically similar classes by 13.1% (AUROC) Code is available at https://github.com/deeplearning-wisc/MCM.
 </details>
 
-## 10. Knowledge Distillation <div id = "s10"></div>
+## 11. Knowledge Distillation <div id = "s11"></div>
 
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection** [:octocat:](https://github.com/hito2448/urd)
 
@@ -535,7 +551,7 @@ Recognizing out-of-distribution (OOD) samples is critical for machine learning s
 Knowledge Distillation (KD) is a promising approach for unsupervised Anomaly Detection (AD). However, the student network's over-generalization often diminishes the crucial representation differences between teacher and student in anomalous regions, leading to detection failures. To address this problem, the widely accepted Reverse Distillation (RD) paradigm designs the asymmetry teacher and student network, using an encoder as teacher and a decoder as student. Yet, the design of RD does not ensure that the teacher encoder effectively distinguishes between normal and abnormal features or that the student decoder generates anomaly-free features. Additionally, the absence of skip connections results in a loss of fine details during feature reconstruction. To address these issues, we propose RD with Expert, which introduces a novel Expert-Teacher-Student network for simultaneous distillation of both the teacher encoder and student decoder. The added expert network enhances the student's ability to generate normal features and optimizes the teacher's differentiation between normal and abnormal features, reducing missed detections. Additionally, Guided Information Injection is designed to filter and transfer features from teacher to student, improving detail reconstruction and minimizing false positives. Experiments on several benchmarks prove that our method outperforms existing unsupervised AD methods under RD paradigm, fully unlocking RD’s potential.
 </details>
 
-## 11. Correlation Learning <div id = "s11"></div>
+## 12. Correlation Learning <div id = "s12"></div>
 
 - [[TMI 2024]](https://ieeexplore.ieee.org/document/10680612) **Facing Differences of Similarity: Intra- and Inter-Correlation Unsupervised Learning for Chest X-Ray Anomaly Detection**
 
@@ -550,7 +566,7 @@ Knowledge Distillation (KD) is a promising approach for unsupervised Anomaly Det
 Anomaly detection can significantly aid doctors in interpreting chest X-rays. The commonly used strategy involves utilizing the pre-trained network to extract features from normal data to establish feature representations. However, when a pre-trained network is applied to more detailed X-rays, differences of similarity can limit the robustness of these feature representations. Therefore, we propose an intra- and inter-correlation learning framework for chest X-ray anomaly detection. Firstly, to better leverage the similar anatomical structure information in chest X-rays, we introduce the Anatomical-Feature Pyramid Fusion Module for feature fusion. This module aims to obtain fusion features with both local details and global contextual information. These fusion features are initialized by a trainable feature mapper and stored in a feature bank to serve as centers for learning. Furthermore, to Facing Differences of Similarity (FDS) introduced by the pre-trained network, we propose an intra- and inter-correlation learning strategy: 1) We use intra-correlation learning to establish intra-correlation between mapped features of individual images and semantic centers, thereby initially discovering lesions; 2) We employ inter-correlation learning to establish inter-correlation between mapped features of different images, further mitigating the differences of similarity introduced by the pre-trained network, and achieving effective detection results even in diverse chest disease environments. Finally, a comparison with 18 state-of-the-art methods on three datasets demonstrates the superiority and effectiveness of the proposed method across various scenarios.
 </details>
 
-## 12. Anomaly Generation <div id = "s12"></div>
+## 13. Anomaly Generation <div id = "s13"></div>
 
 - *[[CVPR 2025]](https://openaccess.thecvf.com/content/CVPR2025/html/Jin_Dual-Interrelated_Diffusion_Model_for_Few-Shot_Anomaly_Image_Generation_CVPR_2025_paper.html) **Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation** [:octocat:](https://github.com/yinyjin/DualAnoDiff)
 
@@ -565,7 +581,7 @@ Anomaly detection can significantly aid doctors in interpreting chest X-rays. Th
 The performance of anomaly inspection in industrial manufacturing is constrained by the scarcity of anomaly data. To overcome this challenge, researchers have started employing anomaly generation approaches to augment the anomaly dataset. However, existing anomaly generation methods suffer from limited diversity in the generated anomalies and struggle to achieve a seamless blending of this anomaly with the original image. Moreover, the generated mask is usually not aligned with the generated anomaly. In this paper, we overcome these challenges from a new perspective, simultaneously generating a pair of the overall image and the corresponding anomaly part. We propose DualAnoDiff, a novel diffusion-based few-shot anomaly image generation model, which can generate diverse and realistic anomaly images by using a dual-interrelated diffusion model, where one of them is employed to generate the whole image while the other one generates the anomaly part. Moreover, we extract background and shape information to mitigate the distortion and blurriness phenomenon in few-shot image generation. Extensive experiments demonstrate the superiority of our proposed model over state-of-the-art methods in terms of diversity, realism and the accuracy of mask. Overall, our approach significantly improves the performance of downstream anomaly inspection tasks, including anomaly detection, anomaly localization, and anomaly classification tasks. Code will be made available.
 </details>
 
-## 13. Benchmarks <div id = "s13"></div>
+## 14. Benchmarks <div id = "s14"></div>
 
 - [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging** [:octocat:](https://github.com/compai-lab/2024-ncomms-bercea.git)
 
