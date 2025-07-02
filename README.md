@@ -51,7 +51,7 @@
 - [**11. Knowledge Distillation**](#s11)
 - [**12. Correlation Learning**](#s12)
 - [**13. Anomaly Generation**](#s13)
-- [**14. Benchmarks**](#s14)
+- [**14. Benchmarks & Surveys**](#s14)
 
 ## ✏️ Tips
 
@@ -581,7 +581,7 @@ Anomaly detection can significantly aid doctors in interpreting chest X-rays. Th
 The performance of anomaly inspection in industrial manufacturing is constrained by the scarcity of anomaly data. To overcome this challenge, researchers have started employing anomaly generation approaches to augment the anomaly dataset. However, existing anomaly generation methods suffer from limited diversity in the generated anomalies and struggle to achieve a seamless blending of this anomaly with the original image. Moreover, the generated mask is usually not aligned with the generated anomaly. In this paper, we overcome these challenges from a new perspective, simultaneously generating a pair of the overall image and the corresponding anomaly part. We propose DualAnoDiff, a novel diffusion-based few-shot anomaly image generation model, which can generate diverse and realistic anomaly images by using a dual-interrelated diffusion model, where one of them is employed to generate the whole image while the other one generates the anomaly part. Moreover, we extract background and shape information to mitigate the distortion and blurriness phenomenon in few-shot image generation. Extensive experiments demonstrate the superiority of our proposed model over state-of-the-art methods in terms of diversity, realism and the accuracy of mask. Overall, our approach significantly improves the performance of downstream anomaly inspection tasks, including anomaly detection, anomaly localization, and anomaly classification tasks. Code will be made available.
 </details>
 
-## 14. Benchmarks <div id = "s14"></div>
+## 14. Benchmarks & Surveys <div id = "s14"></div>
 
 - [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging** [:octocat:](https://github.com/compai-lab/2024-ncomms-bercea.git)
 
@@ -633,6 +633,19 @@ Anomaly detection (AD) is a fundamental research problem in machine learning and
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 Visual anomaly detection aims to identify anomalous regions in images through unsupervised learning paradigms, with increasing application demand and value in fields such as industrial inspection and medical lesion detection. Despite significant progress in recent years, there is a lack of comprehensive benchmarks to adequately evaluate the performance of various mainstream methods across different datasets under the practical multi-class setting. The absence of standardized experimental setups can lead to potential biases in training epochs, resolution, and metric results, resulting in erroneous conclusions. This paper addresses this issue by proposing a comprehensive visual anomaly detection benchmark, ADer, which is a modular framework that is highly extensible for new methods. The benchmark includes multiple datasets from industrial and medical domains, implementing fifteen state-of-the-art methods and nine comprehensive metrics. Additionally, we have open-sourced the GPU-assisted ADEval package to address the slow evaluation problem of metrics like time-consuming mAU-PRO on large-scale data, significantly reducing evaluation time by more than 1000-fold. Through extensive experimental results, we objectively reveal the strengths and weaknesses of different methods and provide insights into the challenges and future directions of multiclass visual anomaly detection. We hope that ADer will become a valuable resource for researchers and practitioners in the field, promoting the development of more robust and generalizable anomaly detection systems. Full codes have been attached in Appendix and open-sourced at https://github.com/zhangzjn/ader.
+</details>
+
+- [[CSUR 2021]](https://dl.acm.org/doi/abs/10.1145/3464423) **Deep Learning for Medical Anomaly Detection - A Survey**
+
+  *Fernando, Tharindu and Gammulle, Harshala and Denman, Simon and Sridharan, Sridha and Fookes, Clinton*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c78c32b9-b26a-4421-9108-52fc4e4d2614" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Machine learning–based medical anomaly detection is an important problem that has been extensively studied. Numerous approaches have been proposed across various medical application domains and we observe several similarities across these distinct applications. Despite this comparability, we observe a lack of structured organisation of these diverse research applications such that their advantages and limitations can be studied. The principal aim of this survey is to provide a thorough theoretical analysis of popular deep learning techniques in medical anomaly detection. In particular, we contribute a coherent and systematic review of state-of-the-art techniques, comparing and contrasting their architectural differences as well as training algorithms. Furthermore, we provide a comprehensive overview of deep model interpretation strategies that can be used to interpret model decisions. In addition, we outline the key limitations of existing deep medical anomaly detection techniques and propose key research directions for further investigation.
 </details>
 
 ## 🥰 Star History
