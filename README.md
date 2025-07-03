@@ -20,7 +20,7 @@
 
 **🦉 Contributors: [Yifei Sun (22' HDU-ITMO Undergraduate)](https://diaoquesang.github.io/), [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Hao Zheng (22' HDU-ITMO Undergraduate)](https://github.com/267588), [Zhanghao Chen (21' HDU-ITMO Undergraduate/25' SEU Master)](https://benny0323.github.io/bio/), [Yuzhi He (23' XDU Undergraduate)](https://github.com/Black0226), [Jinhong Wang (21' ZJU PhD)](https://wang-jinhong.github.io/), [Jincheng Li (23' NTU Undergraduate)](https://github.com/li00000011).**
 
-**🎓 DeepWiki: [Generating GitHub Knowledge Base Documentation in One Click ](https://deepwiki.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection).**
+**🎓 DeepWiki: [Generating GitHub Knowledge Base Documentation in One Click](https://deepwiki.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection).**
 
 **📦 Other resources: [1] [Bone Suppression in Chest X-Rays: A Deep Survey](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays), [2] [A Paper List for Prototypical Learning](https://github.com/BeistMedAI/Paper-List-for-Prototypical-Learning), [3] [A Paper List for Cell Detection](https://github.com/li00000011/Paper-List-for-Cell-Detection), [4] [Medical-AI-Guide](https://github.com/diaoquesang/Medical-AI-Guide/), [5] [Paper List for Medical Reasoning Large Language Models](https://github.com/HovChen/Paper-List-for-Medical-Reasoning-Large-Language-Models).**
 
