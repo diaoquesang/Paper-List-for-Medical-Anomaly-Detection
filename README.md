@@ -22,7 +22,7 @@
 
 **🎓 DeepWiki: [Generating GitHub Knowledge Base Documentation in One Click](https://deepwiki.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection).**
 
-**📦 Other resources: [1] [Bone Suppression in Chest X-Rays: A Deep Survey](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays), [2] [A Paper List for Prototypical Learning](https://github.com/BeistMedAI/Paper-List-for-Prototypical-Learning), [3] [A Paper List for Cell Detection](https://github.com/li00000011/Paper-List-for-Cell-Detection), [4] [Medical-AI-Guide](https://github.com/diaoquesang/Medical-AI-Guide/), [5] [Paper List for Medical Reasoning Large Language Models](https://github.com/HovChen/Paper-List-for-Medical-Reasoning-Large-Language-Models), [6] [Deep Learning for Virtual Staining of Label-Free Tissue: A Survey](https://github.com/diaoquesang/DL4VS).**
+**📦 Other resources: [1] [Bone Suppression in Chest X-Rays: A Deep Survey](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays), [2] [Paper List for Prototypical Learning](https://github.com/BeistMedAI/Paper-List-for-Prototypical-Learning), [3] [Paper List for Cell Detection](https://github.com/li00000011/Paper-List-for-Cell-Detection), [4] [Medical-AI-Guide](https://github.com/diaoquesang/Medical-AI-Guide/), [5] [Paper List for Medical Reasoning Large Language Models](https://github.com/HovChen/Paper-List-for-Medical-Reasoning-Large-Language-Models), [6] [Deep Learning for Virtual Staining of Label-Free Tissue: A Survey](https://github.com/diaoquesang/DL4VS).**
 
 ### Welcome to join us by contacting: szhsxhsyf@hdu.edu.cn.
 
@@ -647,6 +647,19 @@ Visual anomaly detection aims to identify anomalous regions in images through un
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 Machine learning–based medical anomaly detection is an important problem that has been extensively studied. Numerous approaches have been proposed across various medical application domains and we observe several similarities across these distinct applications. Despite this comparability, we observe a lack of structured organisation of these diverse research applications such that their advantages and limitations can be studied. The principal aim of this survey is to provide a thorough theoretical analysis of popular deep learning techniques in medical anomaly detection. In particular, we contribute a coherent and systematic review of state-of-the-art techniques, comparing and contrasting their architectural differences as well as training algorithms. Furthermore, we provide a comprehensive overview of deep model interpretation strategies that can be used to interpret model decisions. In addition, we outline the key limitations of existing deep medical anomaly detection techniques and propose key research directions for further investigation.
 </details>
+
+## 💞 Citation
+
+```
+@misc{sun2025,
+  author = {Sun, Yifei and Jia, Junhao and Zheng, Hao and Chen, Zhanghao and He, Yuzhi and Wang, Jinhong and Li, Jincheng},
+  title = {Paper List for Medical Anomaly Detection},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection}}
+}
+```
 
 ## 🥰 Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Date)](https://star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Date)
