@@ -403,6 +403,19 @@ Anomaly localization, with the purpose to segment the anomalous regions within i
 Anomaly detection (AD) identifies outliers for applications like defect and lesion detection. While CLIP shows promise for zero-shot AD tasks due to its strong generalization capabilities, its inherent Anomaly-Unawareness leads to limited discrimination between normal and abnormal features. To address this problem, we propose Anomaly-Aware CLIP (AA-CLIP), which enhances CLIP's anomaly discrimination ability in both text and visual spaces while preserving its generalization capability. AA-CLIP is achieved through a straightforward yet effective two-stage approach: it first creates anomaly-aware text anchors to differentiate normal and abnormal semantics clearly, then aligns patch-level visual features with these anchors for precise anomaly localization. This two-stage strategy, with the help of residual adapters, gradually adapts CLIP in a controlled manner, achieving effective AD while maintaining CLIP's class knowledge. Extensive experiments validate AA-CLIP as a resource-efficient solution for zero-shot AD tasks, achieving state-of-the-art results in industrial and medical applications. The code is available at https://github.com/Mwxinnn/AA-CLIP.
 </details>
 
+- *[[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/33420) **Promptable Anomaly Segmentation with SAM Through Self-Perception Tuning**
+
+  *Yang, Hui-Yue and Chen, Hui and Wang, Ao and Chen, Kai and Lin, Zijia and Tang, Yongliang and Gao, Pengcheng and Quan, Yuming and Han, Jungong and Ding, Guiguang*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/157f6abb-a8ce-49fe-af18-2c6e8ba2617d" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Segment Anything Model (SAM) has made great progress in anomaly segmentation tasks due to its impressive generalization ability. However, existing methods that directly apply SAM through prompting often overlook the domain shift issue, where SAM performs well on natural images but struggles in industrial scenarios. Parameter-Efficient Fine-Tuning (PEFT) offers a promising solution, but it may yield suboptimal performance by not adequately addressing the perception challenges during adaptation to anomaly images. In this paper, we propose a novel Self-Perception Tuning (SPT) method, aiming to enhance SAM's perception capability for anomaly segmentation. The SPT method incorporates a self-drafting tuning strategy, which generates an initial coarse draft of the anomaly mask, followed by a refinement process. Additionally, a visual-relation-aware adapter is introduced to improve the perception of discriminative relational information for mask generation. Extensive experimental results on several benchmark datasets demonstrate that our SPT method can significantly outperform baseline methods, validating its effectiveness.
+</details>
+
 - [[MICCAI 2025]](https://arxiv.org/abs/2503.01020) **Delving into Out-of-Distribution Detection with Medical Vision-Language Models** [:octocat:](https://github.com/pyjulie/medical-vlms-ood-detection)
 
   *Ju, Lie and Zhou, Sijin and Zhou, Yukun and Lu, Huimin and Zhu, Zhuoting and Keane, Pearse A and Ge, Zongyuan*
