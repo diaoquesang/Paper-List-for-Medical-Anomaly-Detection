@@ -550,6 +550,19 @@ Existing efforts to boost multimodal fusion of 3D anomaly detection (3D-AD) prim
 
 ## 11. Knowledge Distillation <div id = "s11"></div>
 
+- *[[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/32243) **Filter or Compensate: Towards Invariant Representation from Distribution Shift for Anomaly Detection** [:octocat:](https://github.com/znchen666/fico)
+
+  *Chen, Zining and Luo, Xingshuang and Wang, Weiqiu and Zhao, Zhicheng and Su, Fei and Men, Aidong*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3039c1ff-46f4-4f95-87b1-ed8a21bf9d5d" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Recent Anomaly Detection (AD) methods have achieved great success with In-Distribution (ID) data. However, real-world data often exhibits distribution shift, causing huge performance decay on traditional AD methods. From this perspective, few previous work has explored AD with distribution shift, and the distribution-invariant normality learning has been proposed based on the Reverse Distillation (RD) framework. However, we observe the misalignment issue between the teacher and the student network that causes detection failure, thereby propose FiCo, Filter or Compensate, to address the distribution shift issue in AD. FiCo firstly compensates the distribution-specific information to reduce the misalignment between the teacher and student network via the Distribution-Specific Compensation (DiSCo) module, and secondly filters all abnormal information to capture distribution-invariant normality with the Distribution-Invariant Filter (DiIFi) module. Extensive experiments on three different AD benchmarks demonstrate the effectiveness of FiCo, which outperforms all existing state-of-the-art (SOTA) methods, and even achieves better results on the ID scenario compared with RD-based methods.
+</details>
+
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.07579) **Unlocking the Potential of Reverse Distillation for Anomaly Detection** [:octocat:](https://github.com/hito2448/urd)
 
   *Liu, Xinyue and Wang, Jianyuan and Leng, Biao and Zhang, Shuo*
