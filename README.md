@@ -403,6 +403,19 @@ Anomaly localization, with the purpose to segment the anomalous regions within i
 Anomaly detection (AD) identifies outliers for applications like defect and lesion detection. While CLIP shows promise for zero-shot AD tasks due to its strong generalization capabilities, its inherent Anomaly-Unawareness leads to limited discrimination between normal and abnormal features. To address this problem, we propose Anomaly-Aware CLIP (AA-CLIP), which enhances CLIP's anomaly discrimination ability in both text and visual spaces while preserving its generalization capability. AA-CLIP is achieved through a straightforward yet effective two-stage approach: it first creates anomaly-aware text anchors to differentiate normal and abnormal semantics clearly, then aligns patch-level visual features with these anchors for precise anomaly localization. This two-stage strategy, with the help of residual adapters, gradually adapts CLIP in a controlled manner, achieving effective AD while maintaining CLIP's class knowledge. Extensive experiments validate AA-CLIP as a resource-efficient solution for zero-shot AD tasks, achieving state-of-the-art results in industrial and medical applications. The code is available at https://github.com/Mwxinnn/AA-CLIP.
 </details>
 
+- *[[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/32433) **LogicAD: Explainable Anomaly Detection via VLM-based Text Feature Extraction**
+
+  *Jin, Er and Feng, Qihui and Mou, Yongli and Lakemeyer, Gerhard and Decker, Stefan and Simons, Oliver and Stegmaier, Johannes*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/fbd782fa-52dc-46f5-a993-a4bf0314ce4b" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Logical image understanding involves interpreting and reasoning about the relationships and consistency within an image's visual content. This capability is essential in applications such as industrial inspection, where logical anomaly detection is critical for maintaining high-quality standards and minimizing costly recalls. Previous research in anomaly detection (AD) has relied on prior knowledge for designing algorithms, which often requires extensive manual annotations, significant computing power, and large amounts of data for training. Autoregressive, multimodal Vision Language Models (AVLMs) offer a promising alternative due to their exceptional performance in visual reasoning across various domains. Despite this, their application to logical AD remains unexplored. In this work, we investigate using AVLMs for logical AD and demonstrate that they are well-suited to the task. Combining AVLMs with format embedding and a logic reasoner, we achieve SOTA performance on public benchmarks, MVTec LOCO AD, with an AUROC of 86.0% and an F1-max of 83.7% along with explanations of the anomalies. This significantly outperforms the existing SOTA method by 18.1% in AUROC and 4.6% in F1-max score.
+</details>
+
 - *[[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/33420) **Promptable Anomaly Segmentation with SAM Through Self-Perception Tuning**
 
   *Yang, Hui-Yue and Chen, Hui and Wang, Ao and Chen, Kai and Lin, Zijia and Tang, Yongliang and Gao, Pengcheng and Quan, Yuming and Han, Jungong and Ding, Guiguang*
