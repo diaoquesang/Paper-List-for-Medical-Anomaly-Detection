@@ -41,7 +41,7 @@
 - [**1. Solving "Identity Mapping"**](#s1)
 - [**2. Supervised Learning**](#s2)
 - [**3. Self-Supervised Learning**](#s3)
-- [**4. AE-Based Approaches**](#s)
+- [**4. AE-Based Approaches**](#s4)
 - [**5. GAN-Based Approaches**](#s5)
 - [**6. Flow-Based Approaches**](#s6)
 - [**7. Diffusion-Based Approaches**](#s7)
@@ -535,19 +535,19 @@ Recognizing out-of-distribution (OOD) samples is critical for machine learning s
 
 ## 10. Multi-Modal Fusion <div id = "s10"></div>
 
-- [[Inf. Fusion 2025]](https://www.sciencedirect.com/science/article/pii/S1566253524004093) **Adapting the Segment Anything Model for Multi-Modal Retinal Anomaly Detection and Localization** [:octocat:](https://github.com/Jingtao-Li-CVer/MMRAD)
+- *[[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/33349) **Unveiling Multi-View Anomaly Detection: Intra-view Decoupling and Inter-view Fusion**
 
-  *Li, Jingtao and Chen, Ting and Wang, Xinyu and Zhong, Yanfei and Xiao, Xuan*
+  *Mao, Kai and Lian, Yiyang and Wang, Yangyang and Liu, Meiqin and Zheng, Nanning and Wei, Ping*
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/73accda9-cf6e-4e65-a358-15977e521198" width="50%">
+  <img src="https://github.com/user-attachments/assets/f8511b5b-a5a5-4632-95f0-fc11a5c88890" width="50%">
 </div>
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-The fusion of optical coherence tomography (OCT) and fundus modality information can provide a comprehensive diagnosis for retinal artery occlusion (RAO) disease, where OCT provides the cross-sectional examination of the fundus image. Given multi-modal retinal images, an anomaly diagnosis model can discriminate RAO without the need for real diseased samples. Despite this, previous studies have only focused on single-modal diagnosis, because of: 1) the lack of paired modality samples; and 2) the significant imaging differences, which make the fusion difficult with small-scale medical data. In this paper, we describe how we first built a multi-modal RAO dataset including both OCT and fundus modalities, which supports both the anomaly detection and localization tasks with pixel-level annotation. Motivated by the powerful generalization ability of the recent visual foundation model known as the Segment Anything Model (SAM), we adapted it for our task considering the small-scale property of retinal samples. Specifically, a modality-shared decoder with task-specific tokens is introduced to make SAM support the multi-modal image setting, which includes a mask token for the anomaly localization task at the pixel level and a fusion token for the anomaly detection task at the case level. Since SAM has little medical knowledge and lacks the learning of the “normal” concept, it is infeasible to localize RAO anomalies in the zero-shot manner. To integrate expert retinal knowledge while keeping the general segmentation knowledge, general anomaly simulation for both modalities and a low-level prompt-tuning strategy are introduced. The experiments conducted in this study show that the adapted model can surpass the state-of-the-art model by a large margin. This study sets the first benchmark for the multi-modal anomaly detection and localization tasks in the medical community. The code is available at https://github.com/Jingtao-Li-CVer/MMRAD.
+Anomaly detection has garnered significant attention for its extensive industrial application value. Most existing methods focus on single-view scenarios and fail to detect anomalies hidden in blind spots, leaving a gap in addressing the demands of multi-view detection in practical applications. Ensemble of multiple single-view models is a typical way to tackle the multi-view situation, but it overlooks the correlations between different views. In this paper, we propose a novel multi-view anomaly detection framework, Intra-view Decoupling and Inter-view Fusion (IDIF), to explore correlations among views. Our method contains three key components: 1) a proposed Consistency Bottleneck module extracting the common features of different views through information compression and mutual information maximization; 2) an Implicit Voxel Construction module fusing features of different views with prior knowledge represented in the form of voxels; and 3) a View-wise Dropout training strategy enabling the model to learn how to cope with missing views during test. The proposed IDIF achieves state-of-the-art performance on three datasets. Extensive ablation studies also demonstrate the superiority of our methods.
 </details>
-  
+
 - *[[AAAI 2025]](https://arxiv.org/pdf/2412.17297) **Revisiting Multimodal Fusion for 3D Anomaly Detection from an Architectural Perspective**
 
   *Long, Kaifang and Xie, Guoyang and Ma, Lianbo and Liu, Jiaqi and Lu, Zhichao*
@@ -559,6 +559,19 @@ The fusion of optical coherence tomography (OCT) and fundus modality information
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 Existing efforts to boost multimodal fusion of 3D anomaly detection (3D-AD) primarily concentrate on devising more effective multimodal fusion strategies. However, little attention was devoted to analyzing the role of multimodal fusion architecture (topology) design in contributing to 3D-AD. In this paper, we aim to bridge this gap and present a systematic study on the impact of multimodal fusion architecture design on 3D-AD. This work considers the multimodal fusion architecture design at the intra-module fusion level, ie, independent modality-specific modules, involving early, middle or late multimodal features with specific fusion operations, and also at the inter-module fusion level, ie, the strategies to fuse those modules. In both cases, we first derive insights through theoretically and experimentally exploring how architectural designs influence 3D-AD. Then, we extend SOTA neural architecture search (NAS) paradigm and propose 3D-ADNAS to simultaneously search across multimodal fusion strategies and modality-specific modules for the first time. Extensive experiments show that 3D-ADNAS obtains consistent improvements in 3D-AD across various model capacities in terms of accuracy, frame rate, and memory usage, and it exhibits great potential in dealing with few-shot 3D-AD tasks.
+</details>
+
+- [[Inf. Fusion 2025]](https://www.sciencedirect.com/science/article/pii/S1566253524004093) **Adapting the Segment Anything Model for Multi-Modal Retinal Anomaly Detection and Localization** [:octocat:](https://github.com/Jingtao-Li-CVer/MMRAD)
+
+  *Li, Jingtao and Chen, Ting and Wang, Xinyu and Zhong, Yanfei and Xiao, Xuan*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/73accda9-cf6e-4e65-a358-15977e521198" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+The fusion of optical coherence tomography (OCT) and fundus modality information can provide a comprehensive diagnosis for retinal artery occlusion (RAO) disease, where OCT provides the cross-sectional examination of the fundus image. Given multi-modal retinal images, an anomaly diagnosis model can discriminate RAO without the need for real diseased samples. Despite this, previous studies have only focused on single-modal diagnosis, because of: 1) the lack of paired modality samples; and 2) the significant imaging differences, which make the fusion difficult with small-scale medical data. In this paper, we describe how we first built a multi-modal RAO dataset including both OCT and fundus modalities, which supports both the anomaly detection and localization tasks with pixel-level annotation. Motivated by the powerful generalization ability of the recent visual foundation model known as the Segment Anything Model (SAM), we adapted it for our task considering the small-scale property of retinal samples. Specifically, a modality-shared decoder with task-specific tokens is introduced to make SAM support the multi-modal image setting, which includes a mask token for the anomaly localization task at the pixel level and a fusion token for the anomaly detection task at the case level. Since SAM has little medical knowledge and lacks the learning of the “normal” concept, it is infeasible to localize RAO anomalies in the zero-shot manner. To integrate expert retinal knowledge while keeping the general segmentation knowledge, general anomaly simulation for both modalities and a low-level prompt-tuning strategy are introduced. The experiments conducted in this study show that the adapted model can surpass the state-of-the-art model by a large margin. This study sets the first benchmark for the multi-modal anomaly detection and localization tasks in the medical community. The code is available at https://github.com/Jingtao-Li-CVer/MMRAD.
 </details>
 
 ## 11. Knowledge Distillation <div id = "s11"></div>
