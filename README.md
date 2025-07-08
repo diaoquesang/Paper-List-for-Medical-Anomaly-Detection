@@ -269,19 +269,6 @@ During industrial processing, unforeseen defects may arise in products due to un
 
 ## 7. Diffusion-Based Approaches <div id = "s7"></div>
 
-- [[CVPR 2025]](https://arxiv.org/abs/2406.01078) **Anomaly Anything: Promptable Unseen Visual Anomaly Generation** [:octocat:](https://github.com/EPFL-IMOS/AnomalyAny)
-
-  *Sun, Han and Cao, Yunkang and Dong, Hao and Fink, Olga*
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/dfc56b79-f820-49dd-9d38-683836852289" width="50%">
-</div>
-
-<details close>
-<summary><b>📋 Abstract (Click to Expand)</b></summary>
-Visual anomaly detection (AD) presents significant challenges due to the scarcity of anomalous data samples. While numerous works have been proposed to synthesize anomalous samples, these synthetic anomalies often lack authenticity or require extensive training data, limiting their applicability in real-world scenarios. In this work, we propose Anomaly Anything (AnomalyAny), a novel framework that leverages Stable Diffusion (SD)’s image generation capabilities to generate diverse and realistic unseen anomalies. By conditioning on a single normal sample during test time, AnomalyAny is able to generate unseen anomalies for arbitrary object types with text descriptions. Within AnomalyAny, we propose attention-guided anomaly optimization to direct SD’s attention on generating hard anomaly concepts. Additionally, we introduce prompt-guided anomaly refinement, incorporating detailed descriptions to further improve the generation quality. Extensive experiments on MVTec AD and VisA datasets demonstrate AnomalyAny’s ability in generating high-quality unseen anomalies and its effectiveness in enhancing downstream AD performance. Our demo and code are available at https://hansunhayden.github.io/AnomalyAny.github.io/.
-</details>
-
 - [[WACV 2025]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet** [:octocat:](https://github.com/MAXNORM8650/Annotsim)
 
   *Kumar, Komal and Chakraborty, Snehashis and Mahapatra, Dwarikanath and Bozorgtabar, Behzad and Roy, Sudipta*
@@ -618,6 +605,19 @@ Anomaly detection can significantly aid doctors in interpreting chest X-rays. Th
 </details>
 
 ## 13. Anomaly Generation <div id = "s13"></div>
+
+- [[CVPR 2025]](https://arxiv.org/abs/2406.01078) **Anomaly Anything: Promptable Unseen Visual Anomaly Generation** [:octocat:](https://github.com/EPFL-IMOS/AnomalyAny)
+
+  *Sun, Han and Cao, Yunkang and Dong, Hao and Fink, Olga*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dfc56b79-f820-49dd-9d38-683836852289" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Visual anomaly detection (AD) presents significant challenges due to the scarcity of anomalous data samples. While numerous works have been proposed to synthesize anomalous samples, these synthetic anomalies often lack authenticity or require extensive training data, limiting their applicability in real-world scenarios. In this work, we propose Anomaly Anything (AnomalyAny), a novel framework that leverages Stable Diffusion (SD)’s image generation capabilities to generate diverse and realistic unseen anomalies. By conditioning on a single normal sample during test time, AnomalyAny is able to generate unseen anomalies for arbitrary object types with text descriptions. Within AnomalyAny, we propose attention-guided anomaly optimization to direct SD’s attention on generating hard anomaly concepts. Additionally, we introduce prompt-guided anomaly refinement, incorporating detailed descriptions to further improve the generation quality. Extensive experiments on MVTec AD and VisA datasets demonstrate AnomalyAny’s ability in generating high-quality unseen anomalies and its effectiveness in enhancing downstream AD performance. Our demo and code are available at https://hansunhayden.github.io/AnomalyAny.github.io/.
+</details>
 
 - *[[CVPR 2025]](https://openaccess.thecvf.com/content/CVPR2025/html/Jin_Dual-Interrelated_Diffusion_Model_for_Few-Shot_Anomaly_Image_Generation_CVPR_2025_paper.html) **Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation** [:octocat:](https://github.com/yinyjin/DualAnoDiff)
 
