@@ -50,8 +50,9 @@
 - [**10. Multi-Modal Fusion**](#s10)
 - [**11. Knowledge Distillation**](#s11)
 - [**12. Correlation Learning**](#s12)
-- [**13. Anomaly Generation**](#s13)
-- [**14. Benchmarks & Surveys**](#s14)
+- [**13. Anomaly Generation**](#s13
+- [**14. Representation Learning**](#s14)
+- [**15. Benchmarks & Surveys**](#s15)
 
 ## ✏️ Tips
 
@@ -140,7 +141,7 @@ The crux of effective out-of-distribution (OOD) detection lies in acquiring a ro
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
-Medical anomaly detection aims to identify abnormal findings using only normal training data, playing a crucial role in health screening and recognizing rare diseases. Reconstruction-based methods, particularly those utilizing autoencoders (AEs), are dominant in this field. They work under the assumption that AEs trained on only normal data cannot reconstruct unseen abnormal regions well, thereby enabling the anomaly detection based on reconstruction errors. However, this assumption does not always hold due to the mismatch between the reconstruction training objective and the anomaly detection task objective, rendering these methods theoretically unsound. This study focuses on providing a theoretical foundation for AE-based reconstruction methods in anomaly detection. By leveraging information theory, we elucidate the principles of these methods and reveal that the key to improving AE in anomaly detection lies in minimizing the information entropy of latent vectors. Experiments on four datasets with two image modalities validate the effectiveness of our theory. To the best of our knowledge, this is the first effort to theoretically clarify the principles and design philosophy of AE for anomaly detection. The code is available at https://github.com/caiyu6666/AE4AD.
+The core of out-of-distribution (OOD) detection is to learn the in-distribution (ID) representation, which is distinguishable from OOD samples. Previous work applied recognition-based methods to learn the ID features, which tend to learn shortcuts instead of comprehensive representations. In this work, we find surprisingly that simply using reconstruction-based methods could boost the performance of OOD detection significantly. We deeply explore the main contributors of OOD detection and find that reconstruction-based pretext tasks have the potential to provide a generally applicable and efficacious prior, which benefits the model in learning intrinsic data distributions of the ID dataset. Specifically, we take Masked Image Modeling as a pretext task for our OOD detection framework (MOOD). Without bells and whistles, MOOD outperforms previous SOTA of one-class OOD detection by 5.7%, multi-class OOD detection by 3.0%, and near-distribution OOD detection by 2.1%. It even defeats the 10-shot-per-class outlier exposure OOD detection, although we do not include any OOD samples for our detection.
 </details>
 
 - [[MedIA 2023]](https://arxiv.org/pdf/2301.08330) **The Role of Noise in Denoising Models for Anomaly Detection in Medical Images** [:octocat:](https://github.com/antanaskascenas/denoisingae)
@@ -632,7 +633,22 @@ Visual anomaly detection (AD) presents significant challenges due to the scarcit
 The performance of anomaly inspection in industrial manufacturing is constrained by the scarcity of anomaly data. To overcome this challenge, researchers have started employing anomaly generation approaches to augment the anomaly dataset. However, existing anomaly generation methods suffer from limited diversity in the generated anomalies and struggle to achieve a seamless blending of this anomaly with the original image. Moreover, the generated mask is usually not aligned with the generated anomaly. In this paper, we overcome these challenges from a new perspective, simultaneously generating a pair of the overall image and the corresponding anomaly part. We propose DualAnoDiff, a novel diffusion-based few-shot anomaly image generation model, which can generate diverse and realistic anomaly images by using a dual-interrelated diffusion model, where one of them is employed to generate the whole image while the other one generates the anomaly part. Moreover, we extract background and shape information to mitigate the distortion and blurriness phenomenon in few-shot image generation. Extensive experiments demonstrate the superiority of our proposed model over state-of-the-art methods in terms of diversity, realism and the accuracy of mask. Overall, our approach significantly improves the performance of downstream anomaly inspection tasks, including anomaly detection, anomaly localization, and anomaly classification tasks. Code will be made available.
 </details>
 
-## 14. Benchmarks & Surveys <div id = "s14"></div>
+## 14. Representation Learning <div id = "s14"></div>
+
+- [[MICCAI 2025]](https://arxiv.org/abs/2505.21228) **Is Hyperbolic Space All You Need for Medical Anomaly Detection?** [:octocat:](https://hyperbolic-anomalies.github.io)
+
+  *Gonzalez-Jimenez, Alvaro and Lionetti, Simone and Amruthalingam, Ludovic and Gottfrois, Philippe and Gröger, Fabian and Pouly, Marc and Navarini, Alexander A*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a2747ee8-6c9a-4c52-974b-b00b8e28ad2c" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Medical anomaly detection has emerged as a promising solution to challenges in data availability and labeling constraints. Traditional methods extract features from different layers of pre-trained networks in Euclidean space; however, Euclidean representations fail to effectively capture the hierarchical relationships within these features, leading to suboptimal anomaly detection performance. We propose a novel yet simple approach that projects feature representations into hyperbolic space, aggregates them based on confidence levels, and classifies samples as healthy or anomalous. Our experiments demonstrate that hyperbolic space consistently outperforms Euclidean-based frameworks, achieving higher AUROC scores at both image and pixel levels across multiple medical benchmark datasets. Additionally, we show that hyperbolic space exhibits resilience to parameter variations and excels in few-shot scenarios, where healthy images are scarce. These findings underscore the potential of hyperbolic space as a powerful alternative for medical anomaly detection. The project website can be found at https://hyperbolic-anomalies.github.io.
+</details>
+
+## 15. Benchmarks & Surveys <div id = "s15"></div>
 
 - [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging** [:octocat:](https://github.com/compai-lab/2024-ncomms-bercea.git)
 
