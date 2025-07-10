@@ -50,7 +50,7 @@
 - [**10. Multi-Modal Fusion**](#s10)
 - [**11. Knowledge Distillation**](#s11)
 - [**12. Correlation Learning**](#s12)
-- [**13. Anomaly Generation**](#s13
+- [**13. Anomaly Generation**](#s13)
 - [**14. Representation Learning**](#s14)
 - [**15. Benchmarks & Surveys**](#s15)
 
