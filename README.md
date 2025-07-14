@@ -282,7 +282,20 @@ During industrial processing, unforeseen defects may arise in products due to un
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 A robust anomaly detection mechanism should possess the capability to effectively remediate anomalies, restoring them to a healthy state, while preserving essential healthy information. Despite the efficacy of existing generative models in learning the underlying distribution of healthy reference data, they face primary challenges when it comes to efficiently repair larger anomalies or anomalies situated near high pixel-density regions. In this paper, we introduce a self-supervised anomaly detection method based on a diffusion model that samples from multi-frequency, four-dimensional simplex noise and makes predictions using our proposed Dynamic Transformer UNet (DTUNet). This simplex-based noise function helps address primary problems to some extent and is scalable for three-dimensional and colored images. In the evolution of ViT, our developed architecture serving as the backbone for the diffusion model, is tailored to treat time and noise image patches as tokens. We incorporate long skip connections bridging the shallow and deep layers, along with smaller skip connections within these layers. Furthermore, we integrate a partial diffusion Markov process, which reduces sampling time, thus enhancing scalability. Our method surpasses existing generative-based anomaly detection methods across three diverse datasets, which include BrainMRI, Brats2021, and the MVtec dataset. It achieves an average improvement of +10.1% in Dice coefficient, +10.4% in IOU, and +9.6% in AUC. Our source code is made publicly available on Github.
 </details>
-  
+
+- *[[ICML 2024]](https://proceedings.mlr.press/v235/li24u.html) **Vague Prototype-Oriented Diffusion Model for Multi-class Anomaly Detection**
+
+  *Li, Yuxin and Feng, Yaoxuan and Chen, Bo and Chen, Wenchao and Wang, Yubiao and Hu, Xinyue and Sun, Baolin and Qu, Chunhui and Zhou, Mingyuan*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/34f5e9fb-f63a-4eb1-9021-064a20cfc247" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Multi-class unsupervised anomaly detection aims to create a unified model for identifying anomalies in objects from multiple classes when only normal data is available. In such a challenging setting, widely used reconstruction-based networks persistently grapple with the "identical shortcut" problem, wherein the infiltration of abnormal information from the condition biases the output towards an anomalous distribution. In response to this critical challenge, we introduce a Vague Prototype-Oriented Diffusion Model (VPDM) that extracts only fundamental information from the condition to prevent the occurrence of the "identical shortcut" problem from the input layer. This model leverages prototypes that contain only vague information about the target as the initial condition. Subsequently, a novel conditional diffusion model is introduced to incrementally enhance details based on vague conditions. Finally, a Vague Prototype-Oriented Optimal Transport (VPOT) method is proposed to provide more accurate information about conditions. All these components are seamlessly integrated into a unified optimization objective. The effectiveness of our approach is demonstrated across diverse datasets, including the MVTec, VisA, and MPDD benchmarks, achieving state-of-the-art results.
+</details>
+
 - [[TMI 2024]](https://arxiv.org/pdf/2308.02062) **Diffusion Models for Counterfactual Generation and Anomaly Detection in Brain lmages** [:octocat:](https://github.com/alessandro-f/dif-fuse)
 
   *Fontanella, Alessandro and Mair, Grant and Wardlaw, Joanna and Trucco, Emanuele and Storkey, Amos*
