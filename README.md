@@ -52,7 +52,8 @@
 - [**12. Correlation Learning**](#s12)
 - [**13. Anomaly Generation**](#s13)
 - [**14. Representation Learning**](#s14)
-- [**15. Benchmarks & Surveys**](#s15)
+- [**15. Matching Correction**](#s15)
+- [**16. Benchmarks & Surveys**](#s16)
 
 ## ✏️ Tips
 
@@ -661,7 +662,22 @@ The performance of anomaly inspection in industrial manufacturing is constrained
 Medical anomaly detection has emerged as a promising solution to challenges in data availability and labeling constraints. Traditional methods extract features from different layers of pre-trained networks in Euclidean space; however, Euclidean representations fail to effectively capture the hierarchical relationships within these features, leading to suboptimal anomaly detection performance. We propose a novel yet simple approach that projects feature representations into hyperbolic space, aggregates them based on confidence levels, and classifies samples as healthy or anomalous. Our experiments demonstrate that hyperbolic space consistently outperforms Euclidean-based frameworks, achieving higher AUROC scores at both image and pixel levels across multiple medical benchmark datasets. Additionally, we show that hyperbolic space exhibits resilience to parameter variations and excels in few-shot scenarios, where healthy images are scarce. These findings underscore the potential of hyperbolic space as a powerful alternative for medical anomaly detection. The project website can be found at https://hyperbolic-anomalies.github.io.
 </details>
 
-## 15. Benchmarks & Surveys <div id = "s15"></div>
+## 15. Matching Correction <div id = "s15"></div>
+
+- *[[ICML 2025]](https://arxiv.org/abs/2505.01476) **CostFilter-AD: Enhancing Anomaly Detection through Matching Cost Filtering** [:octocat:](https://github.com/ZHE-SAPI/CostFilter-AD)
+
+  *Zhang, Zhe and Cai, Mingxiu and Wang, Hanxiao and Wu, Gaochang and Chai, Tianyou and Zhu, Xiatian*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/936d9f3e-6d43-4e7b-b25d-5b4f0bf0ab22" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Unsupervised anomaly detection (UAD) seeks to localize the anomaly mask of an input image with respect to normal samples. Either by reconstructing normal counterparts (reconstruction-based) or by learning an image feature embedding space (embedding-based), existing approaches fundamentally rely on image-level or feature-level matching to derive anomaly scores. Often, such a matching process is inaccurate yet overlooked, leading to sub-optimal detection. To address this issue, we introduce the concept of cost filtering, borrowed from classical matching tasks, such as depth and flow estimation, into the UAD problem. We call this approach {\em CostFilter-AD}. Specifically, we first construct a matching cost volume between the input and normal samples, comprising two spatial dimensions and one matching dimension that encodes potential matches. To refine this, we propose a cost volume filtering network, guided by the input observation as an attention query across multiple feature layers, which effectively suppresses matching noise while preserving edge structures and capturing subtle anomalies. Designed as a generic post-processing plug-in, CostFilter-AD can be integrated with either reconstruction-based or embedding-based methods. Extensive experiments on MVTec-AD and VisA benchmarks validate the generic benefits of CostFilter-AD for both single- and multi-class UAD tasks. Code and models will be released at https://github.com/ZHE-SAPI/CostFilter-AD.
+</details>
+
+## 16. Benchmarks & Surveys <div id = "s16"></div>
 
 - [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging** [:octocat:](https://github.com/compai-lab/2024-ncomms-bercea.git)
 
