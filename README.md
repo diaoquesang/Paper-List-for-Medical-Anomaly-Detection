@@ -24,8 +24,6 @@
 
 **📦 Other resources: [1] [Bone Suppression in Chest X-Rays: A Deep Survey](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays), [2] [Paper List for Prototypical Learning](https://github.com/BeistMedAI/Paper-List-for-Prototypical-Learning), [3] [Paper List for Cell Detection](https://github.com/li00000011/Paper-List-for-Cell-Detection), [4] [Medical-AI-Guide](https://github.com/diaoquesang/Medical-AI-Guide/), [5] [Paper List for Medical Reasoning Large Language Models](https://github.com/HovChen/Paper-List-for-Medical-Reasoning-Large-Language-Models), [6] [Deep Learning for Virtual Staining of Label-Free Tissue: A Survey](https://github.com/diaoquesang/DL4VS).**
 
-### Welcome to join us by contacting: szhsxhsyf@hdu.edu.cn.
-
 <div>
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/HDU.png" style="height:45px" href="https://www.hdu.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/ITMO.jpg" style="height:45px" href="https://en.itmo.ru/">
