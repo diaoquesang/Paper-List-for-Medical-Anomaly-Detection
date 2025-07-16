@@ -56,7 +56,7 @@
 - [**13. Anomaly Generation**](#s13)
 - [**14. Representation Learning**](#s14)
 - [**15. Matching Correction**](#s15)
-- [**16. Benchmarks & Surveys**](#s16)
+- [**16. Benchmarks, Surveys & Datasets**](#s16)
 
 ## ✏️ Tips
 
@@ -681,7 +681,20 @@ Medical anomaly detection has emerged as a promising solution to challenges in d
 Unsupervised anomaly detection (UAD) seeks to localize the anomaly mask of an input image with respect to normal samples. Either by reconstructing normal counterparts (reconstruction-based) or by learning an image feature embedding space (embedding-based), existing approaches fundamentally rely on image-level or feature-level matching to derive anomaly scores. Often, such a matching process is inaccurate yet overlooked, leading to sub-optimal detection. To address this issue, we introduce the concept of cost filtering, borrowed from classical matching tasks, such as depth and flow estimation, into the UAD problem. We call this approach {\em CostFilter-AD}. Specifically, we first construct a matching cost volume between the input and normal samples, comprising two spatial dimensions and one matching dimension that encodes potential matches. To refine this, we propose a cost volume filtering network, guided by the input observation as an attention query across multiple feature layers, which effectively suppresses matching noise while preserving edge structures and capturing subtle anomalies. Designed as a generic post-processing plug-in, CostFilter-AD can be integrated with either reconstruction-based or embedding-based methods. Extensive experiments on MVTec-AD and VisA benchmarks validate the generic benefits of CostFilter-AD for both single- and multi-class UAD tasks. Code and models will be released at https://github.com/ZHE-SAPI/CostFilter-AD.
 </details>
 
-## 16. Benchmarks & Surveys <div id = "s16"></div>
+## 16. Benchmarks, Surveys & Datasets <div id = "s16"></div>
+
+- *[[CVPR 2025]](https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_Real-IAD_D3_A_Real-World_2DPseudo-3D3D_Dataset_for_Industrial_Anomaly_Detection_CVPR_2025_paper.html) **Real-IAD D<sup>3</sup>: A Real-World 2D/Pseudo-3D/3D Dataset for Industrial Anomaly Detection** [:octocat:](https://github.com/Real-IAD-D3/main)
+
+  *Zhu, Wenbing and Wang, Lidong and Zhou, Ziqing and Wang, Chengjie and Pan, Yurui and Zhang, Ruoyi and Chen, Zhuhao and Cheng, Linjie and Gao, Bin-Bin and Zhang, Jiangning and others*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/df3cc2f7-408b-45c4-b6c1-74c259ebc7bc" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+The increasing complexity of industrial anomaly detection (IAD) has positioned multimodal detection methods as a focal area of machine vision research. However, dedicated multimodal datasets specifically tailored for IAD remain limited. Pioneering datasets like MVTec 3D have laid essential groundwork in multimodal IAD by incorporating RGB+3D data, but still face challenges in bridging the gap with real industrial environments due to limitations in scale and resolution. To address these challenges, we introduce Real-IAD D3, a high-precision multimodal dataset that uniquely incorporates an additional pseudo-3D modality generated through photometric stereo, alongside high-resolution RGB images and micrometer-level 3D point clouds. Real-IAD D3 comprises industrial components with smaller dimensions and finer defects than existing datasets, offering diverse anomalies across modalities and presenting a more challenging benchmark for multimodal IAD research. With 20 product categories, the dataset offers significantly greater scale and diversity compared to current alternatives. Additionally, we introduce an effective approach that integrates RGB, point cloud, and pseudo-3D depth information to leverage the complementary strengths of each modality, enhancing detection performance. Our experiments highlight the importance of these modalities in boosting detection robustness and overall IAD performance. The Real-IAD D3 dataset will be publicly available to advance research and innovation in multimodal IAD.The dataset and code are publicly accessible for research purposes at https://realiad4ad.github.io/Real-IAD_D3.
+</details>
 
 - [[Nature Communications 2025]](https://www.nature.com/articles/s41467-025-56321-y) **Evaluating Normative Representation Learning in Generative AI for Robust Anomaly Detection in Brain Imaging** [:octocat:](https://github.com/compai-lab/2024-ncomms-bercea.git)
 
@@ -707,6 +720,19 @@ Normative representation learning focuses on understanding the typical anatomica
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 Anomaly detection (AD) aims at detecting abnormal samples that deviate from the expected normal patterns. Generally, it can be trained merely on normal data, without a requirement for abnormal samples, and thereby plays an important role in the recognition of rare diseases and health screening in the medical domain. Despite the emergence of numerous methods for medical AD, we observe a lack of a fair and comprehensive evaluation, which causes ambiguous conclusions and hinders the development of this field. To address this problem, this paper builds a benchmark with unified comparison. Seven medical datasets with five image modalities, including chest X-rays, brain MRIs, retinal fundus images, dermatoscopic images, and histopathology whole slide images, are curated for extensive evaluation. Thirty typical AD methods, including reconstruction and self-supervised learning-based methods, are involved in comparison of image-level anomaly classification and pixel-level anomaly segmentation. Furthermore, for the first time, we formally explore the effect of key components in existing methods, clearly revealing unresolved challenges and potential future directions. The datasets and code are available at https://github.com/caiyu6666/MedIAnomaly.
+</details>
+
+- *[[CVPR 2024]](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Real-IAD_A_Real-World_Multi-View_Dataset_for_Benchmarking_Versatile_Industrial_Anomaly_CVPR_2024_paper.html) **Real-IAD: A Real-World Multi-View Dataset for Benchmarking Versatile Industrial Anomaly Detection** [:octocat:](https://github.com/Tencent/AnomalyDetection_Real-IAD)
+
+  *Wang, Chengjie and Zhu, Wenbing and Gao, Bin-Bin and Gan, Zhenye and Zhang, Jiangning and Gu, Zhihao and Qian, Shuguang and Chen, Mingang and Ma, Lizhuang*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0a845ceb-513d-4412-8d65-af146c31b263" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Industrial anomaly detection (IAD) has garnered significant attention and experienced rapid development. However the recent development of IAD approach has encountered certain difficulties due to dataset limitations. On the one hand most of the state-of-the-art methods have achieved saturation (over 99% in AUROC) on mainstream datasets such as MVTec and the differences of methods cannot be well distinguished leading to a significant gap between public datasets and actual application scenarios. On the other hand the research on various new practical anomaly detection settings is limited by the scale of the dataset posing a risk of overfitting in evaluation results. Therefore we propose a large-scale Real-world and multi-view Industrial Anomaly Detection dataset named Real-IAD which contains 150K high-resolution images of 30 different objects an order of magnitude larger than existing datasets. It has a larger range of defect area and ratio proportions making it more challenging than previous datasets. To make the dataset closer to real application scenarios we adopted a multi-view shooting method and proposed sample-level evaluation metrics. In addition beyond the general unsupervised anomaly detection setting we propose a new setting for Fully Unsupervised Industrial Anomaly Detection (FUIAD) based on the observation that the yield rate in industrial production is usually greater than 60% which has more practical application value. Finally we report the results of popular IAD methods on the Real-IAD dataset providing a highly challenging benchmark to promote the development of the IAD field.
 </details>
 
 - [[CVPR 2024]](https://openaccess.thecvf.com/content/CVPR2024W/VAND/html/Bao_BMAD_Benchmarks_for_Medical_Anomaly_Detection_CVPRW_2024_paper.html) **BMAD: Benchmarks for Medical Anomaly Detection** [:octocat:](https://github.com/dorisbao/bmad)
