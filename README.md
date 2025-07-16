@@ -34,10 +34,6 @@
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/CUHK-SZ.png" style="height:45px" href="https://www.cuhk.edu.cn/zh-hans">
 </div>
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/57717d9a-4d32-42fc-96ba-1daaaca5ebbd" width="80%">
-</div>
-
 ## 📇 Contents
 - [**1. Solving "Identity Mapping"**](#s1)
 - [**2. Supervised Learning**](#s2)
