@@ -89,6 +89,20 @@ Despite the rapid advance of unsupervised anomaly detection, existing methods re
 
 ## 2. Supervised Learning <div id = "s2"></div>
 
+- [[Radiology 2025]](https://pubs.rsna.org/doi/10.1148/radiol.241629) **Cancer Detection in Breast MRI Screening via Explainable AI Anomaly Detection** [:octocat:](https://github.com/microsoft/breastMRI-fcdd)
+
+  *Oviedo, Felipe and Kazerouni, Anum S. and Liznerski, Philipp and Xu, Yixi and Hirano, Michael and Vandermeulen, Robert A. and Kloft, Marius and Blum, Elyse and Alessio, Adam M. and Li, Christopher I. and Weeks, Bill and Dodhia, Rahul and Lavista Ferres, Juan M. and Rahbar, Habib and Partridge, Savannah C.*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/06bed300-14af-4371-bb78-0ef2b1485288" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Background Artificial intelligence (AI) models hold potential to increase the accuracy and efficiency of breast MRI screening; however, existing models have not been rigorously evaluated in populations with low cancer prevalence and lack interpretability, both of which are essential for clinical adoption.
+Purpose To develop an explainable AI model for cancer detection at breast MRI that is effective in both high- and low-cancer-prevalence settings. Materials and Methods This retrospective study included 9738 breast MRI examinations from a single institution (2005–2022), with external testing in a publicly available multicenter dataset (221 examinations). In total, 9567 consecutive examinations were used to develop an explainable fully convolutional data description (FCDD) anomaly detection model to detect malignancies on contrast-enhanced MRI scans. Performance was evaluated in three cohorts: grouped cross-validation (for both balanced [20.0% malignant] and imbalanced [1.85% malignant] detection tasks), an internal independent test set (171 examinations), and an external dataset. Explainability was assessed through pixelwise comparisons with reference-standard malignancy annotations. Statistical significance was assessed using the Wilcoxon signed rank test. Results FCDD outperformed the benchmark binary cross-entropy (BCE) model in cross-validation for both balanced (mean area under the receiver operating characteristic curve [AUC] = 0.84 ± 0.01 [SD] vs 0.81 ± 0.01; P < .001) and imbalanced (mean AUC = 0.72 ± 0.03 vs 0.69 ± 0.03; P < .001) detection tasks. At a fixed 97% sensitivity in the imbalanced setting, mean specificity across folds was 13% for FCDD and 9% for BCE (P = .02). In the internal test set, FCDD outperformed BCE for balanced (mean AUC = 0.81 ± 0.02 vs 0.72 ± 0.02; P < .001) and imbalanced (mean AUC = 0.78 ± 0.05 vs 0.76 ± 0.01; P < .02) detection tasks. For model explainability, FCDD demonstrated better spatial agreement with reference-standard annotations than BCE (internal test set: mean pixelwise AUC = 0.92 ± 0.10 vs 0.81 ± 0.13; P < .001). External testing confirmed that FCDD performed well, and better than BCE, in the balanced detection task (AUC = 0.86 ± 0.01 vs 0.79 ± 0.01; P < .001). Conclusion The developed explainable AI model for cancer detection at breast MRI accurately depicted tumor location and outperformed commonly used models in both high- and low-cancer-prevalence scenarios.
+</details>
+
 - *[[CVPR 2024]](https://openaccess.thecvf.com/content/CVPR2024/html/Baitieva_Supervised_Anomaly_Detection_for_Complex_Industrial_Images_CVPR_2024_paper.html) **Supervised Anomaly Detection for Complex Industrial Images** [:octocat:](https://github.com/abc-125/segad)
 
   *Baitieva, Aimira and Hurych, David and Besnier, Victor and Bernard, Olivier*
