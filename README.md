@@ -283,6 +283,19 @@ During industrial processing, unforeseen defects may arise in products due to un
 
 ## 7. Diffusion-Based Approaches <div id = "s7"></div>
 
+- *[[CVPR 2025]](https://openaccess.thecvf.com/content/CVPR2025/html/Beizaee_Correcting_Deviations_from_Normality_A_Reformulated_Diffusion_Model_for_Multi-Class_CVPR_2025_paper.html) **Correcting Deviations from Normality: A Reformulated Diffusion Model for Multi-Class Unsupervised Anomaly Detection** [:octocat:](https://github.com/farzad-bz/DeCo-Diff)
+
+  *Beizaee, Farzad and Lodygensky, Gregory A and Desrosiers, Christian and Dolz, Jose*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dea6bd00-c44e-4dd9-ae89-e86ece452d8a" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Recent advances in diffusion models have spurred research into their application for Reconstruction-based unsupervised anomaly detection. However, these methods may struggle with maintaining structural integrity and recovering the anomaly-free content of abnormal regions, especially in multi-class scenarios. Furthermore, diffusion models are inherently designed to generate images from pure noise and struggle to selectively alter anomalous regions of an image while preserving normal ones. This leads to potential degradation of normal regions during reconstruction, hampering the effectiveness of anomaly detection. This paper introduces a reformulation of the standard diffusion model geared toward selective region alteration, allowing the accurate identification of anomalies. By modeling anomalies as noise in the latent space, our proposed Deviation correction diffusion (DeCo-Diff) model preserves the normal regions and encourages transformations exclusively on anomalous areas. This selective approach enhances the reconstruction quality, facilitating effective unsupervised detection and localization of anomaly regions. Comprehensive evaluations demonstrate the superiority of our method in accurately identifying and localizing anomalies in complex images, with pixel-level AUPRC improvements of 11-14% over state-of-the-art models on well-known anomaly detection datasets. The code is available at https://github.com/farzad-bz/DeCo-Diff.
+</details>
+
 - [[WACV 2025]](https://www.researchgate.net/profile/Sudipta-Roy-9/publication/389540571_Self-Supervised_Anomaly_Segmentation_via_Diffusion_Models_with_Dynamic_Transformer_UNet/links/67c6e067461fb56424f04c9f/Self-Supervised-Anomaly-Segmentation-via-Diffusion-Models-with-Dynamic-Transformer-UNet.pdf) **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet** [:octocat:](https://github.com/MAXNORM8650/Annotsim)
 
   *Kumar, Komal and Chakraborty, Snehashis and Mahapatra, Dwarikanath and Bozorgtabar, Behzad and Roy, Sudipta*
