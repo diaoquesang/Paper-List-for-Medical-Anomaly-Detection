@@ -853,7 +853,7 @@ Anomaly detection is an important problem that has been researched within divers
 
 ```
 @misc{sun2025,
-  author = {Sun, Yifei and Jia, Junhao and Zheng, Hao and Chen, Zhanghao and He, Yuzhi and Wang, Jinhong and Li, Jincheng},
+  author = {Sun, Yifei and Jia, Junhao and Zheng, Hao and Chen, Zhanghao and He, Yuzhi and Wang, Jinhong and Li, Jincheng and Gui, Chengzhi},
   title = {Paper List for Medical Anomaly Detection},
   year = {2025},
   publisher = {GitHub},
