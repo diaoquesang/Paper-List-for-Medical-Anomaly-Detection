@@ -18,7 +18,7 @@
 
 </div>
 
-**🦉 Contributors: [Yifei Sun (22' HDU-ITMO Undergraduate)](https://diaoquesang.github.io/), [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Hao Zheng (22' HDU-ITMO Undergraduate)](https://github.com/267588), [Zhanghao Chen (21' HDU-ITMO Undergraduate/25' SEU Master)](https://benny0323.github.io/bio/), [Yuzhi He (23' XDU Undergraduate)](https://github.com/Black0226), [Jinhong Wang (21' ZJU PhD)](https://wang-jinhong.github.io/), [Jincheng Li (23' NTU Undergraduate)](https://github.com/li00000011).**
+**🦉 Contributors: [Yifei Sun (22' HDU-ITMO Undergraduate)](https://diaoquesang.github.io/), [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Hao Zheng (22' HDU-ITMO Undergraduate)](https://github.com/267588), [Zhanghao Chen (25' SEU Master)](https://benny0323.github.io/bio/), [Yuzhi He (23' XDU Undergraduate)](https://github.com/Black0226), [Jinhong Wang (21' ZJU PhD)](https://wang-jinhong.github.io/), [Jincheng Li (23' NTU Undergraduate)](https://github.com/li00000011), [Chengzhi Gui (25' SJTU PhD)](https://github.com/Cooper-Gu).**
 
 **🎓 DeepWiki: [Generating GitHub Knowledge Base Documentation in One Click](https://deepwiki.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection).**
 
