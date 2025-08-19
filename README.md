@@ -661,6 +661,19 @@ Anomaly detection can significantly aid doctors in interpreting chest X-rays. Th
 
 ## 13. Anomaly Generation <div id = "s13"></div>
 
+- *[[ICCV 2025]](https://arxiv.org/pdf/2410.14987) **SeaS: Few-Shot Industrial Anomaly Image Generation with Separation and Sharing Fine-Tuning** [:octocat:](https://github.com/HUST-SLOW/SeaS)
+
+  *Dai, Zhewei and Zeng, Shilei and Liu, Haotian and Li, Xurui and Xue, Feng and Zhou, Yu*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8b0bc661-a384-4c0b-9420-977a08e94c88" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Current segmentation methods require many training images and precise masks, while insufficient anomaly images hinder their application in industrial scenarios. To address such an issue, we explore producing diverse anomalies and accurate pixel-wise annotations. By observing the real production lines, we find that anomalies vary randomly in shape and appearance, whereas products hold globally consistent patterns with slight local variations. Such a characteristic inspires us to develop a Separation and Sharing Fine-tuning (SeaS) approach using only a few abnormal and some normal images. Firstly, we propose the Unbalanced Abnormal (UA) Text Prompt tailored to industrial anomaly generation, consisting of one product token and several anomaly tokens. Then, for anomaly images, we propose a Decoupled Anomaly Alignment (DA) loss to bind the attributes of the anomalies to different anomaly tokens. Re-blending such attributes may produce never-seen anomalies, achieving a high diversity of anomalies. For normal images, we propose a Normal-image Alignment (NA) loss to learn the products' key features that are used to synthesize products with both global consistency and local variations. The two training processes are separated but conducted on a shared U-Net. Finally, SeaS produces high-fidelity annotations for the generated anomalies by fusing discriminative features of U-Net and high-resolution VAE features. Extensive evaluations on the challenging MVTec AD and MVTec 3D AD dataset demonstrate the effectiveness of our approach. For anomaly image generation, we achieve 1.88 on IS and 0.34 on IC-LPIPS on MVTec AD dataset, 1.95 on IS and 0.30 on IC-LPIPS on MVTec 3D AD dataset. For downstream task, using our generated anomaly image-mask pairs, three common segmentation methods achieve an average 11.17% improvement on IoU on MVTec AD dataset, and a 15.49% enhancement in IoU on MVTec 3D AD dataset.
+</details>
+
 - [[CVPR 2025]](https://arxiv.org/abs/2406.01078) **Anomaly Anything: Promptable Unseen Visual Anomaly Generation** [:octocat:](https://github.com/EPFL-IMOS/AnomalyAny)
 
   *Sun, Han and Cao, Yunkang and Dong, Hao and Fink, Olga*
