@@ -878,5 +878,5 @@ Anomaly detection is an important problem that has been researched within divers
 ## 🥰 Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=diaoquesang/Paper-List-for-Medical-Anomaly-Detection&type=Date)](https://star-history.com/#diaoquesang/Paper-List-for-Medical-Anomaly-Detection&Date)
 
-[![](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:2193b0,100:45ed3F&text=Back%20to%20Top&section=footer&fontSize=30&fontAlignY=65&fontColor=FFFFFF)
+[![](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:D22229,100:2B4FA3&text=Back%20to%20Top&section=footer&fontSize=30&fontAlignY=65&fontColor=FFFFFF)
 ](#top)
