@@ -25,11 +25,11 @@
 **📦 Other resources: [1] [Bone Suppression in Chest X-Rays: A Deep Survey](https://github.com/diaoquesang/A-detailed-summarization-about-bone-suppression-in-Chest-X-rays), [2] [Paper List for Prototypical Learning](https://github.com/BeistMedAI/Paper-List-for-Prototypical-Learning), [3] [Paper List for Cell Detection](https://github.com/li00000011/Paper-List-for-Cell-Detection), [4] [Medical-AI-Guide](https://github.com/diaoquesang/Medical-AI-Guide/), [5] [Paper List for Medical Reasoning Large Language Models](https://github.com/HovChen/Paper-List-for-Medical-Reasoning-Large-Language-Models), [6] [Deep Learning for Virtual Staining of Label-Free Tissue: A Survey](https://github.com/diaoquesang/DL4VS), [7] [Paper Library for Neural and 3D Generation](https://github.com/Alita02384/Paper-Library-for-neural-and-3D-generation).**
 
 <div>
+<img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/ZJU.png" style="height:45px" href="https://www.zju.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/HDU.png" style="height:45px" href="https://www.hdu.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/ITMO.jpg" style="height:45px" href="https://en.itmo.ru/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/SEU.jpg" style="height:45px" href="https://www.seu.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/XDU.jpg" style="height:45px" href="https://www.xidian.edu.cn/">
-<img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/ZJU.png" style="height:45px" href="https://www.zju.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/NTU.jpg" style="height:45px" href="https://www.ntu.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/CUHK-SZ.png" style="height:45px" href="https://www.cuhk.edu.cn/zh-hans">
 <img src="https://github.com/user-attachments/assets/1b6348a7-f543-4909-bda3-0b0ef76039c4" style="height:45px" href="https://www.sjtu.edu.cn/">
