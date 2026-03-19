@@ -1,4 +1,4 @@
-<img width="166" height="113" alt="image" src="https://github.com/user-attachments/assets/8b5cf10f-d045-434f-b820-9e59f4934600" /><div id = "top"></div>
+<img width="826" height="282" alt="image" src="https://github.com/user-attachments/assets/461542a4-96f2-49a8-a788-677a52406469" /><img width="166" height="113" alt="image" src="https://github.com/user-attachments/assets/8b5cf10f-d045-434f-b820-9e59f4934600" /><div id = "top"></div>
 
 <div align="center">
 
@@ -179,7 +179,7 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
   *Dalmonte, Francesco and Bayar, Emirhan and Akbas, Emre and Georgescu, Mariana-Iuliana*
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/9aa6240a-f313-4b05-8b04-3d47f6553ead" width="50%">
+  <img src="https://github.com/user-attachments/assets/ee5c533b-5613-4200-82dc-c35dc6d5c33b" width="50%">
 </div>
 
 <details close>
