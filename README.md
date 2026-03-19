@@ -1,4 +1,4 @@
-<div id = "top"></div>
+<img width="166" height="113" alt="image" src="https://github.com/user-attachments/assets/8b5cf10f-d045-434f-b820-9e59f4934600" /><div id = "top"></div>
 
 <div align="center">
 
@@ -173,6 +173,19 @@ Pathological brain lesions exhibit diverse appearance in brain images, in terms 
 </details>
   
 ## 4. AE-Based Approaches <div id = "s4"></div>
+
+- [[WACV 2026]](https://openaccess.thecvf.com/content/WACV2026/papers/Dalmonte_Q-Former_Autoencoder_A_Modern_Framework_for_Medical_Anomaly_Detection_WACV_2026_paper.pdf) **Q-Former Autoencoder: A Modern Framework for Medical Anomaly Detection** [:octocat:](https://github.com/emirhanbayar/QFAE)
+
+  *Dalmonte, Francesco and Bayar, Emirhan and Akbas, Emre and Georgescu, Mariana-Iuliana*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9aa6240a-f313-4b05-8b04-3d47f6553ead" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Medical anomaly detection aims to identify abnormal findings using only normal training data, playing a crucial role in health screening and recognizing rare diseases. Reconstruction-based methods, particularly those utilizing autoencoders (AEs), are dominant in this field. They work under the assumption that AEs trained on only normal data cannot reconstruct unseen abnormal regions well, thereby enabling the anomaly detection based on reconstruction errors. However, this assumption does not always hold due to the mismatch between the reconstruction training objective and the anomaly detection task objective, rendering these methods theoretically unsound. This study focuses on providing a theoretical foundation for AE-based reconstruction methods in anomaly detection. By leveraging information theory, we elucidate the principles of these methods and reveal that the key to improving AE in anomaly detection lies in minimizing the information entropy of latent vectors. Experiments on four datasets with two image modalities validate the effectiveness of our theory. To the best of our knowledge, this is the first effort to theoretically clarify the principles and design philosophy of AE for anomaly detection. The code is available at https://github.com/caiyu6666/AE4AD.
+</details>
 
 - [[MICCAI 2024]](https://arxiv.org/pdf/2403.09303) **Rethinking Autoencoders for Medical Anomaly Detection from a Theoretical Perspective** [:octocat:](https://github.com/caiyu6666/ae4ad)
 
