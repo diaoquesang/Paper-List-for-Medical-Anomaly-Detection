@@ -155,13 +155,14 @@ The crux of effective out-of-distribution (OOD) detection lies in acquiring a ro
   *Qingqing Fang, Wenxi Lv, Qinliang Su*
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/92cb8811-28e9-4b49-b7d2-38789966f9ba"  width="50%">
+  <img src="https://github.com/user-attachments/assets/0b45a744-6bec-4415-8ef3-673ed3f994fd"  width="50%">
 </div>
 
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 Visual anomaly detection has been widely used in industrial inspection and medical diagnosis. Existing methods typically demand substantial training samples, limiting their utility in zero-/few-shot scenarios. While recent efforts have leveraged CLIP's zero-shot recognition capability for this task, they often ignore optimizing visual features to focus on local anomalies, reducing their efficacy. In this work, we propose AF-CLIP (Anomaly-Focused CLIP) by dramatically enhancing its visual representations to focus on local defects. Our approach introduces a lightweight adapter that emphasizes anomaly-relevant patterns in visual features, simultaneously optimizing both class-level features for image classification and patch-level features for precise localization. To capture anomalies of different sizes and improve detection accuracy, prior to the adapter, we develop a multi-scale spatial aggregation mechanism to effectively consolidate neighborhood context. Complementing these visual enhancements, we design learnable textual prompts that generically characterize normal and abnormal states. After optimization on auxiliary datasets using a composite objective function, AF-CLIP demonstrates strong zero-shot detection capability. Our method is also extended to few-shot scenarios by extra memory banks. Experimental results across diverse industrial and medical datasets demonstrate the effectiveness and generalization of our proposed method.
 </details>
+
 
 
 
