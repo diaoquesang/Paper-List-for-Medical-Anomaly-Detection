@@ -71,6 +71,9 @@
   <img src="https://github.com/user-attachments/assets/1ef17bf6-41a6-41c6-8f5d-7361b98f4e81" width="50%">
 </div>
 
+
+
+
 <details close>
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 Recent studies highlighted a practical setting of unsupervised anomaly detection (UAD) that builds a unified model for multi-class images. Despite various advancements addressing this challenging task, the detection performance under the multi-class setting still lags far behind state-of-the-art class-separated models. Our research aims to bridge this substantial performance gap. In this paper, we present Dinomaly, a minimalist reconstruction-based anomaly detection framework that harnesses pure Transformer architectures without relying on complex designs, additional modules, or specialized tricks. Given this powerful framework consisting of only Attentions and MLPs, we found four simple components that are essential to multi-class anomaly detection: (1) Scalable foundation Transformers that extracts universal and discriminative features, (2) Noisy Bottleneck where pre-existing Dropouts do all the noise injection tricks, (3) Linear Attention that naturally cannot focus, and (4) Loose Reconstruction that does not force layer-to-layer and point-by-point reconstruction. Extensive experiments are conducted across popular anomaly detection benchmarks including MVTec-AD, VisA, and Real-IAD. Our proposed Dinomaly achieves impressive image-level AUROC of 99.6%, 98.7%, and 89.3% on the three datasets respectively, which is not only superior to state-of-the-art multi-class UAD methods, but also achieves the most advanced class-separated UAD records.
@@ -145,6 +148,24 @@ Accurate microcalcification (mC) detection is of great importance due to its hig
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 The crux of effective out-of-distribution (OOD) detection lies in acquiring a robust in-distribution (ID) representation, distinct from OOD samples. While previous methods predominantly leaned on recognition-based techniques for this purpose, they often resulted in shortcut learning, lacking comprehensive representations. In our study, we conducted a comprehensive analysis, exploring distinct pretraining tasks and employing various OOD score functions. The results highlight that the feature representations pre-trained through reconstruction yield a notable enhancement and narrow the performance gap among various score functions. This suggests that even simple score functions can rival complex ones when leveraging reconstruction-based pretext tasks. Reconstruction-based pretext tasks adapt well to various score functions. As such, it holds promising potential for further expansion. Our OOD detection framework, MOODv2, employs the masked image modeling pretext task. Without bells and whistles, MOODv2 impressively enhances 14.30% AUROC to 95.68% on ImageNet and achieves 99.98% on CIFAR-10.
 </details>
+
+
+- *[[ACM MM 2025]](https://arxiv.org/abs/2507.19949) **AF-CLIP: Zero-Shot Anomaly Detection via Anomaly-Focused CLIP Adaptation** [:octocat:](https://github.com/Faustinaqq/AF-CLIP)
+
+  *Qingqing Fang, Wenxi Lv, Qinliang Su*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/92cb8811-28e9-4b49-b7d2-38789966f9ba"  width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Visual anomaly detection has been widely used in industrial inspection and medical diagnosis. Existing methods typically demand substantial training samples, limiting their utility in zero-/few-shot scenarios. While recent efforts have leveraged CLIP's zero-shot recognition capability for this task, they often ignore optimizing visual features to focus on local anomalies, reducing their efficacy. In this work, we propose AF-CLIP (Anomaly-Focused CLIP) by dramatically enhancing its visual representations to focus on local defects. Our approach introduces a lightweight adapter that emphasizes anomaly-relevant patterns in visual features, simultaneously optimizing both class-level features for image classification and patch-level features for precise localization. To capture anomalies of different sizes and improve detection accuracy, prior to the adapter, we develop a multi-scale spatial aggregation mechanism to effectively consolidate neighborhood context. Complementing these visual enhancements, we design learnable textual prompts that generically characterize normal and abnormal states. After optimization on auxiliary datasets using a composite objective function, AF-CLIP demonstrates strong zero-shot detection capability. Our method is also extended to few-shot scenarios by extra memory banks. Experimental results across diverse industrial and medical datasets demonstrate the effectiveness and generalization of our proposed method.
+</details>
+
+
+
+
 
 - *[[CVPR 2023]](http://openaccess.thecvf.com/content/CVPR2023/html/Li_Rethinking_Out-of-Distribution_OOD_Detection_Masked_Image_Modeling_Is_All_You_CVPR_2023_paper.html) **Rethinking Out-of-Distribution (OOD) Detection: Masked Image Modeling Is All You Need** [:octocat:](https://github.com/dvlab-research/MOOD)
 
