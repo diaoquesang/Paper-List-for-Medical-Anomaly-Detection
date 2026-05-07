@@ -454,7 +454,7 @@ Anomaly localization, with the purpose to segment the anomalous regions within i
   
 ## 9. Foundation Model-Based Approaches <div id = "s9"></div>
 
-- [[CVPR 2025]](https://arxiv.org/pdf/2503.06661) **AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP** [:octocat:](https://github.com/mwxinnn/aa-clip)
+- [[ACM MM 2025]](https://arxiv.org/pdf/2503.06661) **AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP** [:octocat:](https://github.com/mwxinnn/aa-clip)
 
   *Ma, Wenxin and Zhang, Xu and Yao, Qingsong and Tang, Fenghe and Wu, Chenxu and Li, Yingtai and Yan, Rui and Jiang, Zihang and Zhou, S Kevin*
 
@@ -466,6 +466,79 @@ Anomaly localization, with the purpose to segment the anomalous regions within i
 <summary><b>📋 Abstract (Click to Expand)</b></summary>
 Anomaly detection (AD) identifies outliers for applications like defect and lesion detection. While CLIP shows promise for zero-shot AD tasks due to its strong generalization capabilities, its inherent Anomaly-Unawareness leads to limited discrimination between normal and abnormal features. To address this problem, we propose Anomaly-Aware CLIP (AA-CLIP), which enhances CLIP's anomaly discrimination ability in both text and visual spaces while preserving its generalization capability. AA-CLIP is achieved through a straightforward yet effective two-stage approach: it first creates anomaly-aware text anchors to differentiate normal and abnormal semantics clearly, then aligns patch-level visual features with these anchors for precise anomaly localization. This two-stage strategy, with the help of residual adapters, gradually adapts CLIP in a controlled manner, achieving effective AD while maintaining CLIP's class knowledge. Extensive experiments validate AA-CLIP as a resource-efficient solution for zero-shot AD tasks, achieving state-of-the-art results in industrial and medical applications. The code is available at https://github.com/Mwxinnn/AA-CLIP.
 </details>
+
+
+
+- [[arXiv 2026]](https://arxiv.org/abs/2504.14919) **GenCLIP: Generalizing CLIP Prompts for Zero-shot Anomaly Detection** 
+
+  *Donghyeong Kim, Chaewon Park, Suhwan Cho, Hyeonjeong Lim, Minseok Kang, Jungho Lee, Sangyoun Lee*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8586d92b-2b99-45a0-aaa2-123062b5baf3" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Zero-shot anomaly detection (ZSAD) aims to identify anomalies in unseen categories by leveraging CLIP's zero-shot capabilities to match text prompts with visual features. A key challenge in ZSAD is learning general prompts stably and utilizing them effectively, while maintaining both generalizability and category specificity. Although general prompts have been explored in prior works, achieving their stable optimization and effective deployment remains a significant challenge. In this work, we propose GenCLIP, a novel framework that learns and leverages general prompts more effectively through multi-layer prompting and dual-branch inference. Multi-layer prompting integrates category-specific visual cues from different CLIP layers, enriching general prompts with more comprehensive and robust feature representations. By combining general prompts with multi-layer visual features, our method further enhances its generalization capability. To balance specificity and generalization, we introduce a dual-branch inference strategy, where a vision-enhanced branch captures fine-grained category-specific features, while a query-only branch prioritizes generalization. The complementary outputs from both branches improve the stability and reliability of anomaly detection across unseen categories. Additionally, we propose an adaptive text prompt filtering mechanism, which removes irrelevant or atypical class names not encountered during CLIP's training, ensuring that only meaningful textual inputs contribute to the final vision-language alignment.
+</details>
+
+- [[CVPR 2026]](https://arxiv.org/abs/2603.07952) **VisualAD: Language-Free Zero-Shot Anomaly Detection via Vision Transformer** 
+
+  * Yanning Hou, Peiyuan Li, Zirui Liu, Yitong Wang, Yanran Ruan, Jianfeng Qiu, Ke Xu*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2d004b13-3182-4fd6-8192-1fb4845d0489" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Zero-shot anomaly detection (ZSAD) requires detecting and localizing anomalies without access to target-class anomaly samples. Mainstream methods rely on visionlanguage models (VLMs) such as CLIP: they build hand-crafted or learned prompt sets for normal and abnormal semantics, then compute image-text similarities for open-set discrimination. While effective, this paradigm depends on a text encoder and cross-modal alignment, which can lead to training instability and parameter redundancy. This work revisits the necessity of the text branch in ZSAD and presents VisualAD, a purely visual framework built on Vision Transformers. We introduce two learnable tokens within a frozen backbone to directly encode normality and abnormality. Through multi-layer self-attention, these tokens interact with patch tokens, gradually acquiring high-level notions of normality and anomaly while guiding patches to highlight anomaly-related cues. Additionally, we incorporate a Spatial-Aware Cross-Attention (SCA) module and a lightweight Self-Alignment Function (SAF): SCA injects fine-grained spatial information into the tokens, and SAF recalibrates patch features before anomaly scoring. VisualAD achieves state-of-the-art performance on 13 zero-shot anomaly detection benchmarks spanning industrial and medical domains, and adapts seamlessly to pretrained vision backbones such as the CLIP image encoder and DINOv2.
+</details>
+
+
+
+- [[CVPR 2024]](https://arxiv.org/abs/2404.05231) **PromptAD: Learning Prompts with only Normal Samples for Few-Shot Anomaly Detection** 
+
+  * Xiaofan Li, Zhizhong Zhang, Xin Tan, Chengwei Chen, Yanyun Qu, Yuan Xie, Lizhuang Ma*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b2c87a65-dede-4c4b-bd4f-a47ba89d3e2d" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+The vision-language model has brought great improvement to few-shot industrial anomaly detection, which usually needs to design of hundreds of prompts through prompt engineering. For automated scenarios, we first use conventional prompt learning with many-class paradigm as the baseline to automatically learn prompts but found that it can not work well in one-class anomaly detection. To address the above problem, this paper proposes a one-class prompt learning method for few-shot anomaly detection, termed PromptAD. First, we propose semantic concatenation which can transpose normal prompts into anomaly prompts by concatenating normal prompts with anomaly suffixes, thus constructing a large number of negative samples used to guide prompt learning in one-class setting. Furthermore, to mitigate the training challenge caused by the absence of anomaly images, we introduce the concept of explicit anomaly margin, which is used to explicitly control the margin between normal prompt features and anomaly prompt features through a hyper-parameter. For image-level/pixel-level anomaly detection, | PromptAD achieves first place in 11/12 few-shot settings on MVTec and VisA.
+</details>
+
+- [[AAAI 2026]](https://arxiv.org/abs/2505.09926) **AdaptCLIP: Adapting CLIP for Universal Visual Anomaly Detection** 
+
+  *Bin-Bin Gao, Yue Zhou, Jiangtao Yan, Yuezhi Cai, Weixi Zhang, Meng Wang, Jun Liu, Yong Liu, Lei Wang, Chengjie Wang*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6ef57ce9-df46-4d7c-9311-87c80886ac81" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Universal visual anomaly detection aims to identify anomalies from novel or unseen vision domains without additional fine-tuning, which is critical in open scenarios.existing methods strucale with desianing prompt templates, complex token interactions. or recuiring additional fine-tunina, resulting in limited Rexibility. In this work, we present a simple yet effective method called AdaptCLIP based on two key insights. First, adaptive visual and textual representations should be learned alternately rather than jointly. Second, comparative learning between query and normal image prompt should incorporate both contextual and aligned residual features, rather than relying solely on residual features. AdaptCLIP treats CLIP models as a foundational service, adding only three simple adapters, visual adapter, textual adapter, and prompt-query adapter, at its input or output ends. AdaptCLIP supports zero-/few-shot generalization across domains and possesses a training-free manner on target domains once trained on a base dataset. AdaptCLIP achieves state-of-the-art performance on 12 anomaly detection benchmarks from industrial and medical domains, significantly outperforming existing competitive methods.
+</details>
+
+
+
+
+
+- [[CVPR 2025]](https://arxiv.org/pdf/2503.01292) **PA-CLIP: Enhancing Zero-Shot Anomaly Detection through Pseudo-Anomaly Awareness** 
+  *Yurui Pan, Lidong Wang, Yuchao Chen, Wenbing Zhu, Bo Peng and Mingmin Chi*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/720b8c59-8c55-488e-b288-89a9fcfaf088" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+In industrial anomaly detection (IAD), accurately identifying defects amidst diverse anomalies and under varying imaging conditions remains a significant challenge. Traditional approaches often struggle with high false-positive rates, frequently misclassifying normal shadows and surface deformations as defects, an issue that becomes particularly pronounced in products with complex and intricate surface features. To address these challenges, we introduce PA-CLIP, a zero-shot anomaly detection method that reduces background noise and enhances defect detection through a pseudoanomaly-based framework. The proposed method integrates a multiscale feature aggregation strategy for capturing detailed global and local information, two memory banks for distinguishing background information, including normal patterns and pseudo-anomalies, from true anomaly features, and a decision-making module designed to minimize false positives caused by environmental variations while maintaining high defect sensitivity. Demonstrated on the MVTec AD and VisA datasets, PA- CLIP outperforms existing zero-shot methods, providing a robust solution for industrial defect detection.
+</details>
+
 
 - *[[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/32433) **LogicAD: Explainable Anomaly Detection via VLM-based Text Feature Extraction**
 
