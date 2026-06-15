@@ -31,7 +31,7 @@
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/SEU.jpg" style="height:45px" href="https://www.seu.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/XDU.jpg" style="height:45px" href="https://www.xidian.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/NTU.jpg" style="height:45px" href="https://www.ntu.edu.cn/">
-<img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/SJTU.jpg" style="height:45px" href="https://www.sjtu.edu.cn/">
+<img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/SJTU.png" style="height:45px" href="https://www.sjtu.edu.cn/">
 
 </div>
 
