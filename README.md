@@ -320,6 +320,19 @@ During industrial processing, unforeseen defects may arise in products due to un
 
 ## 7. Diffusion-Based Approaches <div id = "s7"></div>
 
+- [[AAAI 2026]](https://ojs.aaai.org/index.php/AAAI/article/view/37882) **WDT-MD: Wavelet Diffusion Transformers for Microaneurysm Detection in Fundus Images** [:octocat:](https://github.com/diaoquesang/WDT-MD)
+
+  *Sun, Yifei and He, Yuzhi and Jia, Junhao and Wang, Jinhong and Ge, Ruiquan and Wang, Changmiao and Xu, Hongxia*
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/90779401-33be-4ae7-b1cf-f0f1fed4e1f5" width="50%">
+</div>
+
+<details close>
+<summary><b>📋 Abstract (Click to Expand)</b></summary>
+Microaneurysms (MAs), the earliest pathognomonic signs of Diabetic Retinopathy (DR), present as sub-60 μm lesions in fundus images with highly variable photometric and morphological characteristics, rendering manual screening not only labor-intensive but inherently error-prone. While diffusion-based anomaly detection has emerged as a promising approach for automated MA screening, its clinical application is hindered by three fundamental limitations. First, these models often fall prey to "identity mapping", where they inadvertently replicate the input image. Second, they struggle to distinguish MAs from other anomalies, leading to high false positives. Third, their suboptimal reconstruction of normal features hampers overall performance. To address these challenges, we propose a Wavelet Diffusion Transformer framework for MA Detection (WDT-MD), which features three key innovations: a noise-encoded image conditioning mechanism to avoid "identity mapping" by perturbing image conditions during training; pseudo-normal pattern synthesis via inpainting to introduce pixel-level supervision, enabling discrimination between MAs and other anomalies; and a wavelet diffusion Transformer architecture that combines the global modeling capability of diffusion Transformers with multi-scale wavelet analysis to enhance reconstruction of normal retinal features. Comprehensive experiments on the IDRiD and e-ophtha MA datasets demonstrate that WDT-MD outperforms state-of-the-art methods in both pixel-level and image-level MA detection. This advancement holds significant promise for improving early DR screening.
+</details>
+
 - *[[CVPR 2025]](https://openaccess.thecvf.com/content/CVPR2025/html/Beizaee_Correcting_Deviations_from_Normality_A_Reformulated_Diffusion_Model_for_Multi-Class_CVPR_2025_paper.html) **Correcting Deviations from Normality: A Reformulated Diffusion Model for Multi-Class Unsupervised Anomaly Detection** [:octocat:](https://github.com/farzad-bz/DeCo-Diff)
 
   *Beizaee, Farzad and Lodygensky, Gregory A and Desrosiers, Christian and Dolz, Jose*
