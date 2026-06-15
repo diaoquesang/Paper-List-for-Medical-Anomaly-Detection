@@ -18,7 +18,7 @@
 
 </div>
 
-**🦉 Contributors: [Yifei Sun (22' HDU-ITMO Undergraduate/26' ZJU PhD)](https://diaoquesang.github.io/), [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Hao Zheng (22' HDU-ITMO Undergraduate)](https://github.com/267588), [Zhanghao Chen (25' SEU Master)](https://benny0323.github.io/bio/), [Yuzhi He (23' XDU Undergraduate)](https://github.com/Black0226), [Jinhong Wang (21' ZJU PhD)](https://wang-jinhong.github.io/), [Jincheng Li (23' NTU Undergraduate)](https://li00000011.github.io/li00000011/), [Chengzhi Gui (25' SJTU PhD)](https://github.com/Cooper-Gu).**
+**🦉 Contributors: [Yifei Sun (26' ZJU PhD)](https://diaoquesang.github.io/), [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Hao Zheng (26' PKU Master)](https://github.com/267588), [Zhanghao Chen (25' SEU Master)](https://benny0323.github.io/bio/), [Yuzhi He (23' XDU Undergraduate)](https://github.com/Black0226), [Jinhong Wang (21' ZJU PhD)](https://wang-jinhong.github.io/), [Jincheng Li (23' NTU Undergraduate)](https://li00000011.github.io/li00000011/), [Chengzhi Gui (25' SJTU PhD)](https://github.com/Cooper-Gu).**
 
 **🎓 DeepWiki: [Generating GitHub Knowledge Base Documentation in One Click](https://deepwiki.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection).**
 
@@ -27,11 +27,12 @@
 <div>
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/ZJU.png" style="height:45px" href="https://www.zju.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/HDU.png" style="height:45px" href="https://www.hdu.edu.cn/">
-<img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/ITMO.jpg" style="height:45px" href="https://en.itmo.ru/">
+<img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/PKU.png" style="height:45px" href="https://www.pku.edu.cn">
+<!-- <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/ITMO.jpg" style="height:45px" href="https://en.itmo.ru/"> -->
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/SEU.jpg" style="height:45px" href="https://www.seu.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/XDU.jpg" style="height:45px" href="https://www.xidian.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/NTU.jpg" style="height:45px" href="https://www.ntu.edu.cn/">
-<img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/CUHK-SZ.png" style="height:45px" href="https://www.cuhk.edu.cn/zh-hans">
+<!-- <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/CUHK-SZ.png" style="height:45px" href="https://www.cuhk.edu.cn/zh-hans"> -->
 <img src="https://github.com/user-attachments/assets/1b6348a7-f543-4909-bda3-0b0ef76039c4" style="height:45px" href="https://www.sjtu.edu.cn/">
 
 </div>
