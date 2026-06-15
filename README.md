@@ -28,11 +28,10 @@
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/ZJU.png" style="height:45px" href="https://www.zju.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/HDU.png" style="height:45px" href="https://www.hdu.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/PKU.png" style="height:45px" href="https://www.pku.edu.cn">
-<!-- <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/ITMO.jpg" style="height:45px" href="https://en.itmo.ru/"> -->
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/SEU.jpg" style="height:45px" href="https://www.seu.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/XDU.jpg" style="height:45px" href="https://www.xidian.edu.cn/">
 <img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/NTU.jpg" style="height:45px" href="https://www.ntu.edu.cn/">
-<img src="https://github.com/user-attachments/assets/1b6348a7-f543-4909-bda3-0b0ef76039c4" style="height:45px" href="https://www.sjtu.edu.cn/">
+<img src="https://github.com/diaoquesang/Paper-List-for-Medical-Anomaly-Detection/blob/main/logos/SJTU.jpg" style="height:45px" href="https://www.sjtu.edu.cn/">
 
 </div>
 
